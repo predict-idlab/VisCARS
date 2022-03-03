@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "viscars"
-version = "0.0.1"
+name = "VisCARS"
+version = "0.0.4"
 description = "VisCARS: Knowledge Graph-based Context-Aware Recommender System for Visualizations"
 authors = ["Pieter Moens <pieter.moens@ugent.be>"]
 packages = [
