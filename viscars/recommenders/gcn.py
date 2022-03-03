@@ -1,6 +1,6 @@
 from networkx import Graph
 
-from cars.recommenders import Recommender
+from viscars.recommenders import Recommender
 
 
 class GraphConvolutionalNetwork(Recommender):

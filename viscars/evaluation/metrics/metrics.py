@@ -1,6 +1,6 @@
 import math
 
-from cars.evaluation.metrics import Metric, MetricType
+from viscars.evaluation.metrics import Metric, MetricType
 
 
 class Hits(Metric):

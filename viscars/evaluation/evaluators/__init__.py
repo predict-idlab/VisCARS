@@ -1,7 +1,7 @@
-from cars.data import DataLoader
-from cars.evaluation.metrics import MetricType
-from cars.evaluation.metrics.factory import MetricFactory
-from cars.recommenders import Recommender
+from viscars.data import DataLoader
+from viscars.evaluation.metrics import MetricType
+from viscars.evaluation.metrics.factory import MetricFactory
+from viscars.recommenders import Recommender
 
 
 class Evaluator:

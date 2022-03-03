@@ -4,7 +4,7 @@ from rdflib import Graph
 from rdflib.namespace import RDF, SOSA, URIRef
 from rdflib.extras.external_graph_libs import rdflib_to_networkx_multidigraph
 
-from cars.namespace import DASHB
+from viscars.namespace import DASHB
 
 EXPECTED_PROPERTIES = [DASHB.hasProperty, DASHB.visualizedBy, DASHB.createdBy, DASHB.memberOf,
                        DASHB.produces]

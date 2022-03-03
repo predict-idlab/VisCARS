@@ -1,9 +1,9 @@
 from enum import Enum
 
-from cars.recommenders.fastppr import FastPersonalizedPageRank
-from cars.recommenders.pagerank import NetworkXPageRank
-from cars.recommenders.ppr import NetworkXPersonalizedPageRank
-from cars.recommenders.random import RandomRank
+from viscars.recommenders.fastppr import FastPersonalizedPageRank
+from viscars.recommenders.pagerank import NetworkXPageRank
+from viscars.recommenders.ppr import NetworkXPersonalizedPageRank
+from viscars.recommenders.random import RandomRank
 
 
 class RecommenderType(Enum):

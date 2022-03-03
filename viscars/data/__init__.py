@@ -1,8 +1,8 @@
 import pandas as pd
 from rdflib import Graph
 
-from cars.namespace import DASHB
-from cars.utils import clean_graph
+from viscars.namespace import DASHB
+from viscars.utils import clean_graph
 
 
 class DataLoader:

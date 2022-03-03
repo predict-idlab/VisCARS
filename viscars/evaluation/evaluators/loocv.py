@@ -1,5 +1,5 @@
-from cars.evaluation.evaluators import Evaluator
-from cars.recommenders import Recommender
+from viscars.evaluation.evaluators import Evaluator
+from viscars.recommenders import Recommender
 
 
 class LeaveOneOutCrossValidation(Evaluator):

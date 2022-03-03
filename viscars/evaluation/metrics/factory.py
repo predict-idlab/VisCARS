@@ -1,5 +1,5 @@
-from cars.evaluation.metrics import MetricType
-from cars.evaluation.metrics.metrics import Hits, Precision, Recall, F1, NDCG
+from viscars.evaluation.metrics import MetricType
+from viscars.evaluation.metrics.metrics import Hits, Precision, Recall, F1, NDCG
 
 
 class MetricFactory:

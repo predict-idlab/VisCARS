@@ -5,8 +5,8 @@ from rdflib import Graph
 from rdflib.namespace import RDF
 from rdflib.extras.external_graph_libs import rdflib_to_networkx_multidigraph
 
-from cars.namespace import DASHB_V1
-from cars.recommenders import Recommender
+from viscars.namespace import DASHB_V1
+from viscars.recommenders import Recommender
 
 
 class FastPersonalizedPageRank(Recommender):
