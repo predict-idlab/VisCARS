@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "viscars"
+version = "0.0.1"
+description = "VisCARS: Knowledge Graph-based Context-Aware Recommender System for Visualizations"
+authors = ["Pieter Moens <pieter.moens@ugent.be>"]
+packages = [
+        { include = "viscars"}
+    ]
+readme = "README.md"
+repository = "https://github.com/predict-idlab/VisCARS"
+documentation = ""
+keywords = ["recommender system", "visualizations", "context-aware"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fast-pagerank = "^0.0.4"
+matplotlib = "^3.4.2"
+networkx = "^2.6.3"
+numpy = "^1.20.2"
+pandas = "^1.2.4"
+rdflib = "^6.0.2"
+
+[tool.poetry.dev-dependencies]
+python = "^3.7"
+fast-pagerank = "^0.0.4"
+matplotlib = "^3.4.2"
+networkx = "^2.6.3"
+numpy = "^1.20.2"
+pandas = "^1.2.4"
+rdflib = "^6.0.2"
+scipy = "^1.6.3"
+scikit-learn = "^0.24.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
