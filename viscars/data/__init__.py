@@ -7,20 +7,20 @@ from viscars.utils import clean_graph
 
 class DataLoader:
 
-    def __init__(self, project: str):
-        self.project = project
+    def __init__(self, graph: Graph):
+        self.graph = graph
+        clean_graph(graph)
 
-        self.graph = self.load_graph()
         self.ratings = self.extract_ratings_from_graph()
         self.user_metadata = self.extract_users_from_graph()
         self.context_metadata = self.extract_contexts_from_graph()
         self.item_metadata = self.extract_items_from_graph()
 
-    def load_graph(self) -> Graph:
-        graph = Graph()
-        graph.parse(f'./data/{self.project}/graph.ttl', format='n3')
-
-        return clean_graph(graph)
+    # def load_graph(self) -> Graph:
+    #     graph = Graph()
+    #     graph.parse(f'./data/{self.project}/graph.ttl', format='n3')
+    #
+    #     return clean_graph(graph)
 
     def build_subgraph_from_ratings(self, ratings: pd.DataFrame) -> Graph:
         sub_graph = Graph()
