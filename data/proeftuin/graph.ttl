@@ -221,7 +221,7 @@ metrics:yaw a dashb:Metric,
     dashb:datatype xsd:double ;
     om2:hasUnit om2:metrePerSecond-TimeSquared .
 
-<http://localhost/web-thing-gateway/things/visualizations/calendar-picker> a dashb:RealtimeDataVisualization ;
+<http://localhost/web-thing-gateway/things/visualizations/calendar-picker> a dashb:Visualization ;
     rdfs:label "Calendar Picker"@en ;
     dashb:component [ dashb:accepts [ a om2:DailyRecord ] ;
             dashb:max 1 ;
@@ -229,13 +229,13 @@ metrics:yaw a dashb:Metric,
     dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/calendar-picker.js> .
 
 <http://localhost/web-thing-gateway/things/visualizations/column-chart> a dashb:ColumnChart,
-        dashb:RealtimeDataVisualization ;
+        dashb:Visualization ;
     rdfs:label "Column chart"@en ;
     dashb:component [ dashb:accepts [ dashb:datatype xsd:double ] ;
             dashb:max 10 ;
             dashb:min 1 ] .
 
-<http://localhost/web-thing-gateway/things/visualizations/column-range> a dashb:RealtimeDataVisualization ;
+<http://localhost/web-thing-gateway/things/visualizations/column-range> a dashb:Visualization ;
     rdfs:label "Column Range"@en ;
     dashb:component [ dashb:accepts [ a om2:Stress ],
                 [ a om2:Headache ] ;
@@ -243,28 +243,28 @@ metrics:yaw a dashb:Metric,
             dashb:min 1 ] ;
     dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/column_range.js> .
 
-<http://localhost/web-thing-gateway/things/visualizations/column-range-active> a dashb:RealtimeDataVisualization ;
+<http://localhost/web-thing-gateway/things/visualizations/column-range-active> a dashb:Visualization ;
     rdfs:label "Column Range Active"@en ;
     dashb:component [ dashb:accepts [ a om2:Activity ] ;
             dashb:max 1 ;
             dashb:min 1 ] ;
     dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/column_range.js> .
 
-<http://localhost/web-thing-gateway/things/visualizations/column-range-headache-medication> a dashb:RealtimeDataVisualization ;
+<http://localhost/web-thing-gateway/things/visualizations/column-range-headache-medication> a dashb:Visualization ;
     rdfs:label "Column Range Headaches with Medication"@en ;
     dashb:component [ dashb:accepts ( [ a om2:Headache ] [ a om2:Medicine ] ) ;
             dashb:max 1 ;
             dashb:min 1 ] ;
     dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/column_range_medicine.js> .
 
-<http://localhost/web-thing-gateway/things/visualizations/column-range-sedentary> a dashb:RealtimeDataVisualization ;
+<http://localhost/web-thing-gateway/things/visualizations/column-range-sedentary> a dashb:Visualization ;
     rdfs:label "Column Range Sedentary"@en ;
     dashb:component [ dashb:accepts [ a om2:Activity ] ;
             dashb:max 1 ;
             dashb:min 1 ] ;
     dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/column_range.js> .
 
-<http://localhost/web-thing-gateway/things/visualizations/column-range-sleep> a dashb:RealtimeDataVisualization ;
+<http://localhost/web-thing-gateway/things/visualizations/column-range-sleep> a dashb:Visualization ;
     rdfs:label "Column Range Sleep"@en ;
     dashb:component [ dashb:accepts [ a om2:Activity ] ;
             dashb:max 1 ;
@@ -272,19 +272,19 @@ metrics:yaw a dashb:Metric,
     dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/column_range.js> .
 
 <http://localhost/web-thing-gateway/things/visualizations/marker-map> a dashb:Map,
-        dashb:RealtimeDataVisualization ;
+        dashb:Visualization ;
     rdfs:label "Map (displaying locations)"@en ;
     dashb:component [ dashb:accepts ( [ a om2:EclipticLatitude ] [ a om2:EclipticLongitude ] ) ;
             dashb:max 1 ;
             dashb:min 1 ] .
 
-<http://localhost/web-thing-gateway/things/visualizations/measurement-smiley> a dashb:RealtimeDataVisualization ;
+<http://localhost/web-thing-gateway/things/visualizations/measurement-smiley> a dashb:Visualization ;
     rdfs:label "Smiley (emotion according to configured thresholds)"@en ;
     dashb:component [ dashb:accepts [ dashb:datatype xsd:double ] ;
             dashb:max 1 ;
             dashb:min 1 ] .
 
-<http://localhost/web-thing-gateway/things/visualizations/pie-chart> a dashb:RealtimeDataVisualization ;
+<http://localhost/web-thing-gateway/things/visualizations/pie-chart> a dashb:Visualization ;
     rdfs:label "Pie Chart"@en ;
     dashb:component [ dashb:accepts [ a om2:Headache ],
                 [ a om2:PeriodSum ] ;
@@ -293,13 +293,13 @@ metrics:yaw a dashb:Metric,
     dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/pie_chart.js> .
 
 <http://localhost/web-thing-gateway/things/visualizations/route-map> a dashb:Map,
-        dashb:RealtimeDataVisualization ;
+        dashb:Visualization ;
     rdfs:label "Map (displaying routes)"@en ;
     dashb:component [ dashb:accepts ( [ a om2:EclipticLatitude ] [ a om2:EclipticLongitude ] ) ;
             dashb:max 1 ;
             dashb:min 1 ] .
 
-<http://localhost/web-thing-gateway/things/visualizations/spider-chart> a dashb:RealtimeDataVisualization ;
+<http://localhost/web-thing-gateway/things/visualizations/spider-chart> a dashb:Visualization ;
     rdfs:label "Spider Chart"@en ;
     dashb:component [ dashb:accepts [ a om2:Headache ],
                 [ a om2:Medicine ] ;
@@ -307,7 +307,7 @@ metrics:yaw a dashb:Metric,
             dashb:min 1 ] ;
     dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/spider_chart.js> .
 
-<http://localhost/web-thing-gateway/things/visualizations/textual-measurement> a dashb:RealtimeDataVisualization ;
+<http://localhost/web-thing-gateway/things/visualizations/textual-measurement> a dashb:Visualization ;
     rdfs:label "Display of textual observation"@en ;
     dashb:component [ dashb:accepts [ dashb:datatype xsd:string ] ;
             dashb:max 1 ;
@@ -2286,21 +2286,21 @@ metrics:metricSpeed a dashb:Metric,
     dashb:memberOf <https://dynamicdashboard.ilabt.imec.be/groups/maintenance> .
 
 <http://localhost/web-thing-gateway/things/visualizations/traditional-gauge> a dashb:Gauge,
-        dashb:RealtimeDataVisualization ;
+        dashb:Visualization ;
     rdfs:label "Gauge (traditional style)"@en ;
     dashb:component [ dashb:accepts [ dashb:datatype xsd:double ] ;
             dashb:max 1 ;
             dashb:min 1 ] .
 
 <http://localhost/web-thing-gateway/things/visualizations/multiple-time-series-line-chart-with-time-range-selector> a dashb:LineChart,
-        dashb:RealtimeDataVisualization ;
+        dashb:Visualization ;
     rdfs:label "Line chart (updating at observation frequency)"@en ;
     dashb:component [ dashb:accepts [ dashb:datatype xsd:double ] ;
             dashb:max 10 ;
             dashb:min 2 ] .
 
 <http://localhost/web-thing-gateway/things/visualizations/modern-gauge> a dashb:Gauge,
-        dashb:RealtimeDataVisualization ;
+        dashb:Visualization ;
     rdfs:label "Gauge (modern style)"@en ;
     dashb:component [ dashb:accepts [ dashb:datatype xsd:double ] ;
             dashb:max 1 ;
@@ -2320,7 +2320,7 @@ metrics:celsiusTemperature a dashb:Metric,
     rdfs:label "proeftuin_maintenance2" ;
     dashb:memberOf <https://dynamicdashboard.ilabt.imec.be/groups/maintenance> .
 
-<http://localhost/web-thing-gateway/things/visualizations/colored-measurement> a dashb:RealtimeDataVisualization,
+<http://localhost/web-thing-gateway/things/visualizations/colored-measurement> a dashb:Visualization,
         dashb:TextualObservationVisualization ;
     rdfs:label "Textual display of observation (colored if thresholds are set)"@en ;
     dashb:component [ dashb:accepts [ dashb:datatype xsd:double ] ;
@@ -2336,7 +2336,7 @@ metrics:celsiusTemperature a dashb:Metric,
     dashb:memberOf <https://dynamicdashboard.ilabt.imec.be/groups/operator> .
 
 <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> a dashb:LineChart,
-        dashb:RealtimeDataVisualization ;
+        dashb:Visualization ;
     rdfs:label "Line chart (updating at observation frequency)"@en ;
     dashb:component [ dashb:accepts [ dashb:datatype xsd:double ] ;
             dashb:max 1 ;

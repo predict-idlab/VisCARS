@@ -80,7 +80,6 @@ class DataLoader:
 
             ratings = ratings.append({'user': user_, 'item': row[2], 'rating': 5.0, 'context': properties},
                                      ignore_index=True)
-        ratings.to_csv(f'data/{self.project}/ratings.csv')
 
         return ratings
 
@@ -97,7 +96,6 @@ class DataLoader:
         result = self.graph.query(qry)
         for row in result:
             user_metadata = user_metadata.append({'id': row[0], 'type': row[2]}, ignore_index=True)
-        user_metadata.to_csv(f'data/{self.project}/user_metadata.csv')
 
         return user_metadata
 
@@ -114,16 +112,15 @@ class DataLoader:
         result = self.graph.query(qry)
         for row in result:
             context_metadata = context_metadata.append({'id': row[0], 'type': row[1]}, ignore_index=True)
-        context_metadata.to_csv(f'D:/Documents/UGent/PhD/projects/PreDiCT/ddashboard-v2/dashboard-recommender/data/{self.project}/context_metadata.csv')
 
         return context_metadata
 
     def extract_items_from_graph(self) -> pd.DataFrame:
         qry = '''
-            prefix dashb_v1: <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#>
+            prefix dashb: <http://docs.dynamicdashboard.ilabt.imec.be/ontologies/dashboard#>
 
             SELECT ?visualization WHERE {
-                ?visualization a dashb_v1:RealtimeDataVisualization .
+                ?visualization a dashb:Visualization .
             }
         '''
         item_metadata = pd.DataFrame(columns=['id'])
@@ -131,7 +128,6 @@ class DataLoader:
         result = self.graph.query(qry)
         for row in result:
             item_metadata = item_metadata.append({'id': row[0]}, ignore_index=True)
-        item_metadata.to_csv(f'data/{self.project}/item_metadata.csv')
 
         return item_metadata
 

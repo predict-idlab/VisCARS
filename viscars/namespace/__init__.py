@@ -2,9 +2,6 @@ from rdflib.term import Literal, URIRef
 from rdflib.namespace import DefinedNamespace, Namespace
 
 
-DASHB_V1 = Namespace('http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#')
-
-
 class DASHB(DefinedNamespace):
     """
     The Dynamic Dashboard Ontology
@@ -46,4 +43,4 @@ class DASHB(DefinedNamespace):
     hasMaxBoundary: Literal
     hasBoundaryLabel: Literal
 
-    _NS = Namespace('https://reasoner.dynamicdashboard.ilabt.imec.be/ontologies/dashboard#')
+    _NS = Namespace('https://docs.dynamicdashboard.ilabt.imec.be/ontologies/dashboard#')
