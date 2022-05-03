@@ -127,7 +127,7 @@ class DataLoader:
             prefix dashb: <http://docs.dynamicdashboard.ilabt.imec.be/ontologies/dashboard#>
 
             SELECT ?visualization WHERE {
-                ?visualization a dashb:RealtimeDataVisualization .
+                ?visualization a dashb:Visualization .
             }
         '''
         item_metadata = {'id': []}
