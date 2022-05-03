@@ -1,7 +1,15 @@
+Version 0.0.9
+-------------
+
+:Date: x x, x
+
+* Removed persistence from DataLoader
+
+
 Version 0.0.8
 -------------
 
-:Date: March 16, 2022
+:Date: May 3, 2022
 
 * Resolved deprecation warning for pandas.DataFrame.append
 * Updated ontology to official Dynamic Dashboard ontology
