@@ -5,7 +5,7 @@ from rdflib import Graph
 from rdflib.namespace import RDF
 from rdflib.extras.external_graph_libs import rdflib_to_networkx_multidigraph
 
-from viscars.namespace import DASHB_V1
+from viscars.namespace import DASHB
 from viscars.recommenders import Recommender
 
 
@@ -22,7 +22,7 @@ class FastPersonalizedPageRank(Recommender):
         graph_ = Graph()
         graph_ += self.graph.triples((None, None, None))
 
-        self.items = list(graph_.subjects(RDF.type, DASHB_V1['RealtimeDataVisualization']))
+        self.items = list(graph_.subjects(RDF.type, DASHB.Visualization))
 
         self.nx_graph = rdflib_to_networkx_multidigraph(graph_).to_undirected()
         self.model = nx.convert_matrix.to_scipy_sparse_matrix(self.nx_graph)

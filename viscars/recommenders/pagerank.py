@@ -3,7 +3,7 @@ from rdflib import Graph
 from rdflib.namespace import RDF
 from rdflib.extras.external_graph_libs import rdflib_to_networkx_multidigraph
 
-from viscars.namespace import DASHB_V1
+from viscars.namespace import DASHB
 from viscars.recommenders import Recommender
 
 
@@ -19,7 +19,7 @@ class NetworkXPageRank(Recommender):
         graph_ = Graph()
         graph_ += self.graph.triples((None, None, None))
 
-        self.items = list(graph_.subjects(RDF.type, DASHB_V1['RealtimeDataVisualization']))
+        self.items = list(graph_.subjects(RDF.type, DASHB.Visualization))
         self.model = rdflib_to_networkx_multidigraph(graph_).to_undirected()
 
     def set_personalization(self, weight_uid=0, weight_cid=0):

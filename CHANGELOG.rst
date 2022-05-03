@@ -1,7 +1,8 @@
-Version 0.0.6
+Version 0.0.7
 -------------
 
-:Date: March 14, 2022
+:Date: March 16, 2022
 
 * Removed project-based initializer in DataLoader
+* Code cleanup
 * Released PyPI package
