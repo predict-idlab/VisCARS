@@ -7,9 +7,11 @@ from viscars.utils import clean_graph
 
 class DataLoader:
 
-    def __init__(self, graph: Graph):
+    def __init__(self, graph: Graph, project=''):
         self.graph = graph
         clean_graph(graph)
+
+        self.project = project
 
         self.ratings = self.extract_ratings_from_graph()
         self.user_metadata = self.extract_users_from_graph()
@@ -64,7 +66,7 @@ class DataLoader:
         '''
         result = self.graph.query(qry)
 
-        ratings = pd.DataFrame(columns=['user', 'item', 'rating', 'context'])
+        ratings = {'user': [], 'item': [], 'rating': [], 'context': []}
         for row in result:
             widget_ = row[0]
             user_ = row[1]
@@ -78,11 +80,14 @@ class DataLoader:
             '''
             properties = [str(row[0]) for row in self.graph.query(qry)]
 
-            ratings = ratings.append({'user': user_, 'item': row[2], 'rating': 5.0, 'context': properties},
-                                     ignore_index=True)
-        ratings.to_csv(f'data/{self.project}/ratings.csv')
+            ratings.get('user').append(user_)
+            ratings.get('item').append(row[2])
+            ratings.get('rating').append(5.0)
+            ratings.get('context').append(properties)
+        ratings_df = pd.DataFrame.from_dict(ratings)
+        ratings_df.to_csv(f'data/{self.project}/ratings.csv')
 
-        return ratings
+        return ratings_df
 
     def extract_users_from_graph(self) -> pd.DataFrame:
         qry = '''
@@ -92,14 +97,16 @@ class DataLoader:
                 ?user dashb:memberOf ?role .
             }
         '''
-        user_metadata = pd.DataFrame(columns=['id', 'type'])
+        user_metadata = {'id': [], 'type': []}
 
         result = self.graph.query(qry)
         for row in result:
-            user_metadata = user_metadata.append({'id': row[0], 'type': row[2]}, ignore_index=True)
-        user_metadata.to_csv(f'data/{self.project}/user_metadata.csv')
+            user_metadata.get('id').append(row[0])
+            user_metadata.get('type').append(row[1])
+        user_metadata_df = pd.DataFrame.from_dict(user_metadata)
+        user_metadata_df.to_csv(f'data/{self.project}/user_metadata.csv')
 
-        return user_metadata
+        return user_metadata_df
 
     def extract_contexts_from_graph(self) -> pd.DataFrame:
         qry = '''
@@ -109,14 +116,16 @@ class DataLoader:
                 ?property dashb:produces ?metric .
             }
         '''
-        context_metadata = pd.DataFrame(columns=['id', 'type'])
+        context_metadata = {'id': [], 'type': []}
 
         result = self.graph.query(qry)
         for row in result:
-            context_metadata = context_metadata.append({'id': row[0], 'type': row[1]}, ignore_index=True)
-        context_metadata.to_csv(f'D:/Documents/UGent/PhD/projects/PreDiCT/ddashboard-v2/dashboard-recommender/data/{self.project}/context_metadata.csv')
+            context_metadata.get('id').append(row[0])
+            context_metadata.get('type').append(row[1])
+        context_metadata_df = pd.DataFrame.from_dict(context_metadata)
+        context_metadata_df.to_csv(f'D:/Documents/UGent/PhD/projects/PreDiCT/ddashboard-v2/dashboard-recommender/data/{self.project}/context_metadata.csv')
 
-        return context_metadata
+        return context_metadata_df
 
     def extract_items_from_graph(self) -> pd.DataFrame:
         qry = '''
@@ -126,14 +135,15 @@ class DataLoader:
                 ?visualization a dashb_v1:RealtimeDataVisualization .
             }
         '''
-        item_metadata = pd.DataFrame(columns=['id'])
+        item_metadata = {'id': []}
 
         result = self.graph.query(qry)
         for row in result:
-            item_metadata = item_metadata.append({'id': row[0]}, ignore_index=True)
-        item_metadata.to_csv(f'data/{self.project}/item_metadata.csv')
+            item_metadata.get('id').append(row[0])
+        item_metadata_df = pd.DataFrame.from_dict(item_metadata)
+        item_metadata_df.to_csv(f'data/{self.project}/item_metadata.csv')
 
-        return item_metadata
+        return item_metadata_df
 
     def get_graph(self) -> Graph:
         return self.graph
