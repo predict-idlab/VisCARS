@@ -129,10 +129,10 @@ class DataLoader:
 
     def extract_items_from_graph(self) -> pd.DataFrame:
         qry = '''
-            prefix dashb_v1: <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#>
+            prefix dashb: <http://docs.dynamicdashboard.ilabt.imec.be/ontologies/dashboard#>
 
             SELECT ?visualization WHERE {
-                ?visualization a dashb_v1:RealtimeDataVisualization .
+                ?visualization a dashb:RealtimeDataVisualization .
             }
         '''
         item_metadata = {'id': []}
