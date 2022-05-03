@@ -106,7 +106,7 @@ class DataLoader:
 
     def extract_contexts_from_graph(self) -> pd.DataFrame:
         qry = '''
-            prefix dashb: <http://docs.dynamicdashboard.ilabt.imec.be/ontologies/dashboard#>
+            prefix dashb: <https://docs.dynamicdashboard.ilabt.imec.be/ontologies/dashboard#>
 
             SELECT ?property ?metric WHERE {
                 ?property dashb:produces ?metric .
@@ -124,7 +124,7 @@ class DataLoader:
 
     def extract_items_from_graph(self) -> pd.DataFrame:
         qry = '''
-            prefix dashb: <http://docs.dynamicdashboard.ilabt.imec.be/ontologies/dashboard#>
+            prefix dashb: <https://docs.dynamicdashboard.ilabt.imec.be/ontologies/dashboard#>
 
             SELECT ?visualization WHERE {
                 ?visualization a dashb:Visualization .
