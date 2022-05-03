@@ -7,11 +7,9 @@ from viscars.utils import clean_graph
 
 class DataLoader:
 
-    def __init__(self, graph: Graph, project=''):
+    def __init__(self, graph: Graph):
         self.graph = graph
         clean_graph(graph)
-
-        self.project = project
 
         self.ratings = self.extract_ratings_from_graph()
         self.user_metadata = self.extract_users_from_graph()
@@ -85,7 +83,6 @@ class DataLoader:
             ratings.get('rating').append(5.0)
             ratings.get('context').append(properties)
         ratings_df = pd.DataFrame.from_dict(ratings)
-        ratings_df.to_csv(f'data/{self.project}/ratings.csv')
 
         return ratings_df
 
@@ -104,7 +101,6 @@ class DataLoader:
             user_metadata.get('id').append(row[0])
             user_metadata.get('type').append(row[1])
         user_metadata_df = pd.DataFrame.from_dict(user_metadata)
-        user_metadata_df.to_csv(f'data/{self.project}/user_metadata.csv')
 
         return user_metadata_df
 
@@ -123,7 +119,6 @@ class DataLoader:
             context_metadata.get('id').append(row[0])
             context_metadata.get('type').append(row[1])
         context_metadata_df = pd.DataFrame.from_dict(context_metadata)
-        context_metadata_df.to_csv(f'D:/Documents/UGent/PhD/projects/PreDiCT/ddashboard-v2/dashboard-recommender/data/{self.project}/context_metadata.csv')
 
         return context_metadata_df
 
@@ -141,7 +136,6 @@ class DataLoader:
         for row in result:
             item_metadata.get('id').append(row[0])
         item_metadata_df = pd.DataFrame.from_dict(item_metadata)
-        item_metadata_df.to_csv(f'data/{self.project}/item_metadata.csv')
 
         return item_metadata_df
 
