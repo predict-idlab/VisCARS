@@ -2285,6 +2285,8 @@ metrics:metricSpeed a dashb:Metric,
     rdfs:label "proeftuin_maintenance3" ;
     dashb:memberOf <https://dynamicdashboard.ilabt.imec.be/groups/maintenance> .
 
+dashb:Gauge a dashb:Visualization .
+
 <http://localhost/web-thing-gateway/things/visualizations/traditional-gauge> a dashb:Gauge,
         dashb:Visualization ;
     rdfs:label "Gauge (traditional style)"@en ;
