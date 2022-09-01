@@ -1,7 +1,7 @@
 from matplotlib import pyplot as plt
 import networkx as nx
 from rdflib import Graph
-from rdflib.namespace import RDF, SOSA, URIRef
+from rdflib.namespace import RDF, RDFS, SOSA, URIRef
 from rdflib.extras.external_graph_libs import rdflib_to_networkx_multidigraph
 
 from viscars.namespace import DASHB
@@ -19,6 +19,7 @@ def visualize_graph(graph: Graph, colored=False, save=False):
     contexts = list(graph_.subjects(RDF.type, SOSA.ObservableProperty))
 
     graph_.remove((None, RDF.type, None))
+    graph_.remove((None, RDFS.label, None))
 
     G = rdflib_to_networkx_multidigraph(graph_).to_undirected()
 

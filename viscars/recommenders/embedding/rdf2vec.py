@@ -3,7 +3,7 @@ from networkx import Graph
 from viscars.recommenders import Recommender
 
 
-class GraphConvolutionalNetwork(Recommender):
+class RDF2Vec(Recommender):
 
     def __init__(self, graph: Graph, verbose=False):
         super().__init__(graph, verbose)
