@@ -1,4 +1,4 @@
-@prefix ns1: <https://docs.dynamicdashboard.ilabt.imec.be/ontologies/dashboard#> .
+@prefix ns1: <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <https://dynamicdashboard.ilabt.imec.be/dashboards/10> a ns1:Dashboard ;
@@ -449,38 +449,38 @@
 <https://dynamicdashboard.ilabt.imec.be/widgets/18> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 86)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/8> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_86.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_86.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/19> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 25)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/8> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_25.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_25.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/21> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 146)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/7> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_146.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_146.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/24> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 75)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/7> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_75.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_75.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/25> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 9)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/7> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_9.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_9.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/26> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 6)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/9> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_6.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_6.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/27> a ns1:Widget ;
     rdfs:label "GlucoseLevel (Patient 6)" ;
@@ -491,14 +491,14 @@
 <https://dynamicdashboard.ilabt.imec.be/widgets/28> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 27)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/8> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_27.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_27.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/29> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 35)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/8> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_35.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_35.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/30> a ns1:Widget ;
     rdfs:label "GlucoseLevel (Patient 35)" ;
@@ -515,8 +515,8 @@
 <https://dynamicdashboard.ilabt.imec.be/widgets/32> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 36)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/8> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_36.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_36.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/33> a ns1:Widget ;
     rdfs:label "GlucoseLevel (Patient 36)" ;
@@ -533,8 +533,8 @@
 <https://dynamicdashboard.ilabt.imec.be/widgets/35> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 20)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/9> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_20.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_20.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/36> a ns1:Widget ;
     rdfs:label "GlucoseLevel (Patient 20)" ;
@@ -545,14 +545,14 @@
 <https://dynamicdashboard.ilabt.imec.be/widgets/37> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 109)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/9> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_109.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_109.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/38> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 103)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/9> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_103.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_103.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/39> a ns1:Widget ;
     rdfs:label "DiastolicBloodPressure (Patient 103)" ;
@@ -575,8 +575,8 @@
 <https://dynamicdashboard.ilabt.imec.be/widgets/41> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 114)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/9> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_114.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_114.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/42> a ns1:Widget ;
     rdfs:label "GlucoseLevel (Patient 114)" ;
@@ -599,14 +599,14 @@
 <https://dynamicdashboard.ilabt.imec.be/widgets/45> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 262)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/10> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_262.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_262.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/46> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 127)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/10> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_127.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_127.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/47> a ns1:Widget ;
     rdfs:label "GlucoseLevel (Patient 127)" ;
@@ -617,8 +617,8 @@
 <https://dynamicdashboard.ilabt.imec.be/widgets/48> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 62)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/10> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/49> a ns1:Widget ;
     rdfs:label "DiastolicBloodPressure (Patient 62)" ;
@@ -641,8 +641,8 @@
 <https://dynamicdashboard.ilabt.imec.be/widgets/51> a ns1:Widget ;
     rdfs:label "Lifestyle (Patient 129)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/10> ;
-    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_129.lifestyle/properties/lifestyle> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_129.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/52> a ns1:Widget ;
     rdfs:label "GlucoseLevel (Patient 129)" ;
@@ -660,7 +660,7 @@
     rdfs:label "EnrichedCall (Patient 2)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/7> ;
     ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_2.lifestyle/properties/enriched-call> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/6> a ns1:Widget ;
     rdfs:label "DiastolicBloodPressure (Patient 9)" ;
@@ -672,12 +672,12 @@
     rdfs:label "EnrichedCall (Patient 6)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/7> ;
     ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_6.lifestyle/properties/enriched-call> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/61> a ns1:Widget ;
     rdfs:label "EnrichedCall (Patient 144)" ;
     ns1:createdBy <https://dynamicdashboard.ilabt.imec.be/users/7> ;
-    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/textual-measurement> .
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
 
 <https://dynamicdashboard.ilabt.imec.be/widgets/7> a ns1:Widget ;
     rdfs:label "SystolicBloodPressure (Patient 9)" ;
