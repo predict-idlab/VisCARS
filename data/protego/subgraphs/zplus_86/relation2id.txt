@@ -1,0 +1,14 @@
+13
+http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#produces	0
+http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasId	1
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	2
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/Sex	3
+http://dynamicdashboard.ilabt.imec.be/broker/ontologies/ssn-extension/subSystemOf	4
+http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasid	5
+https://saref.etsi.org/saref4ehaw/hasChronicDisease	6
+http://www.w3.org/ns/sosa/observes	7
+https://saref.etsi.org/core/hasProperty	8
+https://saref.etsi.org/core/observes	9
+https://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#influences	10
+http://www.w3.org/2000/01/rdf-schema#label	11
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/livesIn	12

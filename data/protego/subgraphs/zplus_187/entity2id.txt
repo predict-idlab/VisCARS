@@ -1,0 +1,89 @@
+88
+http://www.w3.org/ns/sosa/Sensor	0
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.HeartRate	1
+female	2
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/ChronicDisease	3
+BloodPressure (00:9D:6B:89:43:CD/service0025)	4
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.F8%253A33%253A31%253A46%253A6E%253A0B%252Fservice0010	5
+F8:33:31:46:7F.D0/service0010	6
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.F8%253A33%253A31%253A46%253A7F.D0%252Fservice0010/properties/org.dyamand.types.health.BodyTemperature	7
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.lifestyle	8
+https://dahcc.idlab.ugent.be/Homelab/SensorsAndWearables/org.dyamand.types.health.SpO2	9
+SpO2	10
+http://dynamicdashboard.ilabt.imec.be/broker/ontologies/metrics#celsiusTemperature	11
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.00%253A1C%253A05%253AFF%253AA9%253A4E%252Fservice0029	12
+http://dynamicdashboard.ilabt.imec.be/broker/ontologies/metrics#glucoseLevel	13
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/HypoHyperGlycemia	14
+org.dyamand.types.health.GlucoseLevel	15
+org.dyamand.types.health.HeartRate	16
+EnrichedCall	17
+org.dyamand.types.health.SystolicBloodPressure	18
+00:9D:6B:89:43:CD/service0025	19
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/LowBloodPressure	20
+SpO2 (00:1C:05:FF:A9:4E/service0029)	21
+https://dahcc.idlab.ugent.be/Homelab/SensorsAndWearables/org.dyamand.types.health.GlucoseLevel	22
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/ChronicObstructivePulmonaryDisease	23
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.60%253A77%253A71%253A7D%253A93%253AD7%252Fservice0009	24
+F8:33:31:46:6E:0B/service0010	25
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/BloodPressureFluctuations	26
+https://saref.etsi.org/saref4ehaw/HealthActor	27
+http://dynamicdashboard.ilabt.imec.be/broker/ontologies/metrics#diastolicBloodPressure	28
+org.dyamand.types.health.SpO2	29
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025	30
+https://dahcc.idlab.ugent.be/Homelab/SensorsAndWearables/org.dyamand.types.health.DiastolicBloodPressure	31
+00:1C:05:FE:44:6B/service0029	32
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/CytokineReleaseSyndrome	33
+https://dahcc.idlab.ugent.be/Homelab/SensorsAndWearables/org.dyamand.types.health.SystolicBloodPressure	34
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.00%253A1C%253A05%253AFE%253A44%253A6B%252Fservice0029/properties/org.dyamand.types.health.SpO2	35
+https://saref.etsi.org/core/Property	36
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/Diabetes	37
+HeartRate	38
+GlucoseLevel (B0:91:22:FB:D0:78/service0009)	39
+Lifestyle	40
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure	41
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/BloodPressureIssues	42
+lifestyle	43
+http://example.com/tx/patients/zplus_187	44
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/HeartDisease	45
+https://saref.etsi.org/core/Sensor	46
+org.dyamand.types.health.BodyTemperature	47
+BodyTemperature (F8:33:31:46:7F.D0/service0010)	48
+http://dynamicdashboard.ilabt.imec.be/broker/ontologies/metrics#oxygenSaturation	49
+http://dynamicdashboard.ilabt.imec.be/broker/ontologies/metrics#heartRate	50
+1954-02-15T00:00:00	51
+enriched-call	52
+60:77:71:7D:93:D7/service0009	53
+http://example.com/tx/diseases/HeartDisease	54
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/Asthma	55
+http://www.w3.org/ns/sosa/ObservableProperty	56
+B0:91:22:FB:D0:78/service0009	57
+SpO2 (00:1C:05:FE:44:6B/service0029)	58
+DiastolicBloodPressure	59
+Heart disease	60
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure	61
+org.dyamand.types.health.DiastolicBloodPressure	62
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.B0%253A91%253A22%253AFB%253AD0%253A78%252Fservice0009	63
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/CardiacArrhythmia	64
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.B0%253A91%253A22%253AFB%253AD0%253A78%252Fservice0009/properties/org.dyamand.types.health.GlucoseLevel	65
+https://dahcc.idlab.ugent.be/Homelab/SensorsAndWearables/org.dyamand.types.health.BodyTemperature	66
+zplus_187	67
+BodyTemperature (F8:33:31:46:6E:0B/service0010)	68
+BodyTemperature	69
+http://dynamicdashboard.ilabt.imec.be/broker/ontologies/metrics#json	70
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.F8%253A33%253A31%253A46%253A6E%253A0B%252Fservice0010/properties/org.dyamand.types.health.BodyTemperature	71
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/Pneumothorax	72
+http://www.w3.org/ns/ssn/System	73
+http://dynamicdashboard.ilabt.imec.be/broker/ontologies/metrics#systolicBloodPressure	74
+00:1C:05:FF:A9:4E/service0029	75
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.F8%253A33%253A31%253A46%253A7F.D0%252Fservice0010	76
+GlucoseLevel	77
+GlucoseLevel (60:77:71:7D:93:D7/service0009)	78
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.00%253A1C%253A05%253AFF%253AA9%253A4E%252Fservice0029/properties/org.dyamand.types.health.SpO2	79
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.00%253A1C%253A05%253AFE%253A44%253A6B%252Fservice0029	80
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.60%253A77%253A71%253A7D%253A93%253AD7%252Fservice0009/properties/org.dyamand.types.health.GlucoseLevel	81
+https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_187.lifestyle/properties/enriched-call	82
+https://dahcc.idlab.ugent.be/Homelab/SensorsAndActuators/homelab	83
+SystolicBloodPressure	84
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/HighBloodPressure	85
+https://dahcc.idlab.ugent.be/Ontology/MonitoredPerson/Hypoglycemia	86
+https://dahcc.idlab.ugent.be/Homelab/SensorsAndWearables/org.dyamand.types.health.HeartRate	87
