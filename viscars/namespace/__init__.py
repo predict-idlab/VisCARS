@@ -43,4 +43,4 @@ class DASHB(DefinedNamespace):
     hasMaxBoundary: Literal
     hasBoundaryLabel: Literal
 
-    _NS = Namespace('https://docs.dynamicdashboard.ilabt.imec.be/ontologies/dashboard#')
+    _NS = Namespace('http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#')
