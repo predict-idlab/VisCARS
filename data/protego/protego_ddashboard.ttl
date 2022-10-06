@@ -1,0 +1,550 @@
+@prefix : <http://api.stardog.com/> .
+@prefix stardog: <tag:stardog:api:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://dynamicdashboard.ilabt.imec.be/dashboards/10> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 144" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/10> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/10> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/10> , <https://dynamicdashboard.ilabt.imec.be/widgets/11> , <https://dynamicdashboard.ilabt.imec.be/widgets/12> , <https://dynamicdashboard.ilabt.imec.be/widgets/61> , <https://dynamicdashboard.ilabt.imec.be/widgets/9> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/11> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 146" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/11> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/11> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/13> , <https://dynamicdashboard.ilabt.imec.be/widgets/21> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/12> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 2" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/12> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/12> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/14> , <https://dynamicdashboard.ilabt.imec.be/widgets/59> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/13> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 25" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/13> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/13> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/15> , <https://dynamicdashboard.ilabt.imec.be/widgets/19> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/14> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 86" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/14> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/14> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/16> , <https://dynamicdashboard.ilabt.imec.be/widgets/17> , <https://dynamicdashboard.ilabt.imec.be/widgets/18> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/15> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 6" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/15> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/15> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/26> , <https://dynamicdashboard.ilabt.imec.be/widgets/27> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/16> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 27" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/16> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/16> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/28> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/17> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 35" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/17> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/17> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/29> , <https://dynamicdashboard.ilabt.imec.be/widgets/30> , <https://dynamicdashboard.ilabt.imec.be/widgets/31> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/18> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 36" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/18> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/18> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/32> , <https://dynamicdashboard.ilabt.imec.be/widgets/33> , <https://dynamicdashboard.ilabt.imec.be/widgets/34> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/19> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 20" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/19> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/19> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/35> , <https://dynamicdashboard.ilabt.imec.be/widgets/36> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/20> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 109" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/20> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/20> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/37> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/21> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 103" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/21> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/21> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/38> , <https://dynamicdashboard.ilabt.imec.be/widgets/39> , <https://dynamicdashboard.ilabt.imec.be/widgets/40> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/22> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 114" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/22> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/22> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/41> , <https://dynamicdashboard.ilabt.imec.be/widgets/42> , <https://dynamicdashboard.ilabt.imec.be/widgets/43> , <https://dynamicdashboard.ilabt.imec.be/widgets/44> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/23> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 262" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/23> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/23> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/45> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/24> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 127" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/24> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/24> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/46> , <https://dynamicdashboard.ilabt.imec.be/widgets/47> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/25> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 62" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/25> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/25> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/48> , <https://dynamicdashboard.ilabt.imec.be/widgets/49> , <https://dynamicdashboard.ilabt.imec.be/widgets/50> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/26> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 129" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/26> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/26> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/51> , <https://dynamicdashboard.ilabt.imec.be/widgets/52> , <https://dynamicdashboard.ilabt.imec.be/widgets/53> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/7> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 6" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/7> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/7> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/4> , <https://dynamicdashboard.ilabt.imec.be/widgets/60> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/8> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 9" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/8> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/8> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/25> , <https://dynamicdashboard.ilabt.imec.be/widgets/5> , <https://dynamicdashboard.ilabt.imec.be/widgets/6> , <https://dynamicdashboard.ilabt.imec.be/widgets/7> .
+<https://dynamicdashboard.ilabt.imec.be/dashboards/9> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Dashboard> ;
+   rdfs:label "Patient 75" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasTab> <https://dynamicdashboard.ilabt.imec.be/tabs/9> .
+<https://dynamicdashboard.ilabt.imec.be/tabs/9> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Tab> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasWidget> <https://dynamicdashboard.ilabt.imec.be/widgets/24> , <https://dynamicdashboard.ilabt.imec.be/widgets/8> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/15/observationBoundary/11> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "70" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "0" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/15/observationBoundary/12> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "green" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "160" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "90" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/15/observationBoundary/13> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "180" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "160" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/15/observationBoundary/14> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "90" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "70" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/15/observationBoundary/15> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "999" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "180" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/27/observationBoundary/16> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "180" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "160" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/27/observationBoundary/17> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "999" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "180" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/27/observationBoundary/18> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "70" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "0" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/27/observationBoundary/19> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "90" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "70" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/27/observationBoundary/20> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "green" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "160" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "90" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/30/observationBoundary/21> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "180" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "160" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/30/observationBoundary/22> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "70" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "0" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/30/observationBoundary/23> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "1000" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "180" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/30/observationBoundary/24> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "green" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "160" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "90" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/30/observationBoundary/25> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "90" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "70" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/33/observationBoundary/26> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "180" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "160" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/33/observationBoundary/27> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "70" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "0" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/33/observationBoundary/28> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "90" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "70" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/33/observationBoundary/29> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "green" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "160" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "90" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/33/observationBoundary/30> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "1000" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "180" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/4/observationBoundary/1> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "80" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "70" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/4/observationBoundary/2> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "999" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "200" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/4/observationBoundary/3> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "200" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "160" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/4/observationBoundary/4> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "70" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "0" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/4/observationBoundary/5> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "green" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "160" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "80" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/42/observationBoundary/31> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "1000" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "180" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/42/observationBoundary/32> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "70" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "0" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/42/observationBoundary/33> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "90" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "70" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/42/observationBoundary/34> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "green" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "160" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "90" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/42/observationBoundary/35> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "180" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "160" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/47/observationBoundary/36> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "180" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "160" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/47/observationBoundary/37> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "70" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "0" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/47/observationBoundary/38> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "green" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "160" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "90" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/47/observationBoundary/39> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "90" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "70" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/47/observationBoundary/40> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "1000" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "180" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/5/observationBoundary/10> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "999" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "180" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/5/observationBoundary/6> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "180" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "160" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/5/observationBoundary/7> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "green" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "160" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "90" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/5/observationBoundary/8> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "90" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "70" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/5/observationBoundary/9> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "70" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "0" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/52/observationBoundary/41> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "70" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "0" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/52/observationBoundary/42> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "90" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "70" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/52/observationBoundary/43> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "yellow" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "180" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "160" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/52/observationBoundary/44> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "red" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "1000" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "180" .
+<https://dynamicdashboard.ilabt.imec.be/widgets/52/observationBoundary/45> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#ObservationBoundary> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasBoundaryLabel> "green" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMaxBoundary> "160" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasMinBoundary> "90" .
+<https://dynamicdashboard.ilabt.imec.be/groups/nurse> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#UserGroup> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/10> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "HeartRate (Patient 144)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_144.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.HeartRate> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/11> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "DiastolicBloodPressure (Patient 144)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_144.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/12> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "SystolicBloodPressure (Patient 144)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_144.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/61> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "EnrichedCall (Patient 144)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/9> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "BodyTemperature (Patient 144)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_144.F8%253A33%253A31%253A46%253A6E%253A0B%252Fservice0010/properties/org.dyamand.types.health.BodyTemperature> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/13> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "SpO2 (Patient 146)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_146.00%253A1C%253A05%253AFE%253A44%253A6B%252Fservice0029/properties/org.dyamand.types.health.SpO2> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/21> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 146)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_146.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/14> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "HeartRate (Patient 2)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_2.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.HeartRate> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/59> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "EnrichedCall (Patient 2)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_2.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/15> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "GlucoseLevel (Patient 25)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/8> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_25.60%253A77%253A71%253A7D%253A93%253AD7%252Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/19> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 25)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/8> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_25.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/16> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "DiastolicBloodPressure (Patient 86)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/8> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_86.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/17> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "SystolicBloodPressure (Patient 86)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/8> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_86.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/18> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 86)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/8> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_86.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/26> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 6)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/9> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_6.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/27> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "GlucoseLevel (Patient 6)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/9> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_6.60%253A77%253A71%253A7D%253A93%253AD7%252Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/28> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 27)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/8> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_27.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/29> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 35)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/8> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_35.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/30> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "GlucoseLevel (Patient 35)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/8> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_35.60%253A77%253A71%253A7D%253A93%253AD7%252Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/31> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "HeartRate (Patient 35)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/8> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_35.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.HeartRate> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/32> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 36)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/8> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_36.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/33> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "GlucoseLevel (Patient 36)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/8> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_36.60%253A77%253A71%253A7D%253A93%253AD7%252Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/34> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "HeartRate (Patient 36)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/8> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_36.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.HeartRate> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/35> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 20)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/9> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_20.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/36> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "GlucoseLevel (Patient 20)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/9> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_20.60%253A77%253A71%253A7D%253A93%253AD7%252Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/37> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 109)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/9> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_109.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/38> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 103)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/9> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_103.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/39> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "DiastolicBloodPressure (Patient 103)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/9> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_103.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/40> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "SystolicBloodPressure (Patient 103)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/9> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_103.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/41> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 114)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/9> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_114.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/42> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "GlucoseLevel (Patient 114)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/9> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_114.60%253A77%253A71%253A7D%253A93%253AD7%252Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/43> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "DiastolicBloodPressure (Patient 114)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/9> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_114.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/44> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "SystolicBloodPressure (Patient 114)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/9> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_114.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/45> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 262)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/10> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_262.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/46> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 127)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/10> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_127.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/47> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "GlucoseLevel (Patient 127)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/10> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_127.60%253A77%253A71%253A7D%253A93%253AD7%252Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/48> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 62)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/10> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/49> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "DiastolicBloodPressure (Patient 62)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/10> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/50> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "SystolicBloodPressure (Patient 62)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/10> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/51> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 129)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/10> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_129.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/52> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "GlucoseLevel (Patient 129)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/10> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_129.60%253A77%253A71%253A7D%253A93%253AD7%252Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/53> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "SpO2 (Patient 129)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/10> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_129.00%253A1C%253A05%253AFE%253A44%253A6B%252Fservice0029/properties/org.dyamand.types.health.SpO2> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/4> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "GlucoseLevel (Patient 6)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_6.60%253A77%253A71%253A7D%253A93%253AD7%252Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/60> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "EnrichedCall (Patient 6)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_6.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/25> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 9)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_9.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/5> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "GlucoseLevel (Patient 9)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_9.60%253A77%253A71%253A7D%253A93%253AD7%252Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/6> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "DiastolicBloodPressure (Patient 9)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_9.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/7> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "SystolicBloodPressure (Patient 9)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_9.00%253A9D%253A6B%253A89%253A43%253ACD%252Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/24> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "Lifestyle (Patient 75)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_75.lifestyle/properties/enriched-call> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+<https://dynamicdashboard.ilabt.imec.be/widgets/8> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#Widget> ;
+   rdfs:label "SpO2 (Patient 75)" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#createdBy> <https://dynamicdashboard.ilabt.imec.be/users/7> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#hasProperty> <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_75.00%253A1C%253A05%253AFE%253A44%253A6B%252Fservice0029/properties/org.dyamand.types.health.SpO2> ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#visualizedBy> <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+<https://dynamicdashboard.ilabt.imec.be/users/7> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#User> ;
+   rdfs:label "zplus_operator1" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#memberOf> <https://dynamicdashboard.ilabt.imec.be/groups/operator> .
+<https://dynamicdashboard.ilabt.imec.be/users/8> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#User> ;
+   rdfs:label "zplus_operator2" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#memberOf> <https://dynamicdashboard.ilabt.imec.be/groups/operator> .
+<https://dynamicdashboard.ilabt.imec.be/users/9> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#User> ;
+   rdfs:label "zplus_nurse1" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#memberOf> <https://dynamicdashboard.ilabt.imec.be/groups/nurse> .
+<https://dynamicdashboard.ilabt.imec.be/users/10> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#User> ;
+   rdfs:label "zplus_operator3" ;
+   <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#memberOf> <https://dynamicdashboard.ilabt.imec.be/groups/operator> .
+<https://dynamicdashboard.ilabt.imec.be/groups/operator> a <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#UserGroup> .
