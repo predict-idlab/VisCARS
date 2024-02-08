@@ -1,148 +1,72 @@
 import copy
-import gzip
-import os
-import pickle
-
+import random
 from rdflib import Graph
 
-from viscars.recommenders import Recommender
+from viscars.dao import DAO, ContentRecommenderDAO
+from viscars.recommenders.base import Recommender
 
 
-class CF(Recommender):
-    def __init__(self, graph: Graph, verbose=False):
-        super().__init__(graph, verbose)
+class CollaborativeFiltering(Recommender):
+    def __init__(self, dao: DAO, verbose=False):
+        super().__init__(dao, verbose)
+
+    def _calculate_similarities(self):
+        # Pearson correlation
+        self.similarities = {}
+        for u_id in self.dao.users['id']:
+            similarities_ = {}
+
+            items_rated_by_user = list(self.dao.ratings[self.dao.ratings['u_id'] == u_id]['i_id'])
+
+            for n in self.dao.users:
+                if u_id == n:
+                    similarities_[n] = 1
+                else:
+                    items_rated_by_n = list(self.dao.ratings[self.dao.ratings['u_id'] == n]['i_id'])
+                    common = len([i for i in items_rated_by_user if i in items_rated_by_n])
+                    if common == 0:
+                        similarities_[n] = 0
+                    else:
+                        similarities_[n] = common / len(self.dao.contexts['id'])
+            self.similarities[str(u_id)] = {str(k): v for k, v in sorted(similarities_.items(), key=lambda x: x[1], reverse=True)}
 
     def _build_model(self):
-        with gzip.open(os.path.join('D:\\Documents\\UGent\\PhD\\projects\\PhD\\VisCARS\\data\\protego\\output', 'RDF2VecCC.json.pkl.gzip'), 'rb') as input_f:
-            self.cc_similarities = pickle.load(input_f)
+        self._calculate_similarities()
 
-    def kneighbours_cc(self, uid, cid, iid, k=20, strict=True):
-        cc_similarities_ = copy.deepcopy(self.cc_similarities)
+    def knn(self, u_id, c_id, k=20, strict=True):
+        similarities_ = copy.deepcopy(self.similarities)
 
-        if strict:
-            for c, w in self.cc_similarities[cid].items():
-                qry = f'''
-                    PREFIX dashb: <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#>
-                    PREFIX sosa: <http://www.w3.org/ns/sosa/>
-                    PREFIX ssn-ext: <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/ssn-extension/>
+        if u_id in similarities_[u_id].keys():
+            similarities_[u_id].pop(u_id)
 
-                    SELECT * WHERE {{
-                        ?widget a dashb:Widget ;
-                            dashb:createdBy <{uid}> ;
-                            dashb:hasProperty ?property .
+        return list(similarities_[u_id].items())[:k]
 
-                        ?sensor ssn-ext:subSystemOf <{c}> ;
-                            sosa:observes ?property .
-                    }}
-                '''
-                if len(list(self.graph.query(qry))) == 0:
-                    cc_similarities_[cid].pop(c)
-
-        if cid in cc_similarities_[cid].keys():
-            cc_similarities_[cid].pop(cid)
-
-        return sorted(cc_similarities_[cid].items(), key=lambda x: x[1])[:k]
-
-    # def kneighbours_ii(self, iid, k=20):
-    #     ii_similarities_ = copy.deepcopy(ii_similarities)
-    #     ii_similarities_[iid].pop(uid)
-    #     return sorted(ii_similarities_[iid].items(), key=lambda x: x[1])[:k]
-    #
-    # def kneighbours_uu(self, uid, cid, iid, k=20, strict=True):
-    #     uu_similarities_ = copy.deepcopy(uu_similarities)
-    #
-    #     if strict:
-    #         for u, w in uu_similarities[uid].items():
-    #             qry = f'''
-    #                 PREFIX dashb: <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#>
-    #
-    #                 SELECT * WHERE {{
-    #                     ?widget a dashb:Widget ;
-    #                         dashb:createdBy <{u}> ;
-    #                         dashb:hasProperty <{iid}> .
-    #                 }}
-    #             '''
-    #             if len(list(self.graph.query(qry))) == 0:
-    #                 uu_similarities_[uid].pop(u)
-    #
-    #     if uid in uu_similarities_[uid].keys():
-    #         uu_similarities_[uid].pop(uid)
-    #
-    #     return sorted(uu_similarities_[uid].items(), key=lambda x: x[1])[:k]
-    #
-    # def predict_uucf(self, uid, cid, iid):
-    #     # Calculate K-nearest neighbours of the user
-    #     neighbours = self.kneighbours_uu(uid, cid, iid)
-    #
-    #     total_rw = 0
-    #     total_w = 0
-    #     for n, w in neighbours:
-    #         # Get ratings from user n for item i
-    #         qry = f'''
-    #             PREFIX dashb:<http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#>
-    #
-    #             SELECT * WHERE {{
-    #                 ?widget a dashb:Widget ;
-    #                     dashb:createdBy <{n}> ;
-    #                     dashb:hasProperty <{iid}> .
-    #             }}
-    #         '''
-    #         r_aui = 1 if len(list(self.graph.query(qry))) > 0 else 0
-    #         w_au = w  # Similarity score of user u and user n
-    #         total_rw += r_aui * w_au
-    #         total_w += w
-    #     return total_rw / total_w if total_w > 0 else 0
-
-    def predict_cccf(self, uid, cid, iid):
+    def run(self, u_id, c_id, i_id, kn_neighbors=None, **kwargs):
         # Calculate K-nearest neighbours of the patient
-        neighbours = self.kneighbours_cc(uid, cid, iid)
+        if kn_neighbors is None:
+            kn_neighbors = self.knn(u_id, c_id, **kwargs)
 
         total_rw = 0
         total_w = 0
-        for n, w in neighbours:
-            # Get ratings from user i for similar items (metric-based) of patient n
-            qry = f'''
-                PREFIX dashb: <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#>
-                PREFIX sosa: <http://www.w3.org/ns/sosa/>
-                PREFIX ssn-ext: <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/ssn-extension/>
-
-                SELECT * WHERE {{
-                    <{iid}> dashb:produces ?metric .
-
-                    ?sensor ssn-ext:subSystemOf <{n}> ;
-                        sosa:observes ?property .
-                    ?property dashb:produces ?metric .
-
-                    ?widget a dashb:Widget ;
-                        dashb:createdBy <{uid}> ;
-                        dashb:hasProperty ?property .
-                }}
-            '''
-            r_aui = 1 if len(list(self.graph.query(qry))) > 0 else 0
-            w_au = w  # Similarity score of patient cid and patient n
+        for n, w in kn_neighbors:
+            r_aui = 1 if len(list(self.dao.ratings[(self.dao.ratings['u_id'] == n) & (self.dao.ratings['i_id'] == i_id)])) > 0 else 0
+            w_au = max(w, 1e-10)  # Similarity score of patient c_id and patient n
             total_rw += r_aui * w_au
-            total_w += w
-        return total_rw / total_w if total_w > 0 else 0
+            total_w += w_au
+        return total_rw / total_w
 
-    def predict(self, uid, cid, *kwargs):
-        # Get all items from the patient
-        qry = f'''
-            PREFIX dashb: <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#>
-            PREFIX sosa: <http://www.w3.org/ns/sosa/>
-            PREFIX ssn-ext: <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/ssn-extension/>
-
-            SELECT ?property WHERE {{
-                ?sensor ssn-ext:subSystemOf <{cid}> ;
-                    sosa:observes ?property .
-            }}
-        '''
-        items = [str(property_[0]) for property_ in self.graph.query(qry)]
-
+    def predict(self, u_id: str, c_id: str, **kwargs):
         scores = {}
-        for iid in items:
-            scores[iid] = self.predict_cccf(uid, cid, iid)
 
-        recommendations = [{'contextId': cid, 'itemId': item, 'score': score} for item, score in scores.items()]
+        kn_neighbors = self.knn(u_id, c_id, **kwargs)
+        for iid in self.dao.get_items_by_context(c_id):
+            i_id = str(iid)
+            scores[i_id] = self.run(u_id, c_id, i_id, kn_neighbors=kn_neighbors, **kwargs)
+
+        recommendations = [{'contextId': c_id, 'itemId': item, 'score': score}
+                           for item, score in scores.items()]
+        random.seed()
+        random.shuffle(recommendations)
         return sorted(recommendations, key=lambda n: n['score'], reverse=True)
 
     def top_n(self, uid: [], cid: [], n: int, **kwargs):
@@ -151,8 +75,12 @@ class CF(Recommender):
 
 if __name__ == '__main__':
     graph_ = Graph()
-    graph_.parse('D:\\Documents\\UGent\\PhD\\projects\\PhD\\VisCARS\\data\\protego\\protego_zplus.ttl')
-    graph_.parse('D:\\Documents\\UGent\\PhD\\projects\\PhD\\VisCARS\\data\\protego\\protego_ddashboard.ttl')
-    recommender = CF(graph_)
+    graph_.parse('../../dao/protego/protego_ddashboard.ttl')
+    graph_.parse('../../dao/protego/protego_zplus.ttl')
+    graph_.parse('../../dao/protego/visualizations.ttl')
 
-    print(recommender.predict('https://dynamicdashboard.ilabt.imec.be/users/10', 'http://example.com/tx/patients/zplus_6'))
+    dao_ = ContentRecommenderDAO(graph_)
+
+    recommender = CollaborativeFiltering(dao_)
+    recommendations = recommender.predict('http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5', 'http://example.com/tx/patients/zplus_6')
+    print(recommendations)

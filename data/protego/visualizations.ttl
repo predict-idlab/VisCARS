@@ -1,0 +1,175 @@
+@prefix dashb: <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#> .
+@prefix metrics: <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/metrics#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix om: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+
+@base <http://localhost/web-thing-gateway/things/visualizations/> .
+
+<colored-measurement>
+   a               dashb:TextualObservationVisualization, dashb:Visualization, dashb:RealtimeDataVisualization ;
+   rdfs:label      "Textual display of observation (colored if thresholds are set)"@en ;
+   dashb:component [ dashb:accepts [ dashb:datatype xsd:double ] ;
+                     dashb:min     1 ;
+                     dashb:max     1 ] .
+
+<column-chart>
+   a               dashb:ColumnChart, dashb:Visualization, dashb:RealtimeDataVisualization ;
+   rdfs:label      "Column chart"@en ;
+   dashb:component [ dashb:accepts [ dashb:datatype xsd:double ] ;
+                     dashb:min     1 ;
+                     dashb:max     10 ] .
+
+<marker-map>
+   a               dashb:Map, dashb:Visualization, dashb:RealtimeDataVisualization ;
+   rdfs:label      "Map (displaying locations)"@en ;
+   dashb:component [ dashb:accepts ( [ a om:EclipticLatitude ] [ a om:EclipticLongitude ] ) ;
+                     dashb:min     1 ;
+                     dashb:max     1 ] .
+
+<route-map>
+   a               dashb:Map, dashb:Visualization, dashb:RealtimeDataVisualization ;
+   rdfs:label      "Map (displaying routes)"@en ;
+   dashb:component [ dashb:accepts ( [ a om:EclipticLatitude ] [ a om:EclipticLongitude ] ) ;
+                     dashb:min     1 ;
+                     dashb:max     1 ] .
+
+<modern-gauge>
+   a               dashb:Gauge, dashb:Visualization, dashb:RealtimeDataVisualization ;
+   rdfs:label      "Gauge (modern style)"@en ;
+   dashb:component [ dashb:accepts [ dashb:datatype xsd:double ] ;
+                     dashb:min     1 ;
+                     dashb:max     1 ] .
+
+<traditional-gauge>
+   a               dashb:Gauge, dashb:Visualization, dashb:RealtimeDataVisualization ;
+   rdfs:label      "Gauge (traditional style)"@en ;
+   dashb:component [ dashb:accepts [ dashb:datatype xsd:double ] ;
+                     dashb:min     1 ;
+                     dashb:max     1 ] .
+
+<time-series-line-chart-with-time-range-selector>
+   a               dashb:LineChart, dashb:Visualization, dashb:RealtimeDataVisualization ;
+   rdfs:label      "Line chart (updating at observation frequency)"@en ;
+   dashb:component [ dashb:accepts [ dashb:datatype xsd:double ] ;
+                     dashb:min     1 ;
+                     dashb:max     1 ] .
+
+<multiple-time-series-line-chart-with-time-range-selector>
+   a               dashb:LineChart, dashb:Visualization, dashb:RealtimeDataVisualization ;
+   rdfs:label      "Line chart (updating at observation frequency)"@en ;
+   dashb:component [ dashb:accepts [ dashb:datatype xsd:double ] ;
+                     dashb:min     2 ;
+                     dashb:max     10 ] .
+
+<measurement-smiley>
+   a               dashb:Visualization, dashb:RealtimeDataVisualization ;
+   rdfs:label      "Smiley (emotion according to configured thresholds)"@en ;
+   dashb:component [ dashb:accepts [ dashb:datatype xsd:double ] ;
+                     dashb:min     1 ;
+                     dashb:max     1 ] .
+
+<text-display> a dashb:Visualization, dashb:RealtimeDataVisualization ;
+               rdfs:label      "Text display"@en ;
+               dashb:component [ dashb:accepts dashb:All ;
+                                 dashb:min     1 ;
+                                 dashb:max     1 ] .
+
+<spider-chart> a dashb:Visualization, dashb:RealtimeDataVisualization ;
+               rdfs:label "Spider Chart"@en ;
+               dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/spider_chart.js> ;
+               dashb:component [
+                    dashb:accepts metrics:headache, metrics:medicine ;
+                    dashb:min 1;
+                    dashb:max 1
+                 ] .
+
+<column-range> a dashb:Visualization, dashb:RealtimeDataVisualization ;
+               rdfs:label "Column Range"@en ;
+               dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/column_range.js> ;
+               dashb:component [
+                    dashb:accepts metrics:stress, metrics:headache;
+                    dashb:min 1;
+                    dashb:max 1
+                 ] .
+
+<column-range-sedentary> a dashb:Visualization, dashb:RealtimeDataVisualization ;
+                         rdfs:label "Column Range Sedentary"@en ;
+                         dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/column_range.js> ;
+                         dashb:component [
+                              dashb:accepts metrics:activity;
+                              dashb:min 1;
+                              dashb:max 1
+                           ] .
+
+<column-range-sleep> a dashb:Visualization, dashb:RealtimeDataVisualization ;
+                     rdfs:label "Column Range Sleep"@en ;
+                     dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/column_range.js> ;
+                     dashb:component [
+                          dashb:accepts metrics:activity;
+                          dashb:min 1;
+                          dashb:max 1
+                       ] .
+
+<column-range-active> a dashb:Visualization, dashb:RealtimeDataVisualization ;
+                      rdfs:label "Column Range Active"@en ;
+                      dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/column_range.js> ;
+                      dashb:component [
+                           dashb:accepts metrics:activity;
+                           dashb:min 1;
+                           dashb:max 1
+                        ] .
+
+<column-range-headache-medication> a dashb:Visualization, dashb:RealtimeDataVisualization ;
+                                   rdfs:label "Column Range Headaches with Medication"@en ;
+                                   dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/column_range_medicine.js> ;
+                                   dashb:component [
+                                        dashb:accepts ( metrics:headache metrics:medicine );
+                                        dashb:min 1;
+                                        dashb:max 1
+                                     ] .
+
+<pie-chart> a dashb:Visualization, dashb:RealtimeDataVisualization ;
+            rdfs:label "Pie Chart"@en ;
+            dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/pie_chart.js> ;
+            dashb:component [
+                 dashb:accepts metrics:headache ;
+                 dashb:min 1;
+                 dashb:max 1
+              ] .
+
+<calendar-picker> a dashb:Visualization, dashb:RealtimeDataVisualization ;
+                  rdfs:label "Calendar Picker"@en ;
+                  dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/calendar-picker.js> ;
+                  dashb:component [
+                       dashb:accepts metrics:dailyRecord;
+                       dashb:min 1;
+                       dashb:max 1
+                    ] .
+
+
+<generic-json> a dashb:Visualization, dashb:RealtimeDataVisualization ;
+               rdfs:label "Generic JSON table"@en ;
+               dashb:component [
+                    dashb:accepts metrics:json;
+                    dashb:min 1;
+                    dashb:max 1
+                 ] .
+
+<enriched-call> a dashb:Visualization, dashb:RealtimeDataVisualization ;
+                rdfs:label "Enriched call visualization"@en ;
+                dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/enriched_call_visualization.js> ;
+                dashb:component [
+                     dashb:accepts metrics:json;
+                     dashb:min 1;
+                     dashb:max 1
+                  ] .
+
+<audio> a dashb:Visualization, dashb:RealtimeDataVisualization ;
+        rdfs:label      "Audio with Events"@en ;
+        dashb:component [
+             dashb:accepts metrics:audioFileLink;
+             dashb:min 1;
+             dashb:max 1
+          ] .

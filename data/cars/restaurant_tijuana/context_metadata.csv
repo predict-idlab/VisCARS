@@ -1,7 +1,0 @@
-id,day,activity
-http://example.org/ContextFactor#s1,weekday,school
-http://example.org/ContextFactor#s2,weekday,home
-http://example.org/ContextFactor#s3,weekday,work
-http://example.org/ContextFactor#s4,weekend,school
-http://example.org/ContextFactor#s5,weekend,home
-http://example.org/ContextFactor#s6,weekend,work

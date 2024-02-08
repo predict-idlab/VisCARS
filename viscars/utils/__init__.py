@@ -3,6 +3,8 @@ import networkx as nx
 from rdflib import Graph
 from rdflib.namespace import RDF, RDFS, SOSA, URIRef
 from rdflib.extras.external_graph_libs import rdflib_to_networkx_multidigraph
+from rdflib.term import Node
+from typing import Dict
 
 from viscars.namespace import DASHB
 
@@ -55,3 +57,52 @@ def clean_graph(graph: Graph):
     G += graph.triples((None, RDF.type, None))
 
     return G
+
+
+def extract_sub_graph_from_rdf_graph(graph: Graph, instance: Node or str) -> Graph:
+    if type(instance) == str:
+        instance = URIRef(instance)
+    walks = [[(s, p, o)] for s, p, o in graph.triples((instance, None, None))]
+    walks_ = []
+
+    while walks:
+        for walk in walks.copy():
+            s, p, o = walk[-1]
+
+            is_endpoint = True
+            for s_, p_, o_ in graph.triples((o, None, None)):
+                if o_ not in [hop[0] for hop in walk]:  # Early stopping (circular walks)
+                    walk_ = walk.copy()
+                    walk_.append((s_, p_, o_))
+                    walks.append(walk_)
+                    is_endpoint = False
+
+            if is_endpoint:
+                walks_.append(walk)
+            walks.remove(walk)
+
+    sub_graph = Graph()
+
+    def walk(head, hops):
+        s, p, o = hops[0]
+        for instance_ in graph.objects(subject=head, predicate=p):
+            sub_graph.add((head, p, instance_))
+
+            hops_ = hops[1:]
+            if hops_:
+                walk(instance_, hops_)
+
+    for walk_ in walks_:
+        walk(instance, walk_)
+
+    return sub_graph
+
+
+def extract_sub_graphs_from_rdf_graph(graph: Graph, class_: Node) -> Dict[Node, Graph]:
+    graphs = {}
+    instances_ = graph.subjects(predicate=RDF.type, object=class_)
+
+    for instance in instances_:
+        graphs[instance] = extract_sub_graph_from_rdf_graph(graph, instance)
+
+    return graphs

@@ -1,33 +1,28 @@
+import numpy as np
 from fast_pagerank import pagerank_power
 import networkx as nx
-import numpy as np
 from rdflib import Graph
-from rdflib.namespace import RDF
 from rdflib.extras.external_graph_libs import rdflib_to_networkx_multidigraph
 
-from viscars.namespace import DASHB
-from viscars.recommenders import Recommender
+from viscars.dao import ContentRecommenderDAO, DAO
+from viscars.recommenders.base import Recommender
 
 
 class FastPersonalizedPageRank(Recommender):
 
-    def __init__(self, graph: Graph, verbose=False, alpha=0.8, tol=10e-6):
-        super().__init__(graph, verbose)
+    def __init__(self, dao: DAO, verbose=False, alpha=0.8, tol=10e-6):
+        super().__init__(dao, verbose)
 
         self.alpha = alpha
         self.tolerance = tol
         self.personalization = None
+        self.set_personalization(0.3, 0.7)
 
     def _build_model(self):
-        graph_ = Graph()
-        graph_ += self.graph.triples((None, None, None))
-
-        self.items = list(graph_.subjects(RDF.type, DASHB.Visualization))
-
-        self.nx_graph = rdflib_to_networkx_multidigraph(graph_).to_undirected()
+        self.nx_graph = rdflib_to_networkx_multidigraph(self.dao.graph).to_undirected()
         self.model = nx.convert_matrix.to_scipy_sparse_matrix(self.nx_graph)
 
-    def set_personalization(self, weight_uid: float = 0.0, weight_cid: float = 0.0):
+    def set_personalization(self, weight_uid: float = 0, weight_cid: float = 0):
         weight_others = 1 - weight_uid - weight_cid
 
         if weight_uid == 0:
@@ -37,29 +32,29 @@ class FastPersonalizedPageRank(Recommender):
 
         self.personalization = (weight_uid, weight_cid, weight_others)
 
-    def _personalization(self, uid, cid):
+    def _personalization(self, u_id, c_id):
         personalization = []
 
         for node in self.nx_graph.nodes:
             uri = str(node)
-            if uri in uid:
+            if uri == u_id:
                 personalization.append(self.personalization[0])
-            elif uri in cid:
+            elif uri == c_id:
                 personalization.append(self.personalization[1])
             else:
                 personalization.append(self.personalization[2])
 
         return np.array(personalization)
 
-    def run(self, uid: [] = None, cid: [] = None):
-        if uid is not None and cid is not None:
-            weights = self._personalization(uid, cid)
+    def run(self, u_id: str = None, c_id: str = None):
+        if u_id is not None and c_id is not None:
+            weights = self._personalization(u_id, c_id)
             return pagerank_power(self.model, p=self.alpha, personalize=weights, tol=self.tolerance)
 
         return pagerank_power(self.model, p=self.alpha, tol=self.tolerance)
 
-    def predict(self, uid: [] = None, cid: [] = None, **kwargs):
-        ranking = self.run(uid, cid)
+    def predict(self, u_id: str = None, c_id: str = None, **kwargs):
+        ranking = self.run(u_id, c_id)
         pr = {}
 
         i = 0
@@ -68,8 +63,25 @@ class FastPersonalizedPageRank(Recommender):
             i += 1
 
         recommendations = \
-            [{'contextId': cid, 'itemId': item, 'score': p} for item, p in pr.items() if item in self.items]
+            [
+                {'contextId': str(c_id), 'itemId': str(item), 'score': p}
+                for item, p in pr.items()
+                if str(item) in list(self.dao.get_items_by_context(c_id))
+            ]
         return sorted(recommendations, key=lambda n: n['score'], reverse=True)
 
-    def top_n(self, uid: [], cid: [], n: int, **kwargs):
+    def top_n(self, u_id: str = None, c_id: str = None, n: int = 5, **kwargs):
         pass
+
+
+if __name__ == '__main__':
+    graph_ = Graph()
+    graph_.parse('../../dao/protego/protego_ddashboard.ttl')
+    graph_.parse('../../dao/protego/protego_zplus.ttl')
+    graph_.parse('../../dao/protego/visualizations.ttl')
+
+    dao_ = ContentRecommenderDAO(graph_)
+
+    recommender = FastPersonalizedPageRank(dao_)
+    recommendations = recommender.predict('https://dynamicdashboard.ilabt.imec.be/users/10', 'http://example.com/tx/patients/zplus_235')
+    print(recommendations)

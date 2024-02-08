@@ -6,7 +6,7 @@ from viscars.recommenders.factory import RecommenderFactory, RecommenderType
 
 if __name__ == '__main__':
     graph = Graph()
-    graph.load('../data/proeftuin/graph.ttl', format='ttl')
+    graph.load('../dao/proeftuin/graph.ttl', format='ttl')
 
     factory = RecommenderFactory()
     recommender = factory.get(RecommenderType.PPR)(graph, alpha=0.8)

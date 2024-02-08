@@ -1,15 +1,15 @@
 from abc import ABC, abstractmethod
 import gzip
 import pickle
+from rdflib import Graph
+
+from viscars.dao import DAO
 
 
 class SimilarityMetric(ABC):
 
-    def __init__(self, graph, verbose=False):
-        self.graph = graph
+    def __init__(self, dao: DAO, verbose=False):
         self.verbose = verbose
-
-        self.data = dict()
 
         self._build_model()
 

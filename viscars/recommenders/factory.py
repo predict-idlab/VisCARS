@@ -1,23 +1,29 @@
 from enum import Enum
 
+from viscars.recommenders.cbcf import ContextBasedCollaborativeFiltering
+from viscars.recommenders.cf import CollaborativeFiltering
 from viscars.recommenders.fastppr import FastPersonalizedPageRank
-from viscars.recommenders.pagerank import NetworkXPageRank
+from viscars.recommenders.mf import MatrixFactorization
+from viscars.recommenders.pagerank import PageRank
 from viscars.recommenders.ppr import NetworkXPersonalizedPageRank
-from viscars.recommenders.random import RandomRank
+from viscars.recommenders.random_ import RandomRank
 
 
 class RecommenderType(Enum):
-    """Metric types."""
-    PAGERANK = 'pagerank'
-    PPR = 'ppr'
-    FAST_PPR = 'fast_ppr'
-    RANDOM = 'random'
+    """Recommender types."""
+    CBCF = ('cbcf', 'context_based_collaborative_filtering')
+    CF = ('cf', 'collaborative_filtering')
+    FAST_PPR = ('fast_ppr', 'fast_personalized_pagerank')
+    MF = ('mf', 'matrix_factorization')
+    PAGERANK = ('pagerank',)
+    PPR = ('ppr', 'personalized_pagerank')
+    RANDOM = ('random',)
 
     @classmethod
     def reverse_lookup(cls, value):
         """Reverse lookup."""
         for _, member in cls.__members__.items():
-            if member.value == value:
+            if value in member.value:
                 return member
         raise LookupError
 
@@ -25,9 +31,12 @@ class RecommenderType(Enum):
 class RecommenderFactory:
     """Recommender factory."""
     types_ = {
-        RecommenderType.PAGERANK: NetworkXPageRank,
-        RecommenderType.PPR: NetworkXPersonalizedPageRank,
+        RecommenderType.CBCF: ContextBasedCollaborativeFiltering,
+        RecommenderType.CF: CollaborativeFiltering,
         RecommenderType.FAST_PPR: FastPersonalizedPageRank,
+        RecommenderType.MF: MatrixFactorization,
+        RecommenderType.PAGERANK: PageRank,
+        RecommenderType.PPR: NetworkXPersonalizedPageRank,
         RecommenderType.RANDOM: RandomRank,
     }
 
@@ -36,7 +45,7 @@ class RecommenderFactory:
         Retrieve a recommender.
 
         :param type_: RecommenderType
-        :return: Metric
+        :return: Recommender
         """
         cls = self.types_[type_]
         return cls

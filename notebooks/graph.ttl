@@ -1,0 +1,2691 @@
+@prefix ns1: <http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/tx/dashboards/0194546e-0b80-4f46-99fe-eea3b6dd0e2e> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 84" ;
+    ns1:hasTab <http://example.com/tx/tabs/fa9f62eb-4657-439f-882c-6dfecf0e11b7> .
+
+<http://example.com/tx/dashboards/04bdc7f7-4d28-42a2-8531-811f4a88d3d4> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 153" ;
+    ns1:hasTab <http://example.com/tx/tabs/5cd74450-df48-44c8-9d21-4e40aba7697e> .
+
+<http://example.com/tx/dashboards/05dda741-7f6a-494e-8c61-7579767aa667> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 151" ;
+    ns1:hasTab <http://example.com/tx/tabs/ac3f603f-45d3-4763-b9ab-150db8dc667c> .
+
+<http://example.com/tx/dashboards/0881a072-e160-4f81-a03d-81b6f63fd83e> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 235" ;
+    ns1:hasTab <http://example.com/tx/tabs/69798fe1-22ac-484c-ad84-626e797d0b81> .
+
+<http://example.com/tx/dashboards/1411365b-d708-4cb8-bcff-7127b92348f8> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 11" ;
+    ns1:hasTab <http://example.com/tx/tabs/23177f18-9396-420b-bba3-500d6bd85e80> .
+
+<http://example.com/tx/dashboards/150267ef-e385-449f-ae9b-dffd17b284ad> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 5" ;
+    ns1:hasTab <http://example.com/tx/tabs/5ad65822-7cf4-4ab3-b10a-63da45e35a05> .
+
+<http://example.com/tx/dashboards/174c5e8e-fcf4-4254-9ba6-77b63da867f4> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 124" ;
+    ns1:hasTab <http://example.com/tx/tabs/fc21062c-340b-4d4f-94b3-4b34aa803a7c> .
+
+<http://example.com/tx/dashboards/19c86613-73d8-4f5f-9562-b8db014e240e> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 282" ;
+    ns1:hasTab <http://example.com/tx/tabs/7369b081-c4c9-4c29-abbb-ff9c2f3c435c> .
+
+<http://example.com/tx/dashboards/1a739079-1b72-4875-9f80-d196751b6811> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 62" ;
+    ns1:hasTab <http://example.com/tx/tabs/279f466b-c99b-4e5f-b1eb-79f5314a6fff> .
+
+<http://example.com/tx/dashboards/1f42c825-b898-4ce3-abe5-70a5192718bc> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 271" ;
+    ns1:hasTab <http://example.com/tx/tabs/67e32b5f-c3d8-4693-bd03-559cccc211ef> .
+
+<http://example.com/tx/dashboards/2758d681-d030-4687-a075-d4810003cfb4> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 81" ;
+    ns1:hasTab <http://example.com/tx/tabs/bbe68706-f593-4674-9986-1a2d6aed67b8> .
+
+<http://example.com/tx/dashboards/2944a25f-c3dd-4dfd-bb12-c314b32f9e91> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 99" ;
+    ns1:hasTab <http://example.com/tx/tabs/6c4d9a20-3a4d-4547-8090-c95c8a0b8687> .
+
+<http://example.com/tx/dashboards/29e8eb1c-88ae-4535-a989-6fb10b83d5aa> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 66" ;
+    ns1:hasTab <http://example.com/tx/tabs/9b4e1f07-1cba-4089-833c-7833ec4ab133> .
+
+<http://example.com/tx/dashboards/2e9077b3-aa14-49a5-b715-267a23e39149> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 165" ;
+    ns1:hasTab <http://example.com/tx/tabs/8dab43d1-dd0c-4794-a41b-5747748d22ff> .
+
+<http://example.com/tx/dashboards/2eaeb02b-6828-4b63-a7ad-cd376aa59666> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 68" ;
+    ns1:hasTab <http://example.com/tx/tabs/5d969ca6-6e84-4579-bc0a-b6406d1eff57> .
+
+<http://example.com/tx/dashboards/361e96f4-11a3-4b78-b64d-97002519c2ce> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 46" ;
+    ns1:hasTab <http://example.com/tx/tabs/9ea926d7-db8b-41da-9583-f0419534674d> .
+
+<http://example.com/tx/dashboards/3ee0285e-3652-41c6-a170-f60332122806> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 256" ;
+    ns1:hasTab <http://example.com/tx/tabs/5e4852ac-0da8-42a2-af0b-728ad7648eb2> .
+
+<http://example.com/tx/dashboards/3efcefd3-abe5-477c-8241-badab549d74c> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 62" ;
+    ns1:hasTab <http://example.com/tx/tabs/bd01bc69-d100-4a4d-bd85-8ba35e9bff99> .
+
+<http://example.com/tx/dashboards/436ff1b7-c5ee-4dac-b201-fa74114de01f> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 178" ;
+    ns1:hasTab <http://example.com/tx/tabs/e4188efa-03a3-4085-a2db-7d9b47bca730> .
+
+<http://example.com/tx/dashboards/43c90e9c-7f69-414a-a931-501f91d6ab4b> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 175" ;
+    ns1:hasTab <http://example.com/tx/tabs/c1516453-1901-4fae-a8e5-67e6308d607a> .
+
+<http://example.com/tx/dashboards/4c6309ca-0e63-422b-a859-27a46da9abe8> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 161" ;
+    ns1:hasTab <http://example.com/tx/tabs/dcda51ad-fa08-40a7-beb2-76ecddd19f31> .
+
+<http://example.com/tx/dashboards/60b67577-856f-4d3f-8136-22d1d9804b6d> a ns1:Dashboard ;
+    rdfs:label "PROTEOG | Patient Z-Plus 31" ;
+    ns1:hasTab <http://example.com/tx/tabs/b9f5d3c5-a709-42ad-8716-52154fdf8fa6> .
+
+<http://example.com/tx/dashboards/6469713d-07e4-47ef-9c39-c239b4576e88> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 31" ;
+    ns1:hasTab <http://example.com/tx/tabs/23b8c35e-839f-4292-bf6e-d604fb80519f> .
+
+<http://example.com/tx/dashboards/65885eae-639d-453e-8c72-67304ee67b94> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 263" ;
+    ns1:hasTab <http://example.com/tx/tabs/7c541f91-e81e-4cd8-b64e-1ffa7fe7e56c> .
+
+<http://example.com/tx/dashboards/6b44141e-b519-4b87-b494-ce14af5baa79> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 166" ;
+    ns1:hasTab <http://example.com/tx/tabs/67376e28-eb33-43f3-b6c8-711f8268e00e> .
+
+<http://example.com/tx/dashboards/710563d0-e7d8-44a1-8c1a-6edb6fcd04d0> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 200" ;
+    ns1:hasTab <http://example.com/tx/tabs/0de511e0-4ca6-41bb-bb92-b73bdb8bd71a> .
+
+<http://example.com/tx/dashboards/79144b12-61d4-44f7-ba3c-af8638506757> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 24" ;
+    ns1:hasTab <http://example.com/tx/tabs/e1bf32e2-2515-4db9-ba92-029332f4fcc9> .
+
+<http://example.com/tx/dashboards/7ae47c45-8908-4efa-8200-20ab44d1b8fe> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 6" ;
+    ns1:hasTab <http://example.com/tx/tabs/50222cf4-716e-496a-998a-f812aa593816> .
+
+<http://example.com/tx/dashboards/85d86999-c1d7-42a9-9e56-b94597ad6ca4> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 33" ;
+    ns1:hasTab <http://example.com/tx/tabs/698c460e-049b-4986-8335-089554c89bd0> .
+
+<http://example.com/tx/dashboards/90b8b81e-5956-4fbd-b4de-f08a3f68ed36> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 10" ;
+    ns1:hasTab <http://example.com/tx/tabs/e2ba39b5-1db8-4636-b7f5-8a0c134c5410> .
+
+<http://example.com/tx/dashboards/9aa94138-4465-4244-a7ef-9400279bea0a> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 139" ;
+    ns1:hasTab <http://example.com/tx/tabs/45e503a0-412b-4506-b734-5eb621f8b072> .
+
+<http://example.com/tx/dashboards/9da7aa2c-f55d-4a07-8f61-c5c4eafa9f0f> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 200" ;
+    ns1:hasTab <http://example.com/tx/tabs/11051e55-cb34-4946-99b4-07615f8074fe> .
+
+<http://example.com/tx/dashboards/a457a651-6569-4d2e-8482-18d36ad8f9e2> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 206" ;
+    ns1:hasTab <http://example.com/tx/tabs/f1737380-ac31-41ad-bbbc-c8d74a4f84e0> .
+
+<http://example.com/tx/dashboards/abb6f0a7-4e36-4900-85c0-1f045745d36d> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 175" ;
+    ns1:hasTab <http://example.com/tx/tabs/82b36695-a8b1-4d78-9338-1b8bcdca05a3> .
+
+<http://example.com/tx/dashboards/afaf657a-7dc7-46bb-9da7-f1080d227e60> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 134" ;
+    ns1:hasTab <http://example.com/tx/tabs/06755a0a-bd8f-4818-9dd6-40a2e6527abe> .
+
+<http://example.com/tx/dashboards/b0243c1d-7488-44dd-83ab-088ff9ca0ca3> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 25" ;
+    ns1:hasTab <http://example.com/tx/tabs/61a48897-2517-4e29-a7e9-8bbe7d73705a> .
+
+<http://example.com/tx/dashboards/bff2d10f-cb0b-4645-b9a4-29a562a3ddb5> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 49" ;
+    ns1:hasTab <http://example.com/tx/tabs/eeb82a13-7bf1-4ca0-9013-34a7ee47b37c> .
+
+<http://example.com/tx/dashboards/c2e41505-1815-4878-975f-4a3ee0873530> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 254" ;
+    ns1:hasTab <http://example.com/tx/tabs/27e4d141-97ec-49e8-b278-947dd40c9fd5> .
+
+<http://example.com/tx/dashboards/c8bbd515-1d08-459c-8162-c9d8cdd691a1> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 192" ;
+    ns1:hasTab <http://example.com/tx/tabs/a78907ce-7140-4dea-a395-e72496897334> .
+
+<http://example.com/tx/dashboards/d278c197-4984-4658-9637-c32168d1f16d> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 1" ;
+    ns1:hasTab <http://example.com/tx/tabs/6d5c96a1-a3cd-42d5-a3e7-421b5f946d31> .
+
+<http://example.com/tx/dashboards/e14982d9-8863-4498-a5f7-453a8ac5dc27> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 118" ;
+    ns1:hasTab <http://example.com/tx/tabs/52994033-9222-4ac0-814c-939d29fb183c> .
+
+<http://example.com/tx/dashboards/ea93a7cc-2dfd-4582-b6a3-397547d148b0> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 90" ;
+    ns1:hasTab <http://example.com/tx/tabs/c52d9d24-17c8-4efa-a813-c502c30125d0> .
+
+<http://example.com/tx/dashboards/ebf57cbd-e42e-495b-9861-b63bb46fb7c8> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 84" ;
+    ns1:hasTab <http://example.com/tx/tabs/e5d25425-8217-472b-9457-519a84e6cb21> .
+
+<http://example.com/tx/dashboards/fbb2d167-fb4f-4a65-b7d2-494b96f770b5> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 172" ;
+    ns1:hasTab <http://example.com/tx/tabs/a7a5afdb-4f7f-4813-ab9a-e8340bd0c7fc> .
+
+<http://example.com/tx/dashboards/fc386acb-365a-42d9-a000-c0432323b0d0> a ns1:Dashboard ;
+    rdfs:label "PROTEGO | Patient Z-Plus 116" ;
+    ns1:hasTab <http://example.com/tx/tabs/b6574d1c-d929-430f-83b1-a81a3a0302e6> .
+
+<http://example.com/tx/users/8f0f64e3-973e-40dc-b069-e5a4c138fd07> a ns1:User ;
+    rdfs:label "zplus_nurse4" ;
+    ns1:memberOf <https://dynamicdashboard.ilabt.imec.be/groups/nurse> .
+
+<https://dynamicdashboard.ilabt.imec.be/users/4> a ns1:User ;
+    rdfs:label "Amaron" ;
+    ns1:memberOf <https://dynamicdashboard.ilabt.imec.be/groups/operator> .
+
+<https://dynamicdashboard.ilabt.imec.be/users/5> a ns1:User ;
+    rdfs:label "Televic" ;
+    ns1:memberOf <https://dynamicdashboard.ilabt.imec.be/groups/nurse> .
+
+<http://example.com/tx/boundaries/035d09d9-ca68-4866-879c-b467b34366f3> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "145" ;
+    ns1:hasMinBoundary "120" .
+
+<http://example.com/tx/boundaries/0539b551-08e1-4941-bd12-cfde71ae28b3> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "80" ;
+    ns1:hasMinBoundary "70" .
+
+<http://example.com/tx/boundaries/0608d28f-1db0-4223-a428-2db9db534fa6> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "130" ;
+    ns1:hasMinBoundary "110" .
+
+<http://example.com/tx/boundaries/066ea11c-efb5-46d4-9f06-eb20d80d0317> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "90" ;
+    ns1:hasMinBoundary "65" .
+
+<http://example.com/tx/boundaries/07535c84-2512-417d-8242-815c32048497> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "101" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/07757ba9-b387-44e3-9c72-b163aed65c6e> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "145" ;
+    ns1:hasMinBoundary "120" .
+
+<http://example.com/tx/boundaries/0800dd59-cc42-4667-981b-af7b0c0f8154> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "180" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/095bc4c6-eeac-4a11-92d7-09138887cd6b> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "80" ;
+    ns1:hasMinBoundary "70" .
+
+<http://example.com/tx/boundaries/0b52e63a-79cd-4267-af02-6f77a297109a> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "145" ;
+    ns1:hasMinBoundary "120" .
+
+<http://example.com/tx/boundaries/0cc75116-4bfe-4018-acf8-981453214c24> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "101" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/0cd566a7-f66a-4acf-8bca-4dd8f2ad6e71> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/0d6e9feb-f2d7-480f-afa5-6ff432d139dd> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "140" ;
+    ns1:hasMinBoundary "130" .
+
+<http://example.com/tx/boundaries/0ddb3a5e-ff33-463b-a515-685b017ca726> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/0fa0796c-de77-4b7d-87e8-b1b80b5052a4> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "65" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/10cb67fe-1bef-46ff-84b5-d56da4a3e8bc> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "55" .
+
+<http://example.com/tx/boundaries/1114a03f-5279-4509-b4de-1666680f1160> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "110" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/1248b254-2d7c-43d4-9a5c-8bab19bc0457> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "110" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/1263888f-baca-4e1b-a653-3dc74f7f069a> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "130" ;
+    ns1:hasMinBoundary "110" .
+
+<http://example.com/tx/boundaries/1334b2fa-f50d-44d8-a7a4-554a721240ee> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "110" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/15b5bbf8-20f4-4094-967a-1226b41afabe> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "140" ;
+    ns1:hasMinBoundary "130" .
+
+<http://example.com/tx/boundaries/16b9bea4-eb8d-4bf9-9d38-f34041304854> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/18e3dc8a-9421-446c-8dd4-82c3417dfc29> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "65" ;
+    ns1:hasMinBoundary "55" .
+
+<http://example.com/tx/boundaries/1a0d5863-f9a8-4bd5-bbdc-abba36723ab7> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "90" ;
+    ns1:hasMinBoundary "65" .
+
+<http://example.com/tx/boundaries/1b4df808-c135-4182-bf01-36fa1b15ec52> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "105" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/1b51457d-d399-4235-8b49-f571a61cef95> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "92" .
+
+<http://example.com/tx/boundaries/1baa3145-e389-469b-ac19-e9902bd56ccc> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "70" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/1ca9362e-d1f8-4571-8f9d-0c1172310150> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "140" ;
+    ns1:hasMinBoundary "130" .
+
+<http://example.com/tx/boundaries/1cfbc782-f8e2-4f70-af19-1a6afefb4e7e> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "180" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/1d4b38cc-ca89-45f4-830e-d1c815482904> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "105" .
+
+<http://example.com/tx/boundaries/1d656433-8417-46c8-944a-9cdeb54ed625> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "55" .
+
+<http://example.com/tx/boundaries/1da82414-643b-426b-bb0b-360b9ae44080> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "120" ;
+    ns1:hasMinBoundary "80" .
+
+<http://example.com/tx/boundaries/1eef3757-ac34-41c9-95fb-832dc6abacda> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "55" .
+
+<http://example.com/tx/boundaries/1effb9e6-3751-479c-b550-0664a2710141> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "140" ;
+    ns1:hasMinBoundary "130" .
+
+<http://example.com/tx/boundaries/208775ec-6763-422e-8727-7e7e59463f97> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/2123e91a-442a-4935-9075-f0841fd33fc5> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "80" ;
+    ns1:hasMinBoundary "70" .
+
+<http://example.com/tx/boundaries/23818f5f-237d-40f2-9b55-984e2fc0311d> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "90" .
+
+<http://example.com/tx/boundaries/239f4940-3c14-4f23-92f4-5121b8b98f0c> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/26be75f4-f72b-4d33-9aab-438412d2c9a2> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "145" ;
+    ns1:hasMinBoundary "120" .
+
+<http://example.com/tx/boundaries/2759c732-a9a1-46ae-8fc0-46e963c8f3dd> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/28c4427b-b72e-43ff-b019-2ccbf53853a1> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "90" .
+
+<http://example.com/tx/boundaries/29ec8a47-2c57-448d-91e8-ab3c8d201cc6> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "90" .
+
+<http://example.com/tx/boundaries/2cd07eb3-f8dc-4a2f-aa56-82a1dc8aef76> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "92" .
+
+<http://example.com/tx/boundaries/2e970498-eb4a-4fa8-ad5d-326d73e00e6b> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "145" ;
+    ns1:hasMinBoundary "120" .
+
+<http://example.com/tx/boundaries/2ea48f54-4dd0-465a-ad91-3ad765824b9b> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "120" ;
+    ns1:hasMinBoundary "80" .
+
+<http://example.com/tx/boundaries/2fa7fdcc-9dae-4959-bc1c-b8ae3ff4b412> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/31bec481-2364-4924-8e76-1ab5331912c9> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "140" .
+
+<http://example.com/tx/boundaries/322397fe-4a00-4eed-92f0-4d59bb39fa85> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "180" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/32acc6c5-1816-4c16-a76e-c04a957f0df6> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "92" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/32d5da31-5132-41d1-a586-4c25a979cd71> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "140" .
+
+<http://example.com/tx/boundaries/331a00bf-8ba0-4bc3-badc-74046c525a5b> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "120" ;
+    ns1:hasMinBoundary "80" .
+
+<http://example.com/tx/boundaries/34941260-3a3d-4ce9-97ba-5e0e3c3564f1> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "90" .
+
+<http://example.com/tx/boundaries/34988b8d-3c28-4765-a157-afd9c05cb65e> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/3715a575-ceca-4b0f-9d66-afe4fdded4a1> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "140" .
+
+<http://example.com/tx/boundaries/39ce760c-e912-4729-9e5b-c46a8fa8c226> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "120" ;
+    ns1:hasMinBoundary "80" .
+
+<http://example.com/tx/boundaries/3b71d108-81dd-4cd9-9dd7-04ee1d271513> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "90" .
+
+<http://example.com/tx/boundaries/3e4a644a-4df2-403e-aef3-8da69c3c84e9> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "145" .
+
+<http://example.com/tx/boundaries/3e910cbe-c1a0-4011-827c-444e2ff2a977> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "80" ;
+    ns1:hasMinBoundary "70" .
+
+<http://example.com/tx/boundaries/3ffbf9ac-795a-4b40-b3d9-79657983ab44> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "80" ;
+    ns1:hasMinBoundary "70" .
+
+<http://example.com/tx/boundaries/437f0466-96f4-4dea-a5e0-5148f71f1f16> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "140" ;
+    ns1:hasMinBoundary "130" .
+
+<http://example.com/tx/boundaries/48477081-d315-4254-a167-e10de2caefde> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "110" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/48d03807-01bf-428c-97dc-5c72b92e54e0> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "70" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/4b16a623-24b5-4d8d-912f-3adfb86bf1d2> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "55" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/4b683671-19a3-452b-8258-4a1b0d2ccf73> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "101" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/4dec5159-835e-49e9-ba02-c0cc05ac4e37> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "105" .
+
+<http://example.com/tx/boundaries/4eaaa353-3d8d-46b3-b611-e93f86d1dfc3> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "55" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/4fc3f1c1-cbd4-48d3-aaa1-8fd3d76cd411> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "90" ;
+    ns1:hasMinBoundary "65" .
+
+<http://example.com/tx/boundaries/50d79c43-d1e8-4b59-bd39-a53758a17338> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/511429c8-d6e3-47c1-b469-93fc305af6a4> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "90" ;
+    ns1:hasMinBoundary "65" .
+
+<http://example.com/tx/boundaries/51272cde-3b37-496e-8275-128b0a26b255> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "92" .
+
+<http://example.com/tx/boundaries/51825653-ca40-425b-9e62-2044faa77e56> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "110" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/51988b5d-32e5-4a88-a1f6-970a9db2fda7> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "70" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/52fffb3a-4024-412f-81e9-39766fee092a> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "120" ;
+    ns1:hasMinBoundary "80" .
+
+<http://example.com/tx/boundaries/5316b01f-69c1-4c0a-b526-3606d49c3104> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "90" ;
+    ns1:hasMinBoundary "65" .
+
+<http://example.com/tx/boundaries/5327c10f-2c49-4a02-9bc1-5d99c5c9a088> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "110" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/539769c3-5cfa-4ff9-92fc-8b5be682edfd> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "105" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/55a88802-1eac-4d5b-aafd-30dc2ff91c40> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "92" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/55cf5dcb-b7fc-4a73-9fd2-f42ff9eb0e53> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "140" ;
+    ns1:hasMinBoundary "130" .
+
+<http://example.com/tx/boundaries/5839e23e-8901-403c-ac28-133390b8e91a> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "105" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/59861c4a-e02b-4dab-b29a-70d7ad9c468d> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/5a596a51-3fb5-4294-95a6-b6717ec573c4> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "110" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/5aa98449-2e98-4bf3-aa33-3dad7f1b3b15> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "65" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/5cb84177-16d0-41d2-ae75-988ff0f63f02> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "80" ;
+    ns1:hasMinBoundary "70" .
+
+<http://example.com/tx/boundaries/5cde29be-107b-4c79-aa0f-69e166bf467e> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "65" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/5ead9144-8038-47cd-93eb-2d83e6993596> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "55" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/5fdcbe71-370a-4543-8d53-4b576c76d79e> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/5fe8599e-7385-467d-8635-88b8a3256278> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "105" .
+
+<http://example.com/tx/boundaries/60311bb9-92bf-4b49-a737-a771277263a9> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "92" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/61864cca-df3c-4088-9734-7ae6d8c97ef1> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "90" ;
+    ns1:hasMinBoundary "65" .
+
+<http://example.com/tx/boundaries/625dff2b-afc3-447b-90c0-1a98b77c5ef6> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/6434a72a-5429-40df-a722-f7d9bb8f3b08> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "90" ;
+    ns1:hasMinBoundary "65" .
+
+<http://example.com/tx/boundaries/650a332d-fd3f-40a5-8651-2bb2eb376e48> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/667c4eb8-65a0-41f0-b91f-f5f967339cc2> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "55" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/6755882e-ca7a-40e2-9616-bf923b7c69bf> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "90" ;
+    ns1:hasMinBoundary "65" .
+
+<http://example.com/tx/boundaries/678e9c82-d79f-4cee-89b2-7d781851cb99> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "80" ;
+    ns1:hasMinBoundary "70" .
+
+<http://example.com/tx/boundaries/682f50a5-a99e-4e5d-a708-3c3d5b4c21ea> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "140" .
+
+<http://example.com/tx/boundaries/68348635-8347-4840-8e07-567373218e69> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/68932e46-0ad1-4d2e-966e-12a43a8f64fe> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "55" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/6917c84d-71c1-4edd-a882-e6a1816df97d> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/69812b47-d618-4338-9390-11a111217d5d> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "90" .
+
+<http://example.com/tx/boundaries/6cebb5fa-3812-46d3-a6ca-daa0cd8db2f6> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "200" ;
+    ns1:hasMinBoundary "145" .
+
+<http://example.com/tx/boundaries/6e053126-0591-49dc-a2f7-2b5888170849> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "80" ;
+    ns1:hasMinBoundary "70" .
+
+<http://example.com/tx/boundaries/6f598907-5a07-42ad-9a4f-537e2d0c1ad0> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "80" ;
+    ns1:hasMinBoundary "70" .
+
+<http://example.com/tx/boundaries/6fbbf8c4-53cd-4b51-b068-63a61a1a2f89> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "65" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/701f8c69-3d15-4832-9690-9fc37b642e0f> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "130" ;
+    ns1:hasMinBoundary "110" .
+
+<http://example.com/tx/boundaries/70619df3-b40a-49ef-b027-09443ddca628> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "180" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/728d0445-6811-41d6-86e1-b5c325933baa> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "140" .
+
+<http://example.com/tx/boundaries/737eafe7-6599-4eff-a8d9-78c35bf5f19b> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "130" ;
+    ns1:hasMinBoundary "110" .
+
+<http://example.com/tx/boundaries/73d75082-3364-443b-a233-23af3b498970> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "180" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/750fba81-4e6a-45f6-be4c-8abaad0edd3a> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "130" ;
+    ns1:hasMinBoundary "110" .
+
+<http://example.com/tx/boundaries/75323895-1dbb-4415-be22-d2e919b31947> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "80" ;
+    ns1:hasMinBoundary "70" .
+
+<http://example.com/tx/boundaries/75680591-8c5c-4bad-a8f9-cb808e965740> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "145" .
+
+<http://example.com/tx/boundaries/7675ebc1-9474-49eb-8ca7-45feabb54e05> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "65" ;
+    ns1:hasMinBoundary "55" .
+
+<http://example.com/tx/boundaries/7a28ae4d-704b-4d43-9c61-df45b1b5d9d0> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "105" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/7ade93e4-a3f3-4965-b878-53e251c6ffc1> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "92" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/7c187473-b89d-4522-8d9d-c83caf25f1c3> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "90" ;
+    ns1:hasMinBoundary "65" .
+
+<http://example.com/tx/boundaries/7d2e3706-0e32-40de-b0b2-485678424783> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "101" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/7e5cd17d-bd93-4082-9410-39b15d8bc738> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "145" ;
+    ns1:hasMinBoundary "120" .
+
+<http://example.com/tx/boundaries/7e781169-a266-45f1-b626-6b67087d0692> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "120" ;
+    ns1:hasMinBoundary "80" .
+
+<http://example.com/tx/boundaries/7f35fbfb-2d36-447b-a6d4-36f2620d288e> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "92" .
+
+<http://example.com/tx/boundaries/808fa254-f92c-4686-a218-beffec4bb5c8> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "140" ;
+    ns1:hasMinBoundary "130" .
+
+<http://example.com/tx/boundaries/81228942-0949-4ea2-bba0-c15eefdbe85f> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "70" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/8488744b-56d2-4c48-9b7b-6490d144f276> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "145" .
+
+<http://example.com/tx/boundaries/856d8ab9-d2f7-44c4-982c-d5e72a77c291> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "180" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/8694d681-5a9b-477a-b292-6fff7b20336f> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "130" ;
+    ns1:hasMinBoundary "110" .
+
+<http://example.com/tx/boundaries/874cc0b6-b664-4db0-b5c6-33c85e87b49c> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/891ec3e4-56f2-4ace-8840-84be67ccbe31> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "110" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/8951dc08-4d8b-48a8-84d4-ef71608756a6> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "90" .
+
+<http://example.com/tx/boundaries/897cada2-7701-4e1c-b19e-ec62d1af5afe> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "80" ;
+    ns1:hasMinBoundary "70" .
+
+<http://example.com/tx/boundaries/8a93ee17-9539-44f1-a7b4-311222568c5e> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "120" ;
+    ns1:hasMinBoundary "80" .
+
+<http://example.com/tx/boundaries/8cd809ae-2527-468c-a8c0-8492acbf0b45> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "140" .
+
+<http://example.com/tx/boundaries/8e0a737c-fad9-4855-8b4d-6869f50830c3> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "140" ;
+    ns1:hasMinBoundary "130" .
+
+<http://example.com/tx/boundaries/8e4ab705-39ed-4d02-9f0d-05e21fb62a8e> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "101" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/8e579bd1-86fe-4b32-91f8-c5338680335a> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "140" .
+
+<http://example.com/tx/boundaries/902cc3c8-c5c1-4f31-9e4a-ba368091afab> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "140" ;
+    ns1:hasMinBoundary "130" .
+
+<http://example.com/tx/boundaries/90f86e17-b768-4ef6-8a57-cbdf78226769> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "200" ;
+    ns1:hasMinBoundary "145" .
+
+<http://example.com/tx/boundaries/93781909-d683-464e-9dae-0f0957e5c2ad> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "92" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/9457987e-02f5-40f1-a10e-41d4aa8e3fa7> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "105" .
+
+<http://example.com/tx/boundaries/94f74018-be79-4afe-85d2-9d42a34eabc4> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "140" .
+
+<http://example.com/tx/boundaries/954e25dc-0b43-4b9d-a456-558ca0c3823a> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "140" .
+
+<http://example.com/tx/boundaries/975b8264-78fd-4f57-b29f-0a4dfc0dc341> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "140" ;
+    ns1:hasMinBoundary "130" .
+
+<http://example.com/tx/boundaries/979a6165-f3e9-431c-b15e-c5c7a8df2752> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "130" ;
+    ns1:hasMinBoundary "110" .
+
+<http://example.com/tx/boundaries/9cdb1d01-05b2-49c4-99d7-200c60e8d915> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "200" ;
+    ns1:hasMinBoundary "145" .
+
+<http://example.com/tx/boundaries/9daf46c4-499c-4f35-b806-efc5b21d3745> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "120" ;
+    ns1:hasMinBoundary "80" .
+
+<http://example.com/tx/boundaries/9f228830-55cc-47c9-bc49-7f849bb01b7e> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "65" .
+
+<http://example.com/tx/boundaries/9f4b9fd3-dd7c-4ab3-b1da-832c9f21f2a0> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/a0bfecf3-d0e2-416e-88ab-31f17bd29eaa> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "90" .
+
+<http://example.com/tx/boundaries/a10733d3-1ae4-4d68-bfb2-b2bb457e4693> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "70" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/a115511f-76ac-4d84-8603-44c7aba999dc> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "70" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/a15a0aae-9bba-45fd-8b73-bbeb93595682> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "70" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/a1d4ee59-54a8-4b86-966e-384bcc8a1410> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/a348d007-0ebb-4136-8aeb-b550053de3a9> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "65" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/a3c7da91-d607-4baf-9114-a41a66bcfe08> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "105" .
+
+<http://example.com/tx/boundaries/a40ca334-a87f-4322-9dd3-a430f9b56e07> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "145" ;
+    ns1:hasMinBoundary "120" .
+
+<http://example.com/tx/boundaries/a4345934-a30c-46e2-af20-c4468610e5c2> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "105" .
+
+<http://example.com/tx/boundaries/a52e3f03-a33b-48cc-aec8-a88f228768bc> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "70" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/a619d0e5-496c-4796-be04-db607a5ff563> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "140" .
+
+<http://example.com/tx/boundaries/a6a88a66-e21d-4367-8373-bc91a513b4ca> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "145" .
+
+<http://example.com/tx/boundaries/a7e11801-a2d8-4bc7-a9d2-e91c5fe276db> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "65" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/a8634ed9-4e98-4652-9cc9-5df424213ea4> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "180" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/a8b05aef-6628-427f-94f5-5aa310849645> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "140" .
+
+<http://example.com/tx/boundaries/a9196355-a0b5-4efb-b24d-74b4b044886d> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "65" .
+
+<http://example.com/tx/boundaries/a9c1f176-b310-41c7-bc6d-60c283009a07> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "120" ;
+    ns1:hasMinBoundary "80" .
+
+<http://example.com/tx/boundaries/a9e65a69-acfc-461d-be56-6429f35bb06d> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "145" .
+
+<http://example.com/tx/boundaries/ab648e84-5d3b-4510-b3ec-336aacfc3793> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "180" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/acf2be46-4abd-4573-b220-f7917f1e387a> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "90" ;
+    ns1:hasMinBoundary "65" .
+
+<http://example.com/tx/boundaries/ad90bbba-9ef6-434c-ba91-765e9a8ce8ce> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "110" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/af044d75-779a-4e59-900e-3fe6a4b10396> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "101" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/afe1ce4e-24a9-48cc-ae34-7c32942802f0> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/b0685f2d-90ce-409a-8e5f-9d51490c9837> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "145" ;
+    ns1:hasMinBoundary "120" .
+
+<http://example.com/tx/boundaries/b1c57e79-57cc-4493-af41-500acc27fc5b> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "180" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/b36b3f0c-b2a1-4176-93f4-e47dc834c127> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/b59a3c7c-9f24-4d73-b1c4-72e22071642d> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "65" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/b78929b2-d6a6-4c54-963f-fef1e66fd5bf> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "145" ;
+    ns1:hasMinBoundary "120" .
+
+<http://example.com/tx/boundaries/b7c49e04-1d06-477f-9935-1d3e0107c105> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "92" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/b8692ce7-beec-4aca-979f-93a988f9002a> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "110" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/b9f38901-1c51-497c-ae93-5ef5dcb9a1bb> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "130" ;
+    ns1:hasMinBoundary "110" .
+
+<http://example.com/tx/boundaries/ba1fcc7e-89ab-4e25-9db7-5f9fc4b06d4d> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "65" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/bd94df3f-3eea-494b-b984-fe9b20a434c7> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "145" .
+
+<http://example.com/tx/boundaries/bdc7b4f2-8eb7-4534-8bea-dc77b5b1f403> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "65" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/bfa07cbf-1072-4ed4-8aee-c8f7d1af0f37> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "70" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/c1117393-8cd5-4443-9ee8-8c998cfbd3af> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "90" .
+
+<http://example.com/tx/boundaries/c36997f2-979e-4fc8-b270-a017432700ab> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/c37fa4d7-03b2-4b06-8fc2-2bf073c19d13> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "145" ;
+    ns1:hasMinBoundary "120" .
+
+<http://example.com/tx/boundaries/c49da811-0fd1-4ab4-b8c9-492b76eac1a6> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "90" .
+
+<http://example.com/tx/boundaries/c5657cb2-78f5-48dc-97d0-afabb1a01ccc> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "145" .
+
+<http://example.com/tx/boundaries/c6eb3628-b40b-4f36-9ae9-e589d1941358> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "180" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/c72d535b-a3c0-4825-af4c-daa91cdc762b> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "70" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/c7395dc6-6bde-4b50-aac4-f1a44be5b365> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/c77adf28-2e36-498f-b868-2a76fb86bdbb> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "130" ;
+    ns1:hasMinBoundary "110" .
+
+<http://example.com/tx/boundaries/c81e2a3a-799e-4106-8410-b9ce74672303> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "55" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/c9cd1276-6ef7-423c-9806-e95b1e8bc278> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "65" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/ca45d2cb-c855-486e-ba8c-b102b64b1181> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "92" .
+
+<http://example.com/tx/boundaries/cc160e9e-6bf0-4a32-9b19-da1838d187c0> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "180" ;
+    ns1:hasMinBoundary "95" .
+
+<http://example.com/tx/boundaries/cda79924-dc0c-4099-8ab4-ef6cf1482010> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "120" ;
+    ns1:hasMinBoundary "80" .
+
+<http://example.com/tx/boundaries/d1cd6358-87d8-4220-8f69-159074fee526> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "120" ;
+    ns1:hasMinBoundary "80" .
+
+<http://example.com/tx/boundaries/d24f48f0-36ac-474f-97d7-2086ef4bd793> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "105" .
+
+<http://example.com/tx/boundaries/d4db23e1-6fac-4af8-a355-d0ff9d4ab6ea> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "90" ;
+    ns1:hasMinBoundary "65" .
+
+<http://example.com/tx/boundaries/d638432a-60c8-473b-ac13-8701ac643109> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "130" ;
+    ns1:hasMinBoundary "110" .
+
+<http://example.com/tx/boundaries/d807f8b6-5ea2-496d-be19-3253f1b72410> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "80" ;
+    ns1:hasMinBoundary "70" .
+
+<http://example.com/tx/boundaries/d848d7cc-7089-4740-ad99-6f4c50f5e480> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "105" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/d9dcc662-ff8e-4b11-bdbb-335bb2abab7c> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "70" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/dbf3c1cc-66e5-4036-80ff-4caebb950a3f> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/dd296b28-56b6-48a9-a13b-e00dfd2e83ae> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "55" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/de8e68a2-9bd1-4ec7-9f33-72f1d7e8e11c> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "105" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/de9f0417-a58e-4bdf-80b5-2224b2212b51> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "140" ;
+    ns1:hasMinBoundary "130" .
+
+<http://example.com/tx/boundaries/e15650c0-ba1e-4660-a14c-85d77e4985b9> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/e65d750c-fbb3-4d2b-8f18-a5bfbd1f2154> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "145" .
+
+<http://example.com/tx/boundaries/e6828f24-403c-4b8a-ae83-9ce15131f932> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "65" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/e878342a-69ea-4fc2-b6a9-38032256b5e4> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "145" ;
+    ns1:hasMinBoundary "120" .
+
+<http://example.com/tx/boundaries/e9f1bbe5-d2b6-4251-ad8f-7b80abcd17f9> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "55" .
+
+<http://example.com/tx/boundaries/eb9619bd-d9af-4cd6-9cd6-67e2d0d71b78> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "110" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/ec8341fb-e00e-4246-8f96-f06f2b5db4a5> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "100" ;
+    ns1:hasMinBoundary "60" .
+
+<http://example.com/tx/boundaries/ef7ee8d7-d4b5-4dc7-916f-26d506e0b3ae> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "105" ;
+    ns1:hasMinBoundary "100" .
+
+<http://example.com/tx/boundaries/ef84175c-9f42-44b8-838b-af07f0dba002> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/ef8c472c-a1ad-46fa-a025-427ba6382dd6> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "120" ;
+    ns1:hasMinBoundary "80" .
+
+<http://example.com/tx/boundaries/f1734c8e-8cc8-4c70-8ab1-04004be4671c> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "green" ;
+    ns1:hasMaxBoundary "130" ;
+    ns1:hasMinBoundary "110" .
+
+<http://example.com/tx/boundaries/f432c3f8-005e-455d-b579-a94805b8cfe9> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "92" .
+
+<http://example.com/tx/boundaries/f46b26f3-2d8e-42c8-b8a0-a61a40c293be> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "55" .
+
+<http://example.com/tx/boundaries/f515866e-834d-45af-8a47-3454f2705487> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "145" ;
+    ns1:hasMinBoundary "120" .
+
+<http://example.com/tx/boundaries/fa382bc8-4239-4cc2-8905-6ecabab1d3cc> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "220" ;
+    ns1:hasMinBoundary "145" .
+
+<http://example.com/tx/boundaries/fd1f2795-5311-4cfb-8344-802f4843c582> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "70" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/fe1a84f2-7a4e-40cc-a6f2-d9fb1eafab42> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "red" ;
+    ns1:hasMaxBoundary "60" ;
+    ns1:hasMinBoundary "0" .
+
+<http://example.com/tx/boundaries/ff9faab3-4ec5-4e07-b7fa-cbd976897695> a ns1:ObservationBoundary ;
+    ns1:hasBoundaryLabel "yellow" ;
+    ns1:hasMaxBoundary "95" ;
+    ns1:hasMinBoundary "90" .
+
+<http://example.com/tx/tabs/06755a0a-bd8f-4818-9dd6-40a2e6527abe> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/60697a09-6535-4d98-aaf1-91cf9854d79a>,
+        <http://example.com/tx/widgets/82155893-f17e-434a-beaa-7aedc6084fa7> .
+
+<http://example.com/tx/tabs/0de511e0-4ca6-41bb-bb92-b73bdb8bd71a> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/1207d28c-8e9c-4f47-9e58-bc57b2ca295e>,
+        <http://example.com/tx/widgets/13e5d9dd-eca5-414f-b31d-ac1112a3fdfc>,
+        <http://example.com/tx/widgets/21421c6b-4417-48a0-8d2b-83864d70a595>,
+        <http://example.com/tx/widgets/88fe99f6-9b1c-4a95-9e08-d3a417266a09>,
+        <http://example.com/tx/widgets/8e10346c-7c82-48dc-acb9-60b95ca8fc3d>,
+        <http://example.com/tx/widgets/a0af1565-31c3-4c1c-abe9-2527b13f9e12> .
+
+<http://example.com/tx/tabs/11051e55-cb34-4946-99b4-07615f8074fe> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/45343302-2b6a-4449-a780-eda358d629f9>,
+        <http://example.com/tx/widgets/64d1374c-69eb-4c3e-aa82-db494c14b8b6>,
+        <http://example.com/tx/widgets/6f9cf72b-898a-4786-ac47-23dd24af5e82>,
+        <http://example.com/tx/widgets/c244d0ad-ac63-48f5-af23-251725d9f476>,
+        <http://example.com/tx/widgets/d39e7be1-7780-4cac-a35e-d92cae0e5e6e> .
+
+<http://example.com/tx/tabs/23177f18-9396-420b-bba3-500d6bd85e80> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/3713db41-a527-410e-8e66-b0f715971fc0>,
+        <http://example.com/tx/widgets/e14410f6-1d12-489f-a3fa-7fb00b660335> .
+
+<http://example.com/tx/tabs/23b8c35e-839f-4292-bf6e-d604fb80519f> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/7984407a-996b-496c-b14c-2aa9d388d8ba>,
+        <http://example.com/tx/widgets/ecbd4f2b-cd78-4709-adf8-58c111fe72b0> .
+
+<http://example.com/tx/tabs/279f466b-c99b-4e5f-b1eb-79f5314a6fff> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/0061d719-5d79-4f48-9ed7-426e1237569b>,
+        <http://example.com/tx/widgets/66711f33-6463-474f-ad22-6d13ed0aaf5f>,
+        <http://example.com/tx/widgets/91c225ba-32c1-47e3-bea9-10ad3b611c69>,
+        <http://example.com/tx/widgets/dea53af5-62c3-43b9-ab1b-aed19eddb4a6>,
+        <http://example.com/tx/widgets/e9581d7b-a828-40ad-bd9e-b8dcb8397dfa> .
+
+<http://example.com/tx/tabs/27e4d141-97ec-49e8-b278-947dd40c9fd5> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/32ebb862-053f-4374-8808-fef9197ee297>,
+        <http://example.com/tx/widgets/655cf170-079a-4f5a-a0e5-da79eb93c642>,
+        <http://example.com/tx/widgets/bf154f59-a5f5-4e15-b80a-951d28519677>,
+        <http://example.com/tx/widgets/cb644a6f-1fba-4c08-bb29-8a81572638b4> .
+
+<http://example.com/tx/tabs/45e503a0-412b-4506-b734-5eb621f8b072> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/06a22e62-f7ba-4c53-b6f5-55da3572d186>,
+        <http://example.com/tx/widgets/49fbee66-91b2-4a96-8562-831a7e5ce045>,
+        <http://example.com/tx/widgets/718fc099-f607-4050-b020-3b1661ce914b>,
+        <http://example.com/tx/widgets/ef4a2e8f-c0d4-417e-beee-52f64a58938f> .
+
+<http://example.com/tx/tabs/50222cf4-716e-496a-998a-f812aa593816> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/240e80d4-8e23-416b-8ec1-c3e60c31698d>,
+        <http://example.com/tx/widgets/3ac69ce9-460b-42a1-bba2-e5a5122138bf>,
+        <http://example.com/tx/widgets/631d84aa-9930-4e63-9c86-60e9f7b01986> .
+
+<http://example.com/tx/tabs/52994033-9222-4ac0-814c-939d29fb183c> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/2eb6d965-e6eb-4b98-a96d-41701137b104>,
+        <http://example.com/tx/widgets/a5c33c97-02a7-4a26-85b4-4ea133c302b4>,
+        <http://example.com/tx/widgets/ea34d223-448b-46e7-8ed4-0a384fdfed69> .
+
+<http://example.com/tx/tabs/5ad65822-7cf4-4ab3-b10a-63da45e35a05> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/2f4b87a7-1bc3-4c81-8ea7-90504bd84158>,
+        <http://example.com/tx/widgets/d38b8096-497a-41a4-ae25-aa5a81ebb506>,
+        <http://example.com/tx/widgets/d8b1b538-c0e5-4eff-b1c8-0e8341c79aec> .
+
+<http://example.com/tx/tabs/5cd74450-df48-44c8-9d21-4e40aba7697e> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/08cbd2c3-1e8b-4599-8232-50687ba9ca3b>,
+        <http://example.com/tx/widgets/0eb6f7d7-2118-4b93-8126-b12569073381>,
+        <http://example.com/tx/widgets/63d5317c-3b7d-4e94-86fe-67b4f011c520>,
+        <http://example.com/tx/widgets/648279bc-bc0e-456e-b46f-ccffe733789a>,
+        <http://example.com/tx/widgets/e5a393be-bc88-4608-801e-7606a2d1993d> .
+
+<http://example.com/tx/tabs/5d969ca6-6e84-4579-bc0a-b6406d1eff57> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/491b6917-1a58-44a5-9ca4-efa2bdd35c34>,
+        <http://example.com/tx/widgets/5ac3eec2-0480-4409-ad71-e299c3c6a846>,
+        <http://example.com/tx/widgets/dd751427-b348-463a-8020-a71d916dd87d>,
+        <http://example.com/tx/widgets/e20fea15-8ae1-4d85-a0c2-7c7196a10258> .
+
+<http://example.com/tx/tabs/5e4852ac-0da8-42a2-af0b-728ad7648eb2> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/32dd9a9d-9c68-41ff-81ee-b3ba6f9ca269>,
+        <http://example.com/tx/widgets/5c0815ab-1bc8-4e7e-9a58-b7dbe515138c>,
+        <http://example.com/tx/widgets/a84ff2cf-f441-47bf-b8e1-06d3e6a53874> .
+
+<http://example.com/tx/tabs/61a48897-2517-4e29-a7e9-8bbe7d73705a> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/14bf6101-a63d-47c4-9e6f-9100d7a4b74e>,
+        <http://example.com/tx/widgets/487f1cbe-e529-4076-8c26-fca819dc1eb8>,
+        <http://example.com/tx/widgets/ed509a8e-119a-4a18-88d4-ba6f8df04472> .
+
+<http://example.com/tx/tabs/67376e28-eb33-43f3-b6c8-711f8268e00e> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/1ec36ece-6d76-4c66-9d08-36509efe191a>,
+        <http://example.com/tx/widgets/5004d2a8-3b4f-4ec3-bede-605f3b2fbbc8>,
+        <http://example.com/tx/widgets/737325e5-3402-4f82-a3f4-3a97ea4584a2> .
+
+<http://example.com/tx/tabs/67e32b5f-c3d8-4693-bd03-559cccc211ef> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/4b543953-56b2-47bc-96b6-c455c6c4718f>,
+        <http://example.com/tx/widgets/511e420f-cbdb-4a81-9df4-85a129ad5f98>,
+        <http://example.com/tx/widgets/74aeff45-e720-44e3-bfaa-d9eb3b83ca7a>,
+        <http://example.com/tx/widgets/7a1612e8-095d-42ed-af2d-4803108fbf77>,
+        <http://example.com/tx/widgets/cd2731e3-7cbc-407a-a237-0ae7cf72bee1>,
+        <http://example.com/tx/widgets/dbb750ba-a69d-4025-a1ca-97db1072d6ff> .
+
+<http://example.com/tx/tabs/69798fe1-22ac-484c-ad84-626e797d0b81> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/16d3a10c-28f3-45b5-b3f7-f1334b09b95c>,
+        <http://example.com/tx/widgets/1ed6e397-4a9f-4ef1-a8cc-695c748a12a9>,
+        <http://example.com/tx/widgets/6da26da3-b74a-4f3d-9e5c-563caec5facc>,
+        <http://example.com/tx/widgets/ae5f3436-daf8-411f-a223-c7fa6978e3d4>,
+        <http://example.com/tx/widgets/b361966c-066d-4ba8-85c0-eb26cc1ac53c>,
+        <http://example.com/tx/widgets/fe4f757a-9ada-4598-aa9d-62fcdc129b4c> .
+
+<http://example.com/tx/tabs/698c460e-049b-4986-8335-089554c89bd0> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/11808f35-2b74-42dd-b8f9-bbfa13c696dd>,
+        <http://example.com/tx/widgets/398909e6-73ae-403c-afc3-4fee94628668> .
+
+<http://example.com/tx/tabs/6c4d9a20-3a4d-4547-8090-c95c8a0b8687> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/1b90142c-be7f-4899-af7e-5700be52f912> .
+
+<http://example.com/tx/tabs/6d5c96a1-a3cd-42d5-a3e7-421b5f946d31> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/42aef760-5a3c-494c-a2b1-eecbe078a803>,
+        <http://example.com/tx/widgets/89f1a6e5-8e82-4cf9-99e3-89c4eee92b87>,
+        <http://example.com/tx/widgets/b286de2b-0a39-4322-9dc9-de90f1f0b092> .
+
+<http://example.com/tx/tabs/7369b081-c4c9-4c29-abbb-ff9c2f3c435c> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/d0fe517f-a476-4a18-a6d2-dc4c23c82898> .
+
+<http://example.com/tx/tabs/7c541f91-e81e-4cd8-b64e-1ffa7fe7e56c> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/481964fa-52aa-40a0-bb91-6753770ba7c2>,
+        <http://example.com/tx/widgets/d1bc88a2-4163-4714-a44e-8f665c06957a> .
+
+<http://example.com/tx/tabs/82b36695-a8b1-4d78-9338-1b8bcdca05a3> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/20641673-993b-4530-b45e-8c23fa8c0390> .
+
+<http://example.com/tx/tabs/8dab43d1-dd0c-4794-a41b-5747748d22ff> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/07c22efe-6daf-44b4-89f4-6fe2aa0e63eb>,
+        <http://example.com/tx/widgets/68430784-37c6-4c36-b50d-c5baed4d632f> .
+
+<http://example.com/tx/tabs/9b4e1f07-1cba-4089-833c-7833ec4ab133> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/4c841039-3194-4cdb-b6c5-df38bc2c6bd0>,
+        <http://example.com/tx/widgets/6f16fd63-c319-4500-9baf-5862b864e754>,
+        <http://example.com/tx/widgets/9011dd57-04c4-4ef5-8f56-10fd75f7ea7f>,
+        <http://example.com/tx/widgets/bc1d6de0-f95d-455d-b2a6-180c16635ba2>,
+        <http://example.com/tx/widgets/c4edd682-6e10-4a83-be65-1a78dc1ef221>,
+        <http://example.com/tx/widgets/d0a82c6b-59f5-406d-8c3c-1f9d709b86c9> .
+
+<http://example.com/tx/tabs/9ea926d7-db8b-41da-9583-f0419534674d> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/1e56664e-3a0f-4758-afc4-e2eb29e5b750>,
+        <http://example.com/tx/widgets/39a010a5-fa13-4486-acd7-1433414a6351>,
+        <http://example.com/tx/widgets/9d959181-3bfb-4ce0-a64b-5309a462e836> .
+
+<http://example.com/tx/tabs/a78907ce-7140-4dea-a395-e72496897334> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/16cc6588-b41e-4c83-bcd4-289e74f6161f>,
+        <http://example.com/tx/widgets/627716d5-c4aa-4781-bc5c-20ee5dfb0c54> .
+
+<http://example.com/tx/tabs/a7a5afdb-4f7f-4813-ab9a-e8340bd0c7fc> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/43967ee4-6a1e-4282-9b35-a0bf70733530>,
+        <http://example.com/tx/widgets/74837d9d-a27c-424d-8542-385acdd8d75b>,
+        <http://example.com/tx/widgets/da9ec960-5313-4621-bed8-7b36bc3177f6> .
+
+<http://example.com/tx/tabs/ac3f603f-45d3-4763-b9ab-150db8dc667c> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/1daf7ff0-e1f5-4358-a091-9f2bc7a50401>,
+        <http://example.com/tx/widgets/2887d845-8535-4ffd-bf5b-fd1aa7191384>,
+        <http://example.com/tx/widgets/a085340c-2a5c-4d46-b3d6-3b49c06f9ff1>,
+        <http://example.com/tx/widgets/cb191264-2001-46e4-9203-c8ca5bbf8dac>,
+        <http://example.com/tx/widgets/f12f2cfa-8a29-421a-98c4-b6882b7fef7e> .
+
+<http://example.com/tx/tabs/b6574d1c-d929-430f-83b1-a81a3a0302e6> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/636d028d-96b1-4124-86bf-b37ca2587dbc>,
+        <http://example.com/tx/widgets/8f99d0c7-0b4a-4d08-97cd-04b3ce99a85b>,
+        <http://example.com/tx/widgets/ba4cd0e7-8634-46ff-ad20-e6086c23896b> .
+
+<http://example.com/tx/tabs/b9f5d3c5-a709-42ad-8716-52154fdf8fa6> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/59d07b41-4c9f-4b46-a2c0-1357ce459d68>,
+        <http://example.com/tx/widgets/6d224c72-301d-4e65-9343-2386db8eaaa0>,
+        <http://example.com/tx/widgets/78b56d18-b177-49f3-bfe0-bdf7de5a94e4> .
+
+<http://example.com/tx/tabs/bbe68706-f593-4674-9986-1a2d6aed67b8> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/344e1c21-d073-4560-bb07-267a1ae3a801>,
+        <http://example.com/tx/widgets/b0e92a76-3c2b-414b-976b-36e7525b3c73>,
+        <http://example.com/tx/widgets/d79f3739-445c-4c1e-ac67-0b69b1d47ac2> .
+
+<http://example.com/tx/tabs/bd01bc69-d100-4a4d-bd85-8ba35e9bff99> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/1ffcc300-5c4d-4cbd-a926-7048ac5a7213>,
+        <http://example.com/tx/widgets/2283fa46-f5f2-4bb9-96af-75ecffe57342>,
+        <http://example.com/tx/widgets/9cbbf0e8-f155-4c2c-929d-014ede9394b8>,
+        <http://example.com/tx/widgets/b467e71e-4da7-406b-9ccd-86395b51c92c>,
+        <http://example.com/tx/widgets/c95a31dd-e1fb-402a-aee1-d3bdaf9cb046>,
+        <http://example.com/tx/widgets/d70d7ebe-b75d-4bb3-8969-435c3a772b51> .
+
+<http://example.com/tx/tabs/c1516453-1901-4fae-a8e5-67e6308d607a> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/218dc05c-2e84-4c74-b9fb-034f0cd1a32b>,
+        <http://example.com/tx/widgets/2870cd33-250c-4e6a-a694-3054b7a5be05> .
+
+<http://example.com/tx/tabs/c52d9d24-17c8-4efa-a813-c502c30125d0> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/012e0e5f-bf63-4f88-a190-fe1a89c67ba4>,
+        <http://example.com/tx/widgets/e94dbf29-6373-4138-af5a-9dd5ca63014c> .
+
+<http://example.com/tx/tabs/dcda51ad-fa08-40a7-beb2-76ecddd19f31> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/74b94b45-8ea7-43cb-be74-83b559ca2a94>,
+        <http://example.com/tx/widgets/95fba753-1651-4490-995d-75019cc31809>,
+        <http://example.com/tx/widgets/edc7b446-483d-489f-90f5-2c6081db815a> .
+
+<http://example.com/tx/tabs/e1bf32e2-2515-4db9-ba92-029332f4fcc9> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/007689ac-b8d2-4146-beb0-1a5ace04525b>,
+        <http://example.com/tx/widgets/3ba12ac5-a51f-4410-99b8-4375fcc3f0c0>,
+        <http://example.com/tx/widgets/464974d4-7b69-4430-a9b9-8ceb6ec3b49d>,
+        <http://example.com/tx/widgets/5b4d3053-b47d-4150-81a2-094a6e03323e>,
+        <http://example.com/tx/widgets/7d585653-5fd2-4d16-a09f-0985f9e7fd68>,
+        <http://example.com/tx/widgets/de898d2a-0287-48b0-9341-3b0600d43c43> .
+
+<http://example.com/tx/tabs/e2ba39b5-1db8-4636-b7f5-8a0c134c5410> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/31ddc964-4a5c-4fe5-8f66-bfbf6a045e0e>,
+        <http://example.com/tx/widgets/ded072d6-7d53-4d5e-a4a5-50ca8efa0be5>,
+        <http://example.com/tx/widgets/e0fe5c59-6a12-453f-a2f2-bd798fbd778f> .
+
+<http://example.com/tx/tabs/e4188efa-03a3-4085-a2db-7d9b47bca730> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/91541d03-258b-41af-9f04-3c1f724d4fe8>,
+        <http://example.com/tx/widgets/ddf20751-8eca-4177-9d6c-1409cf69d5f0>,
+        <http://example.com/tx/widgets/f35bd011-60f3-4a1a-896d-7543e4bee244> .
+
+<http://example.com/tx/tabs/e5d25425-8217-472b-9457-519a84e6cb21> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/2acdd113-a12d-4da1-b5ad-a0e5e9c9b032>,
+        <http://example.com/tx/widgets/ed2258b0-5a02-40ac-ba25-c14e9523b674>,
+        <http://example.com/tx/widgets/fac55599-d936-478b-8367-25c5d80ebdee>,
+        <http://example.com/tx/widgets/fc4b781b-88f8-4ad2-9871-9eab7efb1354> .
+
+<http://example.com/tx/tabs/eeb82a13-7bf1-4ca0-9013-34a7ee47b37c> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/b4e12977-b6fe-4d82-9ec2-d79d3a0b3003> .
+
+<http://example.com/tx/tabs/f1737380-ac31-41ad-bbbc-c8d74a4f84e0> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/2a329b94-5b90-4ddf-b1e1-441260c4e8e4>,
+        <http://example.com/tx/widgets/e94b47bc-345c-48a0-96ce-e91c85f5dd1f> .
+
+<http://example.com/tx/tabs/fa9f62eb-4657-439f-882c-6dfecf0e11b7> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/398dcc8f-c2f9-405f-994f-477028b46227>,
+        <http://example.com/tx/widgets/5f0da606-4c07-4bd5-a93a-b6063891af29>,
+        <http://example.com/tx/widgets/96236702-b412-4eab-b880-0e5d1106bcb6>,
+        <http://example.com/tx/widgets/cb6c63db-cc25-4915-b5f7-7ca99241640f>,
+        <http://example.com/tx/widgets/e89a9047-2707-455e-8b02-9008d3863b8b> .
+
+<http://example.com/tx/tabs/fc21062c-340b-4d4f-94b3-4b34aa803a7c> a ns1:Tab ;
+    ns1:hasWidget <http://example.com/tx/widgets/8d370f5d-cc33-4a7f-8ffd-1d9d73a84bda>,
+        <http://example.com/tx/widgets/d59ec7cc-1d99-48c7-b0b2-33db61d92410> .
+
+<http://example.com/tx/widgets/0061d719-5d79-4f48-9ed7-426e1237569b> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 62)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/007689ac-b8d2-4146-beb0-1a5ace04525b> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 24)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/511429c8-d6e3-47c1-b469-93fc305af6a4>,
+        <http://example.com/tx/boundaries/73d75082-3364-443b-a233-23af3b498970>,
+        <http://example.com/tx/boundaries/c1117393-8cd5-4443-9ee8-8c998cfbd3af>,
+        <http://example.com/tx/boundaries/c7395dc6-6bde-4b50-aac4-f1a44be5b365>,
+        <http://example.com/tx/boundaries/e6828f24-403c-4b8a-ae83-9ce15131f932> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_24.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/012e0e5f-bf63-4f88-a190-fe1a89c67ba4> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 90)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_90.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/06a22e62-f7ba-4c53-b6f5-55da3572d186> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 139)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/2fa7fdcc-9dae-4959-bc1c-b8ae3ff4b412>,
+        <http://example.com/tx/boundaries/5316b01f-69c1-4c0a-b526-3606d49c3104>,
+        <http://example.com/tx/boundaries/69812b47-d618-4338-9390-11a111217d5d>,
+        <http://example.com/tx/boundaries/6fbbf8c4-53cd-4b51-b068-63a61a1a2f89>,
+        <http://example.com/tx/boundaries/a8634ed9-4e98-4652-9cc9-5df424213ea4> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_139.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/07c22efe-6daf-44b4-89f4-6fe2aa0e63eb> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 165)" ;
+    ns1:createdBy <http://example.com/tx/users/f30d3c46-9226-41b4-9f37-3b6487298af0> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_165.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/08cbd2c3-1e8b-4599-8232-50687ba9ca3b> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 153)" ;
+    ns1:createdBy <http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_153.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/0eb6f7d7-2118-4b93-8126-b12569073381> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 153)" ;
+    ns1:createdBy <http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_153.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/11808f35-2b74-42dd-b8f9-bbfa13c696dd> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 33)" ;
+    ns1:createdBy <http://example.com/tx/users/6eecba20-ace9-47fb-8ca6-df17b226f6dd> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_33.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/1207d28c-8e9c-4f47-9e58-bc57b2ca295e> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 200)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/15b5bbf8-20f4-4094-967a-1226b41afabe>,
+        <http://example.com/tx/boundaries/34988b8d-3c28-4765-a157-afd9c05cb65e>,
+        <http://example.com/tx/boundaries/5327c10f-2c49-4a02-9bc1-5d99c5c9a088>,
+        <http://example.com/tx/boundaries/954e25dc-0b43-4b9d-a456-558ca0c3823a>,
+        <http://example.com/tx/boundaries/979a6165-f3e9-431c-b15e-c5c7a8df2752> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_200.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/13e5d9dd-eca5-414f-b31d-ac1112a3fdfc> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 200)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_200.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/14bf6101-a63d-47c4-9e6f-9100d7a4b74e> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 25)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_25.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/16cc6588-b41e-4c83-bcd4-289e74f6161f> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 192)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_192.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/16d3a10c-28f3-45b5-b3f7-f1334b09b95c> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 235)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/16b9bea4-eb8d-4bf9-9d38-f34041304854>,
+        <http://example.com/tx/boundaries/3b71d108-81dd-4cd9-9dd7-04ee1d271513>,
+        <http://example.com/tx/boundaries/5cde29be-107b-4c79-aa0f-69e166bf467e>,
+        <http://example.com/tx/boundaries/7c187473-b89d-4522-8d9d-c83caf25f1c3>,
+        <http://example.com/tx/boundaries/ab648e84-5d3b-4510-b3ec-336aacfc3793> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_235.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/1b90142c-be7f-4899-af7e-5700be52f912> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 99)" ;
+    ns1:createdBy <http://example.com/tx/users/f30d3c46-9226-41b4-9f37-3b6487298af0> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_99.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/1daf7ff0-e1f5-4358-a091-9f2bc7a50401> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 151)" ;
+    ns1:createdBy <http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_151.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/1e56664e-3a0f-4758-afc4-e2eb29e5b750> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 46)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_46.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/1ec36ece-6d76-4c66-9d08-36509efe191a> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 166)" ;
+    ns1:createdBy <http://example.com/tx/users/6eecba20-ace9-47fb-8ca6-df17b226f6dd> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_166.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/1ed6e397-4a9f-4ef1-a8cc-695c748a12a9> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 235)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_235.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/1ffcc300-5c4d-4cbd-a926-7048ac5a7213> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 62)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/20641673-993b-4530-b45e-8c23fa8c0390> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 175)" ;
+    ns1:createdBy <http://example.com/tx/users/f30d3c46-9226-41b4-9f37-3b6487298af0> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_175.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/21421c6b-4417-48a0-8d2b-83864d70a595> a ns1:Widget ;
+    rdfs:label "SpO2 (Patient 200)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/1b51457d-d399-4235-8b49-f571a61cef95>,
+        <http://example.com/tx/boundaries/55a88802-1eac-4d5b-aafd-30dc2ff91c40>,
+        <http://example.com/tx/boundaries/8e4ab705-39ed-4d02-9f0d-05e21fb62a8e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_200.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.SpO2> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/218dc05c-2e84-4c74-b9fb-034f0cd1a32b> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 175)" ;
+    ns1:createdBy <http://example.com/tx/users/6eecba20-ace9-47fb-8ca6-df17b226f6dd> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_175.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/2283fa46-f5f2-4bb9-96af-75ecffe57342> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 62)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/240e80d4-8e23-416b-8ec1-c3e60c31698d> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 6)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_6.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/2870cd33-250c-4e6a-a694-3054b7a5be05> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 175)" ;
+    ns1:createdBy <http://example.com/tx/users/6eecba20-ace9-47fb-8ca6-df17b226f6dd> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_175.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/2887d845-8535-4ffd-bf5b-fd1aa7191384> a ns1:Widget ;
+    rdfs:label "SpO2 (Patient 151)" ;
+    ns1:createdBy <http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_151.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.SpO2> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/2a329b94-5b90-4ddf-b1e1-441260c4e8e4> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 206)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_206.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/2acdd113-a12d-4da1-b5ad-a0e5e9c9b032> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 84)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/28c4427b-b72e-43ff-b019-2ccbf53853a1>,
+        <http://example.com/tx/boundaries/70619df3-b40a-49ef-b027-09443ddca628>,
+        <http://example.com/tx/boundaries/acf2be46-4abd-4573-b220-f7917f1e387a>,
+        <http://example.com/tx/boundaries/ba1fcc7e-89ab-4e25-9db7-5f9fc4b06d4d>,
+        <http://example.com/tx/boundaries/dbf3c1cc-66e5-4036-80ff-4caebb950a3f> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_84.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/2eb6d965-e6eb-4b98-a96d-41701137b104> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 118)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/0b52e63a-79cd-4267-af02-6f77a297109a>,
+        <http://example.com/tx/boundaries/39ce760c-e912-4729-9e5b-c46a8fa8c226>,
+        <http://example.com/tx/boundaries/678e9c82-d79f-4cee-89b2-7d781851cb99>,
+        <http://example.com/tx/boundaries/a15a0aae-9bba-45fd-8b73-bbeb93595682>,
+        <http://example.com/tx/boundaries/bd94df3f-3eea-494b-b984-fe9b20a434c7> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_118.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/2f4b87a7-1bc3-4c81-8ea7-90504bd84158> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 5)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_5.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/31ddc964-4a5c-4fe5-8f66-bfbf6a045e0e> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 10)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_10.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/32dd9a9d-9c68-41ff-81ee-b3ba6f9ca269> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 256)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/5cb84177-16d0-41d2-ae75-988ff0f63f02>,
+        <http://example.com/tx/boundaries/7e5cd17d-bd93-4082-9410-39b15d8bc738>,
+        <http://example.com/tx/boundaries/8a93ee17-9539-44f1-a7b4-311222568c5e>,
+        <http://example.com/tx/boundaries/a52e3f03-a33b-48cc-aec8-a88f228768bc>,
+        <http://example.com/tx/boundaries/a9e65a69-acfc-461d-be56-6429f35bb06d> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_256.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/32ebb862-053f-4374-8808-fef9197ee297> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 254)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_254.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/344e1c21-d073-4560-bb07-267a1ae3a801> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 81)" ;
+    ns1:createdBy <http://example.com/tx/users/f30d3c46-9226-41b4-9f37-3b6487298af0> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_81.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/3713db41-a527-410e-8e66-b0f715971fc0> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 11)" ;
+    ns1:createdBy <http://example.com/tx/users/6eecba20-ace9-47fb-8ca6-df17b226f6dd> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_11.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/398909e6-73ae-403c-afc3-4fee94628668> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 33)" ;
+    ns1:createdBy <http://example.com/tx/users/6eecba20-ace9-47fb-8ca6-df17b226f6dd> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_33.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/398dcc8f-c2f9-405f-994f-477028b46227> a ns1:Widget ;
+    rdfs:label "HeartRate (Patient 84)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/10cb67fe-1bef-46ff-84b5-d56da4a3e8bc>,
+        <http://example.com/tx/boundaries/4eaaa353-3d8d-46b3-b611-e93f86d1dfc3>,
+        <http://example.com/tx/boundaries/5839e23e-8901-403c-ac28-133390b8e91a>,
+        <http://example.com/tx/boundaries/9f4b9fd3-dd7c-4ab3-b1da-832c9f21f2a0>,
+        <http://example.com/tx/boundaries/a3c7da91-d607-4baf-9114-a41a66bcfe08> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_84.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.HeartRate> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/39a010a5-fa13-4486-acd7-1433414a6351> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 46)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_46.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/3ac69ce9-460b-42a1-bba2-e5a5122138bf> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 6)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/1da82414-643b-426b-bb0b-360b9ae44080>,
+        <http://example.com/tx/boundaries/6cebb5fa-3812-46d3-a6ca-daa0cd8db2f6>,
+        <http://example.com/tx/boundaries/6e053126-0591-49dc-a2f7-2b5888170849>,
+        <http://example.com/tx/boundaries/c72d535b-a3c0-4825-af4c-daa91cdc762b>,
+        <http://example.com/tx/boundaries/e878342a-69ea-4fc2-b6a9-38032256b5e4> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_6.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/3ba12ac5-a51f-4410-99b8-4375fcc3f0c0> a ns1:Widget ;
+    rdfs:label "HeartRate (Patient 24)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/1d656433-8417-46c8-944a-9cdeb54ed625>,
+        <http://example.com/tx/boundaries/a4345934-a30c-46e2-af20-c4468610e5c2>,
+        <http://example.com/tx/boundaries/c36997f2-979e-4fc8-b270-a017432700ab>,
+        <http://example.com/tx/boundaries/d848d7cc-7089-4740-ad99-6f4c50f5e480>,
+        <http://example.com/tx/boundaries/dd296b28-56b6-48a9-a13b-e00dfd2e83ae> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_24.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.HeartRate> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/42aef760-5a3c-494c-a2b1-eecbe078a803> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 1)" ;
+    ns1:createdBy <http://example.com/tx/users/f30d3c46-9226-41b4-9f37-3b6487298af0> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_1.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/43967ee4-6a1e-4282-9b35-a0bf70733530> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 172)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_172.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/45343302-2b6a-4449-a780-eda358d629f9> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 200)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_200.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/464974d4-7b69-4430-a9b9-8ceb6ec3b49d> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 24)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_24.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/481964fa-52aa-40a0-bb91-6753770ba7c2> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 263)" ;
+    ns1:createdBy <http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_263.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/487f1cbe-e529-4076-8c26-fca819dc1eb8> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 25)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_25.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/491b6917-1a58-44a5-9ca4-efa2bdd35c34> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 68)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/23818f5f-237d-40f2-9b55-984e2fc0311d>,
+        <http://example.com/tx/boundaries/6755882e-ca7a-40e2-9616-bf923b7c69bf>,
+        <http://example.com/tx/boundaries/856d8ab9-d2f7-44c4-982c-d5e72a77c291>,
+        <http://example.com/tx/boundaries/bdc7b4f2-8eb7-4534-8bea-dc77b5b1f403>,
+        <http://example.com/tx/boundaries/ef84175c-9f42-44b8-838b-af07f0dba002> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_68.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/49fbee66-91b2-4a96-8562-831a7e5ce045> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 139)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/1effb9e6-3751-479c-b550-0664a2710141>,
+        <http://example.com/tx/boundaries/31bec481-2364-4924-8e76-1ab5331912c9>,
+        <http://example.com/tx/boundaries/625dff2b-afc3-447b-90c0-1a98b77c5ef6>,
+        <http://example.com/tx/boundaries/ad90bbba-9ef6-434c-ba91-765e9a8ce8ce>,
+        <http://example.com/tx/boundaries/b9f38901-1c51-497c-ae93-5ef5dcb9a1bb> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_139.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/4b543953-56b2-47bc-96b6-c455c6c4718f> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 271)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_271.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/4c841039-3194-4cdb-b6c5-df38bc2c6bd0> a ns1:Widget ;
+    rdfs:label "SpO2 (Patient 66)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/4b683671-19a3-452b-8258-4a1b0d2ccf73>,
+        <http://example.com/tx/boundaries/60311bb9-92bf-4b49-a737-a771277263a9>,
+        <http://example.com/tx/boundaries/f432c3f8-005e-455d-b579-a94805b8cfe9> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_66.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.SpO2> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/5004d2a8-3b4f-4ec3-bede-605f3b2fbbc8> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 166)" ;
+    ns1:createdBy <http://example.com/tx/users/6eecba20-ace9-47fb-8ca6-df17b226f6dd> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/3e910cbe-c1a0-4011-827c-444e2ff2a977>,
+        <http://example.com/tx/boundaries/81228942-0949-4ea2-bba0-c15eefdbe85f>,
+        <http://example.com/tx/boundaries/a9c1f176-b310-41c7-bc6d-60c283009a07>,
+        <http://example.com/tx/boundaries/f515866e-834d-45af-8a47-3454f2705487>,
+        <http://example.com/tx/boundaries/fa382bc8-4239-4cc2-8905-6ecabab1d3cc> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_166.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/traditional-gauge> .
+
+<http://example.com/tx/widgets/511e420f-cbdb-4a81-9df4-85a129ad5f98> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 271)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/0ddb3a5e-ff33-463b-a515-685b017ca726>,
+        <http://example.com/tx/boundaries/1334b2fa-f50d-44d8-a7a4-554a721240ee>,
+        <http://example.com/tx/boundaries/55cf5dcb-b7fc-4a73-9fd2-f42ff9eb0e53>,
+        <http://example.com/tx/boundaries/8694d681-5a9b-477a-b292-6fff7b20336f>,
+        <http://example.com/tx/boundaries/8cd809ae-2527-468c-a8c0-8492acbf0b45> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_271.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/59d07b41-4c9f-4b46-a2c0-1357ce459d68> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 31)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_31.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/5ac3eec2-0480-4409-ad71-e299c3c6a846> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 68)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_68.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/5b4d3053-b47d-4150-81a2-094a6e03323e> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 24)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/1248b254-2d7c-43d4-9a5c-8bab19bc0457>,
+        <http://example.com/tx/boundaries/1263888f-baca-4e1b-a653-3dc74f7f069a>,
+        <http://example.com/tx/boundaries/208775ec-6763-422e-8727-7e7e59463f97>,
+        <http://example.com/tx/boundaries/3715a575-ceca-4b0f-9d66-afe4fdded4a1>,
+        <http://example.com/tx/boundaries/de9f0417-a58e-4bdf-80b5-2224b2212b51> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_24.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/5c0815ab-1bc8-4e7e-9a58-b7dbe515138c> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 256)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_256.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/5f0da606-4c07-4bd5-a93a-b6063891af29> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 84)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/29ec8a47-2c57-448d-91e8-ab3c8d201cc6>,
+        <http://example.com/tx/boundaries/5aa98449-2e98-4bf3-aa33-3dad7f1b3b15>,
+        <http://example.com/tx/boundaries/61864cca-df3c-4088-9734-7ae6d8c97ef1>,
+        <http://example.com/tx/boundaries/c6eb3628-b40b-4f36-9ae9-e589d1941358>,
+        <http://example.com/tx/boundaries/e15650c0-ba1e-4660-a14c-85d77e4985b9> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_84.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/60697a09-6535-4d98-aaf1-91cf9854d79a> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 134)" ;
+    ns1:createdBy <http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_134.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/627716d5-c4aa-4781-bc5c-20ee5dfb0c54> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 192)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_192.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/631d84aa-9930-4e63-9c86-60e9f7b01986> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 6)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_6.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/636d028d-96b1-4124-86bf-b37ca2587dbc> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 116)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_116.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/63d5317c-3b7d-4e94-86fe-67b4f011c520> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 153)" ;
+    ns1:createdBy <http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_153.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/648279bc-bc0e-456e-b46f-ccffe733789a> a ns1:Widget ;
+    rdfs:label "SpO2 (Patient 153)" ;
+    ns1:createdBy <http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_153.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.SpO2> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/64d1374c-69eb-4c3e-aa82-db494c14b8b6> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 200)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_200.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/655cf170-079a-4f5a-a0e5-da79eb93c642> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 254)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/066ea11c-efb5-46d4-9f06-eb20d80d0317>,
+        <http://example.com/tx/boundaries/0800dd59-cc42-4667-981b-af7b0c0f8154>,
+        <http://example.com/tx/boundaries/68348635-8347-4840-8e07-567373218e69>,
+        <http://example.com/tx/boundaries/8951dc08-4d8b-48a8-84d4-ef71608756a6>,
+        <http://example.com/tx/boundaries/a348d007-0ebb-4136-8aeb-b550053de3a9> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_254.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/66711f33-6463-474f-ad22-6d13ed0aaf5f> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 62)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/68430784-37c6-4c36-b50d-c5baed4d632f> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 165)" ;
+    ns1:createdBy <http://example.com/tx/users/f30d3c46-9226-41b4-9f37-3b6487298af0> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_165.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/6d224c72-301d-4e65-9343-2386db8eaaa0> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 31)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/48d03807-01bf-428c-97dc-5c72b92e54e0>,
+        <http://example.com/tx/boundaries/52fffb3a-4024-412f-81e9-39766fee092a>,
+        <http://example.com/tx/boundaries/6f598907-5a07-42ad-9a4f-537e2d0c1ad0>,
+        <http://example.com/tx/boundaries/8488744b-56d2-4c48-9b7b-6490d144f276>,
+        <http://example.com/tx/boundaries/c37fa4d7-03b2-4b06-8fc2-2bf073c19d13> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_31.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/6da26da3-b74a-4f3d-9e5c-563caec5facc> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 235)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/437f0466-96f4-4dea-a5e0-5148f71f1f16>,
+        <http://example.com/tx/boundaries/5fdcbe71-370a-4543-8d53-4b576c76d79e>,
+        <http://example.com/tx/boundaries/701f8c69-3d15-4832-9690-9fc37b642e0f>,
+        <http://example.com/tx/boundaries/94f74018-be79-4afe-85d2-9d42a34eabc4>,
+        <http://example.com/tx/boundaries/b8692ce7-beec-4aca-979f-93a988f9002a> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_235.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/6f16fd63-c319-4500-9baf-5862b864e754> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 66)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_66.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/6f9cf72b-898a-4786-ac47-23dd24af5e82> a ns1:Widget ;
+    rdfs:label "HeartRate (Patient 200)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_200.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.HeartRate> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/718fc099-f607-4050-b020-3b1661ce914b> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 139)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_139.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/737325e5-3402-4f82-a3f4-3a97ea4584a2> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 166)" ;
+    ns1:createdBy <http://example.com/tx/users/6eecba20-ace9-47fb-8ca6-df17b226f6dd> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_166.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/74837d9d-a27c-424d-8542-385acdd8d75b> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 172)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/2e970498-eb4a-4fa8-ad5d-326d73e00e6b>,
+        <http://example.com/tx/boundaries/3e4a644a-4df2-403e-aef3-8da69c3c84e9>,
+        <http://example.com/tx/boundaries/51988b5d-32e5-4a88-a1f6-970a9db2fda7>,
+        <http://example.com/tx/boundaries/75323895-1dbb-4415-be22-d2e919b31947>,
+        <http://example.com/tx/boundaries/cda79924-dc0c-4099-8ab4-ef6cf1482010> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_172.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/74aeff45-e720-44e3-bfaa-d9eb3b83ca7a> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 271)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/322397fe-4a00-4eed-92f0-4d59bb39fa85>,
+        <http://example.com/tx/boundaries/6434a72a-5429-40df-a722-f7d9bb8f3b08>,
+        <http://example.com/tx/boundaries/a1d4ee59-54a8-4b86-966e-384bcc8a1410>,
+        <http://example.com/tx/boundaries/a7e11801-a2d8-4bc7-a9d2-e91c5fe276db>,
+        <http://example.com/tx/boundaries/c49da811-0fd1-4ab4-b8c9-492b76eac1a6> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_271.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/74b94b45-8ea7-43cb-be74-83b559ca2a94> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 161)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_161.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/78b56d18-b177-49f3-bfe0-bdf7de5a94e4> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 31)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_31.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/7984407a-996b-496c-b14c-2aa9d388d8ba> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 31)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_31.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/7a1612e8-095d-42ed-af2d-4803108fbf77> a ns1:Widget ;
+    rdfs:label "SpO2 (Patient 271)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/af044d75-779a-4e59-900e-3fe6a4b10396>,
+        <http://example.com/tx/boundaries/b7c49e04-1d06-477f-9935-1d3e0107c105>,
+        <http://example.com/tx/boundaries/ca45d2cb-c855-486e-ba8c-b102b64b1181> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_271.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.SpO2> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/7d585653-5fd2-4d16-a09f-0985f9e7fd68> a ns1:Widget ;
+    rdfs:label "SpO2 (Patient 24)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/0cc75116-4bfe-4018-acf8-981453214c24>,
+        <http://example.com/tx/boundaries/2cd07eb3-f8dc-4a2f-aa56-82a1dc8aef76>,
+        <http://example.com/tx/boundaries/32acc6c5-1816-4c16-a76e-c04a957f0df6> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_24.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.SpO2> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/82155893-f17e-434a-beaa-7aedc6084fa7> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 134)" ;
+    ns1:createdBy <http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_134.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/88fe99f6-9b1c-4a95-9e08-d3a417266a09> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 200)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/0cd566a7-f66a-4acf-8bca-4dd8f2ad6e71>,
+        <http://example.com/tx/boundaries/4fc3f1c1-cbd4-48d3-aaa1-8fd3d76cd411>,
+        <http://example.com/tx/boundaries/a0bfecf3-d0e2-416e-88ab-31f17bd29eaa>,
+        <http://example.com/tx/boundaries/c9cd1276-6ef7-423c-9806-e95b1e8bc278>,
+        <http://example.com/tx/boundaries/cc160e9e-6bf0-4a32-9b19-da1838d187c0> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_200.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/89f1a6e5-8e82-4cf9-99e3-89c4eee92b87> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 1)" ;
+    ns1:createdBy <http://example.com/tx/users/f30d3c46-9226-41b4-9f37-3b6487298af0> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_1.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/8d370f5d-cc33-4a7f-8ffd-1d9d73a84bda> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 124)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_124.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/8e10346c-7c82-48dc-acb9-60b95ca8fc3d> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 200)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_200.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/8f99d0c7-0b4a-4d08-97cd-04b3ce99a85b> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 116)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/07757ba9-b387-44e3-9c72-b163aed65c6e>,
+        <http://example.com/tx/boundaries/095bc4c6-eeac-4a11-92d7-09138887cd6b>,
+        <http://example.com/tx/boundaries/1baa3145-e389-469b-ac19-e9902bd56ccc>,
+        <http://example.com/tx/boundaries/2ea48f54-4dd0-465a-ad91-3ad765824b9b>,
+        <http://example.com/tx/boundaries/75680591-8c5c-4bad-a8f9-cb808e965740> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_116.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/9011dd57-04c4-4ef5-8f56-10fd75f7ea7f> a ns1:Widget ;
+    rdfs:label "HeartRate (Patient 66)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/1eef3757-ac34-41c9-95fb-832dc6abacda>,
+        <http://example.com/tx/boundaries/4b16a623-24b5-4d8d-912f-3adfb86bf1d2>,
+        <http://example.com/tx/boundaries/d24f48f0-36ac-474f-97d7-2086ef4bd793>,
+        <http://example.com/tx/boundaries/ec8341fb-e00e-4246-8f96-f06f2b5db4a5>,
+        <http://example.com/tx/boundaries/ef7ee8d7-d4b5-4dc7-916f-26d506e0b3ae> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_66.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.HeartRate> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/91541d03-258b-41af-9f04-3c1f724d4fe8> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 178)" ;
+    ns1:createdBy <http://example.com/tx/users/6eecba20-ace9-47fb-8ca6-df17b226f6dd> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/897cada2-7701-4e1c-b19e-ec62d1af5afe>,
+        <http://example.com/tx/boundaries/a40ca334-a87f-4322-9dd3-a430f9b56e07>,
+        <http://example.com/tx/boundaries/a6a88a66-e21d-4367-8373-bc91a513b4ca>,
+        <http://example.com/tx/boundaries/d1cd6358-87d8-4220-8f69-159074fee526>,
+        <http://example.com/tx/boundaries/d9dcc662-ff8e-4b11-bdbb-335bb2abab7c> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_178.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/traditional-gauge> .
+
+<http://example.com/tx/widgets/91c225ba-32c1-47e3-bea9-10ad3b611c69> a ns1:Widget ;
+    rdfs:label "SpO2 (Patient 62)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.SpO2> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/95fba753-1651-4490-995d-75019cc31809> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 161)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_161.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/96236702-b412-4eab-b880-0e5d1106bcb6> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 84)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_84.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/9cbbf0e8-f155-4c2c-929d-014ede9394b8> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 62)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/1114a03f-5279-4509-b4de-1666680f1160>,
+        <http://example.com/tx/boundaries/1ca9362e-d1f8-4571-8f9d-0c1172310150>,
+        <http://example.com/tx/boundaries/6917c84d-71c1-4edd-a882-e6a1816df97d>,
+        <http://example.com/tx/boundaries/8e579bd1-86fe-4b32-91f8-c5338680335a>,
+        <http://example.com/tx/boundaries/d638432a-60c8-473b-ac13-8701ac643109> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/9d959181-3bfb-4ce0-a64b-5309a462e836> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 46)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_46.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/a085340c-2a5c-4d46-b3d6-3b49c06f9ff1> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 151)" ;
+    ns1:createdBy <http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_151.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/a0af1565-31c3-4c1c-abe9-2527b13f9e12> a ns1:Widget ;
+    rdfs:label "HeartRate (Patient 200)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/1b4df808-c135-4182-bf01-36fa1b15ec52>,
+        <http://example.com/tx/boundaries/4dec5159-835e-49e9-ba02-c0cc05ac4e37>,
+        <http://example.com/tx/boundaries/5ead9144-8038-47cd-93eb-2d83e6993596>,
+        <http://example.com/tx/boundaries/b36b3f0c-b2a1-4176-93f4-e47dc834c127>,
+        <http://example.com/tx/boundaries/e9f1bbe5-d2b6-4251-ad8f-7b80abcd17f9> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_200.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.HeartRate> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/a5c33c97-02a7-4a26-85b4-4ea133c302b4> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 118)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_118.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/a84ff2cf-f441-47bf-b8e1-06d3e6a53874> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 256)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_256.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/ae5f3436-daf8-411f-a223-c7fa6978e3d4> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 235)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_235.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/b0e92a76-3c2b-414b-976b-36e7525b3c73> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 81)" ;
+    ns1:createdBy <http://example.com/tx/users/f30d3c46-9226-41b4-9f37-3b6487298af0> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_81.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/b286de2b-0a39-4322-9dc9-de90f1f0b092> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 1)" ;
+    ns1:createdBy <http://example.com/tx/users/f30d3c46-9226-41b4-9f37-3b6487298af0> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_1.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/b361966c-066d-4ba8-85c0-eb26cc1ac53c> a ns1:Widget ;
+    rdfs:label "SpO2 (Patient 235)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/07535c84-2512-417d-8242-815c32048497>,
+        <http://example.com/tx/boundaries/7f35fbfb-2d36-447b-a6d4-36f2620d288e>,
+        <http://example.com/tx/boundaries/93781909-d683-464e-9dae-0f0957e5c2ad> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_235.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.SpO2> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/b467e71e-4da7-406b-9ccd-86395b51c92c> a ns1:Widget ;
+    rdfs:label "SpO2 (Patient 62)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/51272cde-3b37-496e-8275-128b0a26b255>,
+        <http://example.com/tx/boundaries/7ade93e4-a3f3-4965-b878-53e251c6ffc1>,
+        <http://example.com/tx/boundaries/7d2e3706-0e32-40de-b0b2-485678424783> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.SpO2> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/b4e12977-b6fe-4d82-9ec2-d79d3a0b3003> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 49)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_49.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/ba4cd0e7-8634-46ff-ad20-e6086c23896b> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 116)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_116.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/bc1d6de0-f95d-455d-b2a6-180c16635ba2> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 66)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/32d5da31-5132-41d1-a586-4c25a979cd71>,
+        <http://example.com/tx/boundaries/50d79c43-d1e8-4b59-bd39-a53758a17338>,
+        <http://example.com/tx/boundaries/51825653-ca40-425b-9e62-2044faa77e56>,
+        <http://example.com/tx/boundaries/737eafe7-6599-4eff-a8d9-78c35bf5f19b>,
+        <http://example.com/tx/boundaries/902cc3c8-c5c1-4f31-9e4a-ba368091afab> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_66.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/bf154f59-a5f5-4e15-b80a-951d28519677> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 254)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_254.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/c244d0ad-ac63-48f5-af23-251725d9f476> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 200)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_200.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/c4edd682-6e10-4a83-be65-1a78dc1ef221> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 66)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/0fa0796c-de77-4b7d-87e8-b1b80b5052a4>,
+        <http://example.com/tx/boundaries/1a0d5863-f9a8-4bd5-bbdc-abba36723ab7>,
+        <http://example.com/tx/boundaries/34941260-3a3d-4ce9-97ba-5e0e3c3564f1>,
+        <http://example.com/tx/boundaries/59861c4a-e02b-4dab-b29a-70d7ad9c468d>,
+        <http://example.com/tx/boundaries/b1c57e79-57cc-4493-af41-500acc27fc5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_66.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/c95a31dd-e1fb-402a-aee1-d3bdaf9cb046> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 62)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/1cfbc782-f8e2-4f70-af19-1a6afefb4e7e>,
+        <http://example.com/tx/boundaries/b59a3c7c-9f24-4d73-b1c4-72e22071642d>,
+        <http://example.com/tx/boundaries/d4db23e1-6fac-4af8-a355-d0ff9d4ab6ea>,
+        <http://example.com/tx/boundaries/fe1a84f2-7a4e-40cc-a6f2-d9fb1eafab42>,
+        <http://example.com/tx/boundaries/ff9faab3-4ec5-4e07-b7fa-cbd976897695> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/cb191264-2001-46e4-9203-c8ca5bbf8dac> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 151)" ;
+    ns1:createdBy <http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_151.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/cb644a6f-1fba-4c08-bb29-8a81572638b4> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 254)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/2759c732-a9a1-46ae-8fc0-46e963c8f3dd>,
+        <http://example.com/tx/boundaries/48477081-d315-4254-a167-e10de2caefde>,
+        <http://example.com/tx/boundaries/808fa254-f92c-4686-a218-beffec4bb5c8>,
+        <http://example.com/tx/boundaries/a619d0e5-496c-4796-be04-db607a5ff563>,
+        <http://example.com/tx/boundaries/f1734c8e-8cc8-4c70-8ab1-04004be4671c> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_254.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/cb6c63db-cc25-4915-b5f7-7ca99241640f> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 84)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_84.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/cd2731e3-7cbc-407a-a237-0ae7cf72bee1> a ns1:Widget ;
+    rdfs:label "HeartRate (Patient 271)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/18e3dc8a-9421-446c-8dd4-82c3417dfc29>,
+        <http://example.com/tx/boundaries/1d4b38cc-ca89-45f4-830e-d1c815482904>,
+        <http://example.com/tx/boundaries/539769c3-5cfa-4ff9-92fc-8b5be682edfd>,
+        <http://example.com/tx/boundaries/68932e46-0ad1-4d2e-966e-12a43a8f64fe>,
+        <http://example.com/tx/boundaries/9f228830-55cc-47c9-bc49-7f849bb01b7e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_271.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.HeartRate> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/d0a82c6b-59f5-406d-8c3c-1f9d709b86c9> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 66)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_66.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/d0fe517f-a476-4a18-a6d2-dc4c23c82898> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 282)" ;
+    ns1:createdBy <http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_282.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/d1bc88a2-4163-4714-a44e-8f665c06957a> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 263)" ;
+    ns1:createdBy <http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_263.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/d38b8096-497a-41a4-ae25-aa5a81ebb506> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 5)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/2123e91a-442a-4935-9075-f0841fd33fc5>,
+        <http://example.com/tx/boundaries/26be75f4-f72b-4d33-9aab-438412d2c9a2>,
+        <http://example.com/tx/boundaries/90f86e17-b768-4ef6-8a57-cbdf78226769>,
+        <http://example.com/tx/boundaries/bfa07cbf-1072-4ed4-8aee-c8f7d1af0f37>,
+        <http://example.com/tx/boundaries/ef8c472c-a1ad-46fa-a025-427ba6382dd6> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_5.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/d39e7be1-7780-4cac-a35e-d92cae0e5e6e> a ns1:Widget ;
+    rdfs:label "SpO2 (Patient 200)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_200.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.SpO2> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/d59ec7cc-1d99-48c7-b0b2-33db61d92410> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 124)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_124.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/d70d7ebe-b75d-4bb3-8969-435c3a772b51> a ns1:Widget ;
+    rdfs:label "HeartRate (Patient 62)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/7675ebc1-9474-49eb-8ca7-45feabb54e05>,
+        <http://example.com/tx/boundaries/7a28ae4d-704b-4d43-9c61-df45b1b5d9d0>,
+        <http://example.com/tx/boundaries/9457987e-02f5-40f1-a10e-41d4aa8e3fa7>,
+        <http://example.com/tx/boundaries/a9196355-a0b5-4efb-b24d-74b4b044886d>,
+        <http://example.com/tx/boundaries/c81e2a3a-799e-4106-8410-b9ce74672303> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.HeartRate> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/d79f3739-445c-4c1e-ac67-0b69b1d47ac2> a ns1:Widget ;
+    rdfs:label "SystolicBloodPressure (Patient 81)" ;
+    ns1:createdBy <http://example.com/tx/users/f30d3c46-9226-41b4-9f37-3b6487298af0> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_81.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.SystolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/d8b1b538-c0e5-4eff-b1c8-0e8341c79aec> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 5)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_5.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/da9ec960-5313-4621-bed8-7b36bc3177f6> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 172)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_172.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/dbb750ba-a69d-4025-a1ca-97db1072d6ff> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 271)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_271.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/dd751427-b348-463a-8020-a71d916dd87d> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 68)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_68.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/ddf20751-8eca-4177-9d6c-1409cf69d5f0> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 178)" ;
+    ns1:createdBy <http://example.com/tx/users/6eecba20-ace9-47fb-8ca6-df17b226f6dd> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_178.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/de898d2a-0287-48b0-9341-3b0600d43c43> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 24)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_24.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/dea53af5-62c3-43b9-ab1b-aed19eddb4a6> a ns1:Widget ;
+    rdfs:label "HeartRate (Patient 62)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.HeartRate> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/ded072d6-7d53-4d5e-a4a5-50ca8efa0be5> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 10)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_10.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/e0fe5c59-6a12-453f-a2f2-bd798fbd778f> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 10)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/035d09d9-ca68-4866-879c-b467b34366f3>,
+        <http://example.com/tx/boundaries/7e781169-a266-45f1-b626-6b67087d0692>,
+        <http://example.com/tx/boundaries/9cdb1d01-05b2-49c4-99d7-200c60e8d915>,
+        <http://example.com/tx/boundaries/a10733d3-1ae4-4d68-bfb2-b2bb457e4693>,
+        <http://example.com/tx/boundaries/d807f8b6-5ea2-496d-be19-3253f1b72410> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_10.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/e14410f6-1d12-489f-a3fa-7fb00b660335> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 11)" ;
+    ns1:createdBy <http://example.com/tx/users/6eecba20-ace9-47fb-8ca6-df17b226f6dd> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_11.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/e20fea15-8ae1-4d85-a0c2-7c7196a10258> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 68)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/0608d28f-1db0-4223-a428-2db9db534fa6>,
+        <http://example.com/tx/boundaries/239f4940-3c14-4f23-92f4-5121b8b98f0c>,
+        <http://example.com/tx/boundaries/682f50a5-a99e-4e5d-a708-3c3d5b4c21ea>,
+        <http://example.com/tx/boundaries/891ec3e4-56f2-4ace-8840-84be67ccbe31>,
+        <http://example.com/tx/boundaries/975b8264-78fd-4f57-b29f-0a4dfc0dc341> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_68.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/e5a393be-bc88-4608-801e-7606a2d1993d> a ns1:Widget ;
+    rdfs:label "HeartRate (Patient 153)" ;
+    ns1:createdBy <http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_153.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.HeartRate> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/e89a9047-2707-455e-8b02-9008d3863b8b> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 84)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/0d6e9feb-f2d7-480f-afa5-6ff432d139dd>,
+        <http://example.com/tx/boundaries/5a596a51-3fb5-4294-95a6-b6717ec573c4>,
+        <http://example.com/tx/boundaries/874cc0b6-b664-4db0-b5c6-33c85e87b49c>,
+        <http://example.com/tx/boundaries/a8b05aef-6628-427f-94f5-5aa310849645>,
+        <http://example.com/tx/boundaries/c77adf28-2e36-498f-b868-2a76fb86bdbb> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_84.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/e94b47bc-345c-48a0-96ce-e91c85f5dd1f> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 206)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_206.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/e94dbf29-6373-4138-af5a-9dd5ca63014c> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 90)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_90.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/e9581d7b-a828-40ad-bd9e-b8dcb8397dfa> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 62)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_62.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/ea34d223-448b-46e7-8ed4-0a384fdfed69> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 118)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_118.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/ecbd4f2b-cd78-4709-adf8-58c111fe72b0> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 31)" ;
+    ns1:createdBy <http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_31.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/ed2258b0-5a02-40ac-ba25-c14e9523b674> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 84)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_84.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/ed509a8e-119a-4a18-88d4-ba6f8df04472> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 25)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/0539b551-08e1-4941-bd12-cfde71ae28b3>,
+        <http://example.com/tx/boundaries/331a00bf-8ba0-4bc3-badc-74046c525a5b>,
+        <http://example.com/tx/boundaries/a115511f-76ac-4d84-8603-44c7aba999dc>,
+        <http://example.com/tx/boundaries/b78929b2-d6a6-4c54-963f-fef1e66fd5bf>,
+        <http://example.com/tx/boundaries/c5657cb2-78f5-48dc-97d0-afabb1a01ccc> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_25.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/edc7b446-483d-489f-90f5-2c6081db815a> a ns1:Widget ;
+    rdfs:label "GlucoseLevel (Patient 161)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/3ffbf9ac-795a-4b40-b3d9-79657983ab44>,
+        <http://example.com/tx/boundaries/9daf46c4-499c-4f35-b806-efc5b21d3745>,
+        <http://example.com/tx/boundaries/b0685f2d-90ce-409a-8e5f-9d51490c9837>,
+        <http://example.com/tx/boundaries/e65d750c-fbb3-4d2b-8f18-a5bfbd1f2154>,
+        <http://example.com/tx/boundaries/fd1f2795-5311-4cfb-8344-802f4843c582> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_161.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/ef4a2e8f-c0d4-417e-beee-52f64a58938f> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 139)" ;
+    ns1:createdBy <http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_139.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/f12f2cfa-8a29-421a-98c4-b6882b7fef7e> a ns1:Widget ;
+    rdfs:label "HeartRate (Patient 151)" ;
+    ns1:createdBy <http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_151.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.HeartRate> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<http://example.com/tx/widgets/f35bd011-60f3-4a1a-896d-7543e4bee244> a ns1:Widget ;
+    rdfs:label "EnrichedCall (Patient 178)" ;
+    ns1:createdBy <http://example.com/tx/users/6eecba20-ace9-47fb-8ca6-df17b226f6dd> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_178.lifestyle/properties/enriched-call> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/enriched-call> .
+
+<http://example.com/tx/widgets/fac55599-d936-478b-8367-25c5d80ebdee> a ns1:Widget ;
+    rdfs:label "DiastolicBloodPressure (Patient 84)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/728d0445-6811-41d6-86e1-b5c325933baa>,
+        <http://example.com/tx/boundaries/750fba81-4e6a-45f6-be4c-8abaad0edd3a>,
+        <http://example.com/tx/boundaries/8e0a737c-fad9-4855-8b4d-6869f50830c3>,
+        <http://example.com/tx/boundaries/afe1ce4e-24a9-48cc-ae34-7c32942802f0>,
+        <http://example.com/tx/boundaries/eb9619bd-d9af-4cd6-9cd6-67e2d0d71b78> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_84.00%3A9D%3A6B%3A89%3A43%3ACD%2Fservice0025/properties/org.dyamand.types.health.DiastolicBloodPressure> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/colored-measurement> .
+
+<http://example.com/tx/widgets/fc4b781b-88f8-4ad2-9871-9eab7efb1354> a ns1:Widget ;
+    rdfs:label "AQURA Location (Patient 84)" ;
+    ns1:createdBy <http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_84.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/scrolling-table> .
+
+<http://example.com/tx/widgets/fe4f757a-9ada-4598-aa9d-62fcdc129b4c> a ns1:Widget ;
+    rdfs:label "HeartRate (Patient 235)" ;
+    ns1:createdBy <http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> ;
+    ns1:hasObservationBoundary <http://example.com/tx/boundaries/5fe8599e-7385-467d-8635-88b8a3256278>,
+        <http://example.com/tx/boundaries/650a332d-fd3f-40a5-8651-2bb2eb376e48>,
+        <http://example.com/tx/boundaries/667c4eb8-65a0-41f0-b91f-f5f967339cc2>,
+        <http://example.com/tx/boundaries/de8e68a2-9bd1-4ec7-9f33-72f1d7e8e11c>,
+        <http://example.com/tx/boundaries/f46b26f3-2d8e-42c8-b8a0-a61a40c293be> ;
+    ns1:hasProperty <https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_235.00%3A1C%3A05%3AFF%3AA9%3A4E%2Fservice0029/properties/org.dyamand.types.health.HeartRate> ;
+    ns1:visualizedBy <http://localhost/web-thing-gateway/things/visualizations/time-series-line-chart-with-time-range-selector> .
+
+<https://dynamicdashboard.ilabt.imec.be/groups/nurse> a ns1:UserGroup .
+
+<https://dynamicdashboard.ilabt.imec.be/groups/operator> a ns1:UserGroup .
+
+<http://example.com/tx/users/f30d3c46-9226-41b4-9f37-3b6487298af0> a ns1:User ;
+    rdfs:label "zplus_nurse1" ;
+    ns1:memberOf <https://dynamicdashboard.ilabt.imec.be/groups/nurse> .
+
+<http://example.com/tx/users/6eecba20-ace9-47fb-8ca6-df17b226f6dd> a ns1:User ;
+    rdfs:label "zplus_operator4" ;
+    ns1:memberOf <https://dynamicdashboard.ilabt.imec.be/groups/operator> .
+
+<http://example.com/tx/users/daa630fe-f068-46e5-b4a8-23c92693fac5> a ns1:User ;
+    rdfs:label "zplus_nurse3" ;
+    ns1:memberOf <https://dynamicdashboard.ilabt.imec.be/groups/nurse> .
+
+<http://example.com/tx/users/0d619749-5616-43a3-8c93-d81e1d51919e> a ns1:User ;
+    rdfs:label "zplus_nurse2" ;
+    ns1:memberOf <https://dynamicdashboard.ilabt.imec.be/groups/nurse> .
+
+<http://example.com/tx/users/67ebe74b-1b4d-4042-bf6e-f7599ed359a6> a ns1:User ;
+    rdfs:label "zplus_operator3" ;
+    ns1:memberOf <https://dynamicdashboard.ilabt.imec.be/groups/operator> .
+
+<http://example.com/tx/users/a9d680c7-4453-482b-b1e3-bce47a926c44> a ns1:User ;
+    rdfs:label "zplus_operator1" ;
+    ns1:memberOf <https://dynamicdashboard.ilabt.imec.be/groups/operator> .
+
+<http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b> a ns1:User ;
+    rdfs:label "zplus_operator2" ;
+    ns1:memberOf <https://dynamicdashboard.ilabt.imec.be/groups/operator> .
+

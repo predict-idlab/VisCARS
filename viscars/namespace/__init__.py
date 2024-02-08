@@ -15,9 +15,10 @@ class DASHB(DefinedNamespace):
     Dashboard: URIRef
     Tab: URIRef
     Widget: URIRef
-    Property: URIRef
+    Recommendation: URIRef
     Metric: URIRef
     Visualization: URIRef
+    RealtimeDataVisualization: URIRef
     ObservationBoundary: URIRef
 
     # User
@@ -34,13 +35,27 @@ class DASHB(DefinedNamespace):
     hasProperty: URIRef
     visualizedBy: URIRef
     hasObservationBoundary: URIRef
+    hasTimeRange: URIRef
+    hasRecommendationScore: Literal
+    hasPosition: Literal
+
+    # Recommender Model
+    version: Literal
 
     # Property
     produces: URIRef
+
+    # Visualization
+    accepts: URIRef
 
     # ObservationBoundary
     hasMinBoundary: Literal
     hasMaxBoundary: Literal
     hasBoundaryLabel: Literal
+
+    # TimeRange
+    hasDuration: Literal
+    fromTimeRange: Literal
+    toTimeRange: Literal
 
     _NS = Namespace('http://dynamicdashboard.ilabt.imec.be/broker/ontologies/dashboard#')

@@ -12,7 +12,7 @@ def main(args):
         print(len(data.keys()))
 
     # with open(f'{input_fn}.pkl', 'wb') as output_f:
-    #     pickle.dump(data, output_f)
+    #     pickle.dump(dao, output_f)
 
 
 if __name__ == '__main__':
