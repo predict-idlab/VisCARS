@@ -1,3 +1,11 @@
+Version 1.0.2
+-------------
+
+:Date February 12, 2024
+
+* Complete rework of the framework
+* Added documentation and examples
+
 Version 0.0.10
 --------------
 
