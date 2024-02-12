@@ -59,16 +59,16 @@ visualization_recommendations = []
 for recommendation in content_recommendations[:c]:
     # Recommend visualizations
     recommendations = visualization_recommender.predict(user, recommendation['itemId'], k=5)
-    visualization_recommendations.append(recommendations[0])
+    visualization_recommendations.append({'propertyId': recommendation['itemId'], 'visualizationId': recommendations[0]['itemId']})
 ```
 
 Example output
 
-| propertyId                                                                                                            | visualizationId                                                                  | score |
-|-----------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------| --- |
-| https://.../things/zplus_6.lifestyle/properties/enriched-call                                                         | http://.../things/visualizations/enriched-call                                   | 1.0 |
-| https://.../things/zplus_6.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel | http://.../things/visualizations/time-series-line-chart-with-time-range-selector | 0.6923076923076923 |
-| https://.../things/zplus_6.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User           | http://.../things/visualizations/scrolling-table                                 | 1.0 |
+| propertyId                                                                                                            | visualizationId                                                                  |
+|-----------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| .../things/zplus_6.lifestyle/properties/enriched-call                                                         | .../things/visualizations/enriched-call                                   |
+| .../things/zplus_6.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel | .../things/visualizations/time-series-line-chart-with-time-range-selector |
+| .../things/zplus_6.AQURA_10_10_145_9/properties/org.dyamand.aqura.AquraLocationState_Protego%20User           | .../things/visualizations/scrolling-table                                 |
 
 
 
