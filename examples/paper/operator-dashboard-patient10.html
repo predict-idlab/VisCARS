@@ -1,0 +1,257 @@
+<html>
+<head>
+    <link rel="stylesheet" href="dashboard.css"/>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+<div id="container"></div>
+<script src="https://code.highcharts.com/dashboards/dashboards.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/dashboards/modules/dashboards-plugin.js"></script>
+<script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous">
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="dashboard.js"></script>
+<script>
+    Dashboards.board('container', {
+        gui: {
+            layouts: [{
+                rows: [{
+                    cells: [{
+                        responsive: {
+                            small: {
+                                width: '100%'
+                            },
+                            medium: {
+                                width: '50%'
+                            },
+                            large: {
+                                width: '33%'
+                            }
+                        },
+                        layout: {
+                            rows: [{
+                                cells: [{
+                                    id: 'enriched-call',
+                                    responsive: {
+                                        small: {
+                                            width: '50%'
+                                        },
+                                        medium: {
+                                            width: '100%'
+                                        },
+                                        large: {
+                                            width: '100%'
+                                        }
+                                    },
+                                    height: 512
+                                }]
+                            }]
+                        }
+                    }, {
+                        responsive: {
+                            small: {
+                                width: '100%'
+                            },
+                            medium: {
+                                width: '50%'
+                            },
+                            large: {
+                                width: '33%'
+                            }
+                        },
+                        layout: {
+                            rows: [{
+                                cells: [{
+                                    id: 'kpi-heartrate',
+                                    responsive: {
+                                        small: {
+                                            width: '50%'
+                                        },
+                                        medium: {
+                                            width: '100%'
+                                        },
+                                        large: {
+                                            width: '100%'
+                                        }
+                                    },
+                                    height: 256
+                                }, {
+                                    id: 'gauge-spo2',
+                                    responsive: {
+                                        small: {
+                                            width: '50%'
+                                        },
+                                        medium: {
+                                            width: '100%'
+                                        },
+                                        large: {
+                                            width: '100%'
+                                        }
+                                    },
+                                    height: 256
+                                }]
+                            }]
+                        }
+                    },
+                        {
+                            responsive: {
+                                small: {
+                                    width: '100%'
+                                },
+                                medium: {
+                                    width: '50%'
+                                },
+                                large: {
+                                    width: '33%'
+                                }
+                            },
+                            layout: {
+                                rows: [{
+                                    cells: [{
+                                        id: 'kpi-systolic-blood-pressure',
+                                        responsive: {
+                                            small: {
+                                                width: '50%'
+                                            },
+                                            medium: {
+                                                width: '100%'
+                                            },
+                                            large: {
+                                                width: '100%'
+                                            }
+                                        },
+                                        height: 256
+                                    }, {
+                                        id: 'kpi-diastolic-blood-pressure',
+                                        responsive: {
+                                            small: {
+                                                width: '50%'
+                                            },
+                                            medium: {
+                                                width: '100%'
+                                            },
+                                            large: {
+                                                width: '100%'
+                                            }
+                                        },
+                                        height: 256
+                                    }]
+                                }]
+                            }
+                        }]
+                }]
+            }]
+        },
+        components: [{
+            type: 'HTML',
+            cell: 'enriched-call',
+            elements: new Highcharts.AST(
+                new EnrichedCall(
+                    "Enriched Call (Patient 10)",
+                    [[1694461744000, {
+                        "value": {
+                            "last_smartphone_activity": "unknown",
+                            "request_timestamp": "2023-09-11T15:49:03+02:00",
+                            "patient_id": "10",
+                            "risk_factors": ["HeartDisease", "HighBloodPressure"],
+                            "anomalies": ["Hot Outside Temperature (> 35 degrees Celcius)", "Morning walk took longer than normal"],
+                            "last_contextual_activity": "WatchingTV",
+                            "nurse_visited_today": false
+                        }
+                    }]]
+                ).getHTML()
+            ).nodes
+        }, {
+            type: 'KPI',
+            cell: 'kpi-heartrate',
+            value: 71,
+            valueFormat: '{value}',
+            threshold: [55, 60, 100, 105, 200],
+            thresholdColors: ['rgb(255,26,26)', 'rgb(255,189,0)', 'rgb(50,204,50)', 'rgb(255,189,0)', 'rgb(255,26,26)'],
+            color: 'green',
+            title: {
+                text: 'Heart Rate (Patient 10)',
+                style: {
+                    fontWeight: 'bold',
+                    fontSize: '1.4em'
+                }
+            },
+            subtitle: 'bpm'
+        }, {
+            type: 'KPI',
+            cell: 'kpi-spo2',
+            value: 91,
+            valueFormat: '{value}',
+            threshold: [92, 95, 100],
+            thresholdColors: ['rgb(255,26,26)', 'rgb(255,189,0)', 'rgb(50,204,50)'],
+            color: 'red',
+            title: {
+                text: 'SpO2 (Patient 10)',
+                style: {
+                    fontWeight: 'bold',
+                    fontSize: '1.4em'
+                }
+            },
+            subtitle: '%'
+        }, {
+            type: 'KPI',
+            cell: 'kpi-systolic-blood-pressure',
+            value: 88.8,
+            valueFormat: '{value}',
+            threshold: [100, 110, 130, 140, 200],
+            thresholdColors: ['rgb(255,26,26)', 'rgb(255,189,0)', 'rgb(50,204,50)', 'rgb(255,189,0)', 'rgb(255,26,26)'],
+            color: 'red',
+            title: {
+                text: 'Systolic Blood Pressure (Patient 10)',
+                style: {
+                    fontWeight: 'bold',
+                    fontSize: '1.4em'
+                }
+            },
+            subtitle: 'mmHg'
+        }, {
+            type: 'KPI',
+            cell: 'kpi-diastolic-blood-pressure',
+            value: 56.3,
+            valueFormat: '{value}',
+            threshold: [60, 65, 90, 95, 200],
+            thresholdColors: ['rgb(255,26,26)', 'rgb(255,189,0)', 'rgb(50,204,50)', 'rgb(255,189,0)', 'rgb(255,26,26)'],
+            color: 'red',
+            title: {
+                text: 'Diastolic Blood Pressure (Patient 10)',
+                style: {
+                    fontWeight: 'bold',
+                    fontSize: '1.4em'
+                }
+            },
+            subtitle: 'mmHg'
+        }, {
+            type: 'Highcharts',
+            cell: 'gauge-spo2',
+            chartOptions: new SolidGauge(
+                "SpO2 (Patient 10)",
+                [{y: 92, colorIndex: 99}],
+                "%",
+                0,
+                100,
+                [0.92, 0.95, 1],
+                ['rgb(255,26,26)', 'rgb(255,189,0)', 'rgb(50,204,50)'],
+            ).getChartOptions()
+        }]
+    }, true);
+</script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+<html>
+<head>
+    <link rel="stylesheet" href="dashboard.css"/>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+<div id="container" style="background-color: white;"></div>
+<script src="https://code.highcharts.com/dashboards/dashboards.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/dashboards/modules/dashboards-plugin.js"></script>
+<script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous">
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="dashboard.js"></script>
+<script>
+    Dashboards.board('container', {
+        gui: {
+            layouts: [{
+                rows: [{
+                    cells: [{
+                        responsive: {
+                            small: {
+                                width: '100%'
+                            },
+                            medium: {
+                                width: '50%'
+                            },
+                            large: {
+                                width: '33%'
+                            }
+                        },
+                        layout: {
+                            rows: [{
+                                cells: [{
+                                    id: 'enriched-call',
+                                    responsive: {
+                                        small: {
+                                            width: '50%'
+                                        },
+                                        medium: {
+                                            width: '100%'
+                                        },
+                                        large: {
+                                            width: '100%'
+                                        }
+                                    },
+                                    height: 512
+                                }]
+                            }]
+                        }
+                    }, {
+                        responsive: {
+                            small: {
+                                width: '100%'
+                            },
+                            medium: {
+                                width: '50%'
+                            },
+                            large: {
+                                width: '33%'
+                            }
+                        },
+                        layout: {
+                            rows: [{
+                                cells: [{
+                                    id: 'linechart-heartrate',
+                                    responsive: {
+                                        small: {
+                                            width: '50%'
+                                        },
+                                        medium: {
+                                            width: '100%'
+                                        },
+                                        large: {
+                                            width: '100%'
+                                        }
+                                    },
+                                    height: 256
+                                }, {
+                                    id: 'gauge-spo2',
+                                    responsive: {
+                                        small: {
+                                            width: '50%'
+                                        },
+                                        medium: {
+                                            width: '100%'
+                                        },
+                                        large: {
+                                            width: '100%'
+                                        }
+                                    },
+                                    height: 256
+                                }]
+                            }]
+                        }
+                    },
+                        {
+                            responsive: {
+                                small: {
+                                    width: '100%'
+                                },
+                                medium: {
+                                    width: '50%'
+                                },
+                                large: {
+                                    width: '33%'
+                                }
+                            },
+                            layout: {
+                                rows: [{
+                                    cells: [{
+                                        id: 'linechart-systolic-blood-pressure',
+                                        responsive: {
+                                            small: {
+                                                width: '50%'
+                                            },
+                                            medium: {
+                                                width: '100%'
+                                            },
+                                            large: {
+                                                width: '100%'
+                                            }
+                                        },
+                                        height: 256
+                                    }, {
+                                        id: 'linechart-diastolic-blood-pressure',
+                                        responsive: {
+                                            small: {
+                                                width: '50%'
+                                            },
+                                            medium: {
+                                                width: '100%'
+                                            },
+                                            large: {
+                                                width: '100%'
+                                            }
+                                        },
+                                        height: 256
+                                    }]
+                                }]
+                            }
+                        }]
+                }]
+            }]
+        },
+        components: [
+            {
+                type: 'HTML',
+                cell: 'enriched-call',
+                elements: new Highcharts.AST(
+                    new EnrichedCall(
+                        "Enriched Call (Patient 10)",
+                        [[1694461744000, {
+                            "value": {
+                                "last_smartphone_activity": "unknown",
+                                "request_timestamp": "2023-09-11T15:49:03+02:00",
+                                "patient_id": "10",
+                                "risk_factors": ["HeartDisease", "HighBloodPressure"],
+                                "anomalies": ["Hot Outside Temperature (> 35 degrees Celcius)", "Morning walk took longer than normal"],
+                                "last_contextual_activity": "WatchingTV",
+                                "nurse_visited_today": false
+                            }
+                        }]]
+                    ).getHTML()
+                ).nodes
+            }, {
+                type: 'Highcharts',
+                cell: 'linechart-heartrate',
+                chartOptions: new TimeSeriesLineChart(
+                    "Heart Rate (Patient 10)",
+                    [[1694397900000, 49], [1694398200000, 50], [1694398500000, 47], [1694398800000, 47], [1694399100000, 47], [1694399400000, 48], [1694399700000, 45], [1694400000000, 49], [1694400300000, 50], [1694400600000, 45], [1694400900000, 46], [1694401200000, 45], [1694401500000, 48], [1694401800000, 49], [1694402100000, 50], [1694402400000, 46], [1694402700000, 48], [1694403000000, 48], [1694403300000, 50], [1694403600000, 45], [1694403900000, 46], [1694404200000, 47], [1694404500000, 46], [1694404800000, 48], [1694405100000, 49], [1694405400000, 49], [1694405700000, 46], [1694406000000, 48], [1694406300000, 49], [1694406600000, 45], [1694406900000, 46], [1694407200000, 49], [1694407500000, 47], [1694407800000, 48], [1694408100000, 47], [1694408400000, 50], [1694408700000, 49], [1694409000000, 50], [1694409300000, 47], [1694409600000, 46], [1694409900000, 50], [1694410200000, 50], [1694410500000, 50], [1694410800000, 49], [1694411100000, 49], [1694411400000, 50], [1694411700000, 47], [1694412000000, 45], [1694412300000, 45], [1694412600000, 45], [1694412900000, 46], [1694413200000, 46], [1694413500000, 45], [1694413800000, 50], [1694414100000, 47], [1694414400000, 48], [1694414700000, 45], [1694415000000, 46], [1694415300000, 45], [1694415600000, 45], [1694415900000, 46], [1694416200000, 48], [1694416500000, 49], [1694416800000, 49], [1694417100000, 45], [1694417400000, 50], [1694417700000, 47], [1694418000000, 48], [1694418300000, 49], [1694418600000, 47], [1694418900000, 47], [1694419200000, 47], [1694419500000, 47], [1694419800000, 50], [1694420100000, 45], [1694420400000, 47], [1694420700000, 45], [1694421000000, 48], [1694421300000, 50], [1694421600000, 50], [1694421900000, 45], [1694422200000, 50], [1694422500000, 50], [1694422800000, 47], [1694423100000, 48], [1694423400000, 45], [1694423700000, 46], [1694424000000, 48], [1694424300000, 47], [1694424600000, 50], [1694424900000, 71], [1694425200000, 75], [1694425500000, 75], [1694425800000, 72], [1694426100000, 72], [1694426400000, 73], [1694426700000, 73], [1694427000000, 73], [1694427300000, 73], [1694427600000, 71]],
+                    "bpm",
+                    null,
+                    null,
+                    [55, 60, 100, 105, 200],
+                    ['zone-2', 'zone-1', 'zone-0', 'zone-1', 'zone-2'],
+                ).getChartOptions()
+            }, {
+                type: 'Highcharts',
+                cell: 'linechart-systolic-blood-pressure',
+                chartOptions: new TimeSeriesLineChart(
+                    "Systolic Blood Pressure (Patient 10)",
+                    [[1693822298000, 130.40628975584005], [1693908670000, 129.29643559725292], [1693995131000, 131.13415037569126], [1694081502000, 131.1347726405216], [1694167979000, 130.41762568515622], [1694254372000, 130.15832707517217], [1694340690000, 132.23783072761637], [1694427115000, 130.11279905549364], [1694447371000, 88.76323005047384]],
+                    "mmHg",
+                    null,
+                    null,
+                    [100, 110, 130, 140, 200],
+                    ['zone-2', 'zone-1', 'zone-0', 'zone-1', 'zone-2'],
+                ).getChartOptions()
+            }, {
+                type: 'Highcharts',
+                cell: 'linechart-diastolic-blood-pressure',
+                chartOptions: new TimeSeriesLineChart(
+                    "Diastolic Blood Pressure (Patient 10)",
+                    [[1693822309000, 80.57949355922392], [1693908662000, 79.41238151328552], [1693995171000, 78.44052107934677], [1694081462000, 80.09602913566361], [1694167942000, 81.69380993315559], [1694254350000, 78.6022983642565], [1694340738000, 78.08664356172171], [1694427158000, 78.54978314725209], [1694447371000, 56.264190990652075]],
+                    "mmHg",
+                    null,
+                    null,
+                    [60, 65, 90, 95, 200],
+                    ['zone-2', 'zone-1', 'zone-0', 'zone-1', 'zone-2'],
+                ).getChartOptions()
+            }, {
+                type: 'Highcharts',
+                cell: 'gauge-spo2',
+                chartOptions: new SolidGauge(
+                    "SpO2 (Patient 10)",
+                    [{y: 92, colorIndex: 99}],
+                    "%",
+                    0,
+                    100,
+                    [0.92, 0.95, 1],
+                    ['rgb(255,26,26)', 'rgb(255,189,0)', 'rgb(50,204,50)'],
+                ).getChartOptions()
+            }]
+    }, true);
+</script>
+</body>
+</html>

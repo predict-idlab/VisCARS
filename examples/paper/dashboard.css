@@ -1,0 +1,86 @@
+@import url("https://code.highcharts.com/dashboards/css/dashboards.css");
+@import url("https://code.highcharts.com/css/highcharts.css");
+
+
+:root {
+    --highcharts-dashboards-shadow-color: white;
+}
+
+.highcharts-dashboards-wrapper {
+    background-color: white;
+}
+
+.highcharts-dashboards-cell {
+    border:2px solid #eeeeee;
+}
+
+.highcharts-color-0 {
+    stroke: rgb(50,204,50);
+}
+
+.highcharts-graph.zone-0 {
+    stroke: rgb(50,204,50);
+}
+
+.highcharts-point.zone-0 {
+    fill: rgb(50,204,50);
+}
+
+.highcharts-area.zone-0 {
+    fill: rgb(50,204,50);
+}
+
+.highcharts-color-1 {
+    stroke: rgb(255,189,0);
+}
+
+.highcharts-color-1 {
+    stroke: rgb(255,189,0);
+}
+
+
+.highcharts-graph.zone-1 {
+    stroke: rgb(255,189,0);
+}
+
+.highcharts-point.zone-0 {
+    fill: rgb(255,189,0);
+}
+
+.highcharts-area.zone-0 {
+    fill: rgb(255,189,0);
+}
+
+.highcharts-color-2 {
+    stroke: rgb(255,26,26);
+}
+
+.highcharts-graph.zone-2 {
+    stroke: rgb(255,26,26);
+}
+
+.highcharts-point.zone-2 {
+    fill: rgb(255,26,26);
+}
+
+.highcharts-area.zone-2 {
+    fill: rgb(255,26,26);
+}
+
+.highcharts-dashboards-component-kpi {
+    padding-top: 20px;
+}
+
+.highcharts-dashboards-component-kpi-value {
+    font-size: 4em;
+    font-weight: normal;
+    line-height: 2.4rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.highcharts-dashboards-component-kpi-subtitle {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: var(--highcharts-neutral-color-60);
+}

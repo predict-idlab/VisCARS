@@ -23,7 +23,10 @@ if __name__ == '__main__':
     user = 'https://dynamicdashboard.ilabt.imec.be/users/5'  # Nurse
     # user = 'http://example.com/tx/users/6eecba20-ace9-47fb-8ca6-df17b226f6dd'  # Operator
     # user = 'http://example.com/tx/users/157b0cbd-3e61-4892-b4e6-f5803f379d5b'  # Operator
-    context = 'http://example.com/tx/patients/zplus_6'  # Diabetes
+
+    # context = 'http://example.com/tx/patients/zplus_6'  # Diabetes
+    context = 'http://example.com/tx/patients/zplus_235'  # HeartDisease
+
     content_recommendations = content_recommender.predict(user, context, k=5)
 
     # Find cutoff for Multiple-View recommendation

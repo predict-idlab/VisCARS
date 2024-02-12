@@ -1,0 +1,134 @@
+<html>
+<head>
+    <link rel="stylesheet" href="dashboard.css"/>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+<div id="container" style="background-color: white;"></div>
+<script src="https://code.highcharts.com/dashboards/dashboards.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/dashboards/modules/dashboards-plugin.js"></script>
+<script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous">
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="dashboard.js"></script>
+<script>
+    Dashboards.board('container', {
+        gui: {
+            layouts: [{
+                rows: [{
+                    cells: [{
+                        responsive: {
+                            small: {
+                                width: '100%'
+                            },
+                            medium: {
+                                width: '50%'
+                            },
+                            large: {
+                                width: '33%'
+                            }
+                        },
+                        layout: {
+                            rows: [{
+                                cells: [{
+                                    id: 'enriched-call',
+                                    responsive: {
+                                        small: {
+                                            width: '50%'
+                                        },
+                                        medium: {
+                                            width: '100%'
+                                        },
+                                        large: {
+                                            width: '100%'
+                                        }
+                                    },
+                                    height: 512
+                                }]
+                            }]
+                        }
+                    }, {
+                        responsive: {
+                            small: {
+                                width: '100%'
+                            },
+                            medium: {
+                                width: '50%'
+                            },
+                            large: {
+                                width: '33%'
+                            }
+                        },
+                        layout: {
+                            rows: [{
+                                cells: [{
+                                    id: 'linechart-glucose',
+                                    responsive: {
+                                        small: {
+                                            width: '50%'
+                                        },
+                                        medium: {
+                                            width: '100%'
+                                        },
+                                        large: {
+                                            width: '100%'
+                                        }
+                                    },
+                                    height: 256
+                                }, {}]
+                            }]
+                        }
+                    }]
+                }]
+            }]
+        },
+        components: [
+            {
+                type: 'HTML',
+                cell: 'enriched-call',
+                elements: new Highcharts.AST(
+                    new EnrichedCall(
+                        "Enriched Call (Patient 9)",
+                        [[1694470470000, {
+                            "value": {
+                                "last_smartphone_activity": "unknown",
+                                "request_timestamp": "2023-09-11T18:06:03+02:00",
+                                "patient_id": "9",
+                                "risk_factors": ["Diabetes"],
+                                "anomalies": ["Lunch skipped", "Too low water intake", "Medication not taken", "Morning walk took longer than normal"],
+                                "last_contextual_activity": "Sitting",
+                                "nurse_visited_today": false
+                            }
+                        }]]
+                    ).getHTML()
+                ).nodes
+            }, {
+                type: 'Highcharts',
+                cell: 'linechart-glucose',
+                chartOptions: new TimeSeriesLineChart(
+                    "Glucose Level (Patient 9)",
+                    [[1693822202000, 93.08088993884935], [1693908591000, 90.98718098143046], [1693994942000, 99.42501077055665], [1694081341000, 95.70884529176799], [1694167834000, 95.69967552564479], [1694254251000, 92.59288171967592], [1694340553000, 95.78978379454536], [1694427020000, 94.51661469917288], [1694426967000, 59.637759715352715]],
+                    "mg/dL",
+                    null,
+                    null,
+                    [70, 80, 120, 145, 200],
+                    ['zone-2', 'zone-1', 'zone-0', 'zone-1', 'zone-2'],
+                ).getChartOptions()
+            }]
+    }, true);
+</script>
+</body>
+</html>
