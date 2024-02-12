@@ -12,7 +12,7 @@ conda activate myenv
 
 Install the latest version from PyPI in your environment:
 ```
-pip install viscars
+pip install --upgrade viscars
 ```
 
 ## Basic usage
