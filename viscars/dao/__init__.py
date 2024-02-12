@@ -2,7 +2,7 @@ import logging
 from typing import Dict
 
 import pandas as pd
-from rdflib import Graph
+from rdflib import Graph, URIRef
 from rdflib.namespace import RDF, SOSA, SSN
 
 from viscars.namespace import DASHB
@@ -44,6 +44,15 @@ class DAO:
     def extract_ratings_from_graph(self) -> pd.DataFrame:
         raise NotImplementedError
 
+    def get_ratings_for_context(self, u_id: str, c_id: str, i_id: str = None, strict: bool = False) -> pd.DataFrame:
+        return self.ratings[self.ratings['c_id'] == c_id]
+
+    def get_ratings_for_user(self, u_id: str, i_id: str = None) -> pd.DataFrame:
+        raise NotImplementedError
+
+    def get_neighbor_ratings(self, u_id: str, c_id: str, i_id: str) -> pd.DataFrame:
+        raise NotImplementedError
+
     def extract_metadata_graph_from_graph(self) -> Graph:
         metadata_graph = Graph()
 
@@ -69,14 +78,8 @@ class DAO:
             subgraph += extract_sub_graph_from_rdf_graph(self.graph, row.dashboard).triples((None, None, None))
         return subgraph
 
-    def build_subgraphs_from_contexts(self) -> Dict[str, Graph]:
-        sub_graphs = {}
-
-        for c_id in self.graph.subjects(RDF.type, self.context_metaclass):
-            sub_graph = extract_sub_graph_from_rdf_graph(self.graph, c_id)
-            sub_graphs[str(c_id)] = sub_graph
-
-        return sub_graphs
+    def build_subgraph_from_subject(self, subject: str) -> Graph:
+        return extract_sub_graph_from_rdf_graph(self.graph, URIRef(subject))
 
     def get_graph(self) -> Graph:
         return self.graph
@@ -172,6 +175,34 @@ class ContentRecommenderDAO(DAO):
             'c_id': [str(row.context) for row in result]
         })
 
+    def get_ratings_for_user(self, u_id: str, i_id: str = None) -> pd.DataFrame:
+        if i_id is None:
+            return self.ratings[self.ratings['u_id'] == u_id]
+
+        items = self.extract_items_from_graph()
+        filtered_items = items[items['type'] == items[items['id'] == i_id]['type'].values[0]]
+        return self.ratings[(self.ratings['u_id'] == u_id) & (self.ratings['i_id'].isin(filtered_items['id']))]
+
+    def get_ratings_for_context(self, c_id: str, u_id: str, i_id: str = None) -> pd.DataFrame:
+        return self.ratings[self.ratings['c_id'] == c_id]
+
+    def get_context_neighborhood_ratings(self, u_id: str, c_id: str, i_id: str, strict=False) -> pd.DataFrame:
+        items = self.extract_items_from_graph()
+        # users = self.extract_users_from_graph()
+
+        filtered_items = items[items['type'] == items[items['id'] == i_id]['type'].values[0]]
+        # filtered_users = users[users['type'] == users[users['id'] == u_id]['type'].values[0]]
+
+        return self.ratings[
+            # (self.ratings['u_id'].isin(filtered_users['id']))
+            (self.ratings['u_id'] == u_id)
+            & (self.ratings['i_id'].isin(filtered_items['id']))
+            & (self.ratings['c_id'] == c_id)
+        ]
+
+    def get_user_neighborhood_ratings(self, u_id: str, c_id: str, i_id: str, strict=False) -> pd.DataFrame:
+        return pd.DataFrame()
+
 
 class VisualizationRecommenderDAO(DAO):
     USER_METACLASS = DASHB.User
@@ -242,3 +273,22 @@ class VisualizationRecommenderDAO(DAO):
             'i_id': [str(row.item) for row in result],
             'c_id': [str(row.context) for row in result]
         })
+
+    def get_ratings_for_user(self, u_id: str, i_id: str = None) -> pd.DataFrame:
+        if i_id is None:
+            return self.ratings[self.ratings['u_id'] == u_id]
+
+        items = self.extract_items_from_graph()
+        filtered_items = items[items['type'] == items[items['id'] == i_id]['type'].values[0]]
+        return self.ratings[(self.ratings['u_id'] == u_id) & (self.ratings[self.ratings['i_id'].isin(filtered_items['id'])])]
+
+    def get_neighbor_ratings(self, u_id: str, c_id: str, i_id: str) -> pd.DataFrame:
+        contexts = self.extract_contexts_from_graph()
+
+        filtered_contexts = contexts[contexts['type'] == contexts[contexts['id'] == i_id]['type'].values[0]]
+
+        return self.ratings[
+            (self.ratings['u_id'] == u_id)
+            & (self.ratings['i_id'] == i_id)
+            & (self.ratings['c_id'].isnin(filtered_contexts['id']))
+        ]

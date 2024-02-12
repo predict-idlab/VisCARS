@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-
+import logging
 from rdflib import Graph
 
 from viscars.dao import DAO
@@ -12,6 +12,13 @@ class Recommender(ABC):
         self.verbose = verbose
 
         self.items = []
+
+        self.logger = logging.getLogger(__name__)
+        self.logger.setLevel(logging.DEBUG if verbose else logging.INFO)
+        formatter = logging.Formatter('[%(asctime)s] - [%(name)s] - [%(levelname)s] %(message)s')
+        handler = logging.StreamHandler()
+        handler.setFormatter(formatter)
+        self.logger.addHandler(handler)
 
         self._build_model()
 

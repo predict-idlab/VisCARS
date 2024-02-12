@@ -9,38 +9,41 @@ from viscars.dao import DAO
 
 class WeisfeilerLehman:
 
-    CACHE_PATH = os.path.join(os.path.dirname(__file__), '.output/cache')
-    CACHE_FILE = os.path.join(CACHE_PATH, 'wf_cache.json')
-
-    def __init__(self, dao: DAO, verbose=False):
+    def __init__(self, dao: DAO, subjects: [str], cache_file: str = None, verbose: bool = False):
         self.dao = dao
+        self.subjects = subjects
+
+        if cache_file is not None:
+            self.cache_path = os.path.dirname(cache_file)
+            self.cache_file = cache_file
+
         self._build_model()
 
-    @classmethod
-    def read_cache(cls):
+    def read_cache(self):
         similarity = {}
-        if os.path.exists(cls.CACHE_FILE):
-            with open(cls.CACHE_FILE) as f_:
+        if os.path.exists(self.cache_file):
+            with open(self.cache_file) as f_:
                 similarity = json.load(f_)
         return similarity
 
-    @classmethod
-    def write_cache(cls, similarity):
-        if not os.path.exists(cls.CACHE_PATH):
-            os.makedirs(cls.CACHE_PATH)
+    def write_cache(self, similarity):
+        if not os.path.exists(self.cache_path):
+            os.makedirs(self.cache_path)
 
-        with open(cls.CACHE_FILE, 'w') as f_:
+        with open(self.cache_file, 'w') as f_:
             f_.write(json.dumps(similarity))
 
-    @classmethod
-    def delete_cache(cls):
-        if os.path.exists(cls.CACHE_FILE):
-            os.remove(cls.CACHE_FILE)
+    def delete_cache(self):
+        if os.path.exists(self.cache_file):
+            os.remove(self.cache_file)
 
     def _build_model(self):
-        self.grakel_graphs = {}
+        rdf_graphs = {}
+        for s in self.subjects:
+            rdf_graphs[s] = self.dao.build_subgraph_from_subject(s)
 
-        for id_, graph in self.dao.build_subgraphs_from_contexts().items():
+        self.grakel_graphs = {}
+        for id_, graph in rdf_graphs.items():
             networkx_graph = rdflib_to_networkx_digraph(graph,
                                                         edge_attrs=lambda s, p, o: {'label': p})
             # Add node labels
@@ -56,7 +59,7 @@ class WeisfeilerLehman:
         pass
 
     def fit_transform(self):
-        similarity_matrix = self.__class__.read_cache()
+        similarity_matrix = self.read_cache()
 
         for id_, graph in self.grakel_graphs.items():
             if id_ not in similarity_matrix.keys():
@@ -79,7 +82,7 @@ class WeisfeilerLehman:
                     else:
                         similarity_matrix[id_][idx_] = float(gk.transform([graph_])[0])
 
-        self.__class__.write_cache(similarity_matrix)
+        self.write_cache(similarity_matrix)
         return similarity_matrix
 
     def transform(self):

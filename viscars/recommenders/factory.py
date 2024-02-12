@@ -1,6 +1,6 @@
 from enum import Enum
 
-from viscars.recommenders.cbcf import ContextBasedCollaborativeFiltering
+from viscars.recommenders.cacf import ContextAwareCollaborativeFiltering
 from viscars.recommenders.cf import CollaborativeFiltering
 from viscars.recommenders.fastppr import FastPersonalizedPageRank
 from viscars.recommenders.mf import MatrixFactorization
@@ -31,7 +31,7 @@ class RecommenderType(Enum):
 class RecommenderFactory:
     """Recommender factory."""
     types_ = {
-        RecommenderType.CBCF: ContextBasedCollaborativeFiltering,
+        RecommenderType.CBCF: ContextAwareCollaborativeFiltering,
         RecommenderType.CF: CollaborativeFiltering,
         RecommenderType.FAST_PPR: FastPersonalizedPageRank,
         RecommenderType.MF: MatrixFactorization,

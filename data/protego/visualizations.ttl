@@ -76,11 +76,17 @@
                                  dashb:min     1 ;
                                  dashb:max     1 ] .
 
+<scrolling-table> a dashb:Visualization, dashb:RealtimeDataVisualization ;
+    rdfs:label      "Scrolling table"@en ;
+    dashb:component [ dashb:accepts dashb:All ;
+                      dashb:min     1 ;
+                      dashb:max     1 ] .
+
 <spider-chart> a dashb:Visualization, dashb:RealtimeDataVisualization ;
                rdfs:label "Spider Chart"@en ;
                dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/spider_chart.js> ;
                dashb:component [
-                    dashb:accepts metrics:headache, metrics:medicine ;
+                    dashb:accepts [ dashb:datatype xsd:double ], [ dashb:datatype xsd:double ] ;
                     dashb:min 1;
                     dashb:max 1
                  ] .
@@ -89,52 +95,16 @@
                rdfs:label "Column Range"@en ;
                dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/column_range.js> ;
                dashb:component [
-                    dashb:accepts metrics:stress, metrics:headache;
+                    dashb:accepts [ dashb:datatype xsd:double ], [ dashb:datatype xsd:double ];
                     dashb:min 1;
                     dashb:max 1
                  ] .
-
-<column-range-sedentary> a dashb:Visualization, dashb:RealtimeDataVisualization ;
-                         rdfs:label "Column Range Sedentary"@en ;
-                         dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/column_range.js> ;
-                         dashb:component [
-                              dashb:accepts metrics:activity;
-                              dashb:min 1;
-                              dashb:max 1
-                           ] .
-
-<column-range-sleep> a dashb:Visualization, dashb:RealtimeDataVisualization ;
-                     rdfs:label "Column Range Sleep"@en ;
-                     dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/column_range.js> ;
-                     dashb:component [
-                          dashb:accepts metrics:activity;
-                          dashb:min 1;
-                          dashb:max 1
-                       ] .
-
-<column-range-active> a dashb:Visualization, dashb:RealtimeDataVisualization ;
-                      rdfs:label "Column Range Active"@en ;
-                      dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/column_range.js> ;
-                      dashb:component [
-                           dashb:accepts metrics:activity;
-                           dashb:min 1;
-                           dashb:max 1
-                        ] .
-
-<column-range-headache-medication> a dashb:Visualization, dashb:RealtimeDataVisualization ;
-                                   rdfs:label "Column Range Headaches with Medication"@en ;
-                                   dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/column_range_medicine.js> ;
-                                   dashb:component [
-                                        dashb:accepts ( metrics:headache metrics:medicine );
-                                        dashb:min 1;
-                                        dashb:max 1
-                                     ] .
 
 <pie-chart> a dashb:Visualization, dashb:RealtimeDataVisualization ;
             rdfs:label "Pie Chart"@en ;
             dashb:implementation <http://localhost/sensor-gateway/static/visualization_serving/pie_chart.js> ;
             dashb:component [
-                 dashb:accepts metrics:headache ;
+                 dashb:accepts [ dashb:datatype xsd:double ], [ dashb:datatype xsd:double ] ;
                  dashb:min 1;
                  dashb:max 1
               ] .
