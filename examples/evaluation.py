@@ -14,6 +14,7 @@ from viscars.evaluation.metrics import MetricType
 from viscars.evaluation.metrics.factory import MetricFactory
 from viscars.namespace import DASHB
 import viscars.recommenders as recommenders
+from viscars.recommenders import PPR
 
 sys.path.insert(0, os.path.dirname(os.getcwd()))
 
@@ -61,33 +62,16 @@ class PerformanceEvaluator:
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-i', '--iter', type=int)
-    parser.add_argument('--sleep', type=int)
-
-    args = parser.parse_args()
-
-    iter_ = args.iter if args.iter else 3
-    sleep_ = args.sleep if args.sleep else 0
-
     graph_ = Graph()
     graph_.parse('../data/protego-2/protego_ddashboard.ttl')
     graph_.parse('../data/protego-2/protego_zplus.ttl')
     graph_.parse('../data/protego-2/visualizations.ttl')
 
-    output_path = os.path.join('../data/output/evaluation')
-    if not os.path.exists(output_path):
-        os.makedirs(output_path)
-
-    models_ = {
-        'PR': recommenders.PR,
-        'CF': recommenders.CF,
-        # 'MF': recommenders.MF,
-        'PPR': recommenders.PPR,
-        'CACFWL': recommenders.CACF,
-    }
-
     dao_ = VisualizationRecommenderDAO(graph_)
+
+    recommender_ = PPR(dao_)
+    evaluator_ = evaluator(self.dao, recommender_, metrics=parsed_metrics)
+
     evaluator = PerformanceEvaluator(dao_)
     metrics = ['f1@1']
     vis_results_kfold = evaluator.run(evaluators.KFoldCrossValidation, models_, metrics, iter=iter_, sleep_=sleep_, output_path_=output_path)

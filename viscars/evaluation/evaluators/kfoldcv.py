@@ -43,8 +43,13 @@ class KFoldCrossValidation:
         return folds
 
     def evaluate(self, **kwargs):
+        kf = KFold(n_splits=self.k, shuffle=True)
+
         result = {'folds': [], 'result': {}}
-        for train, test in self.split_k_folds():
+        for train_idx, test_idx in kf.split(self.dao.ratings):
+            train = self.dao.ratings.iloc[train_idx]
+            test = self.dao.ratings.iloc[test_idx]
+
             graph = self.dao.build_subgraph_from_ratings(train)
             self.recommender.set_graph(graph)
 

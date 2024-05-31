@@ -9,6 +9,7 @@ class Recommender(ABC):
 
     def __init__(self, dao: DAO, verbose=False, **kwargs):
         self.dao = dao
+        self.graph = self.dao.get_graph()
         self.verbose = verbose
 
         self.items = []

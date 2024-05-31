@@ -4,7 +4,7 @@ import networkx as nx
 from rdflib import Graph
 from rdflib.extras.external_graph_libs import rdflib_to_networkx_multidigraph
 
-from viscars.dao import ContentRecommenderDAO, DAO
+from viscars.dao import ContentRecommenderDAO, DAO, VisualizationRecommenderDAO
 from viscars.recommenders.base import Recommender
 
 
@@ -16,11 +16,15 @@ class FastPersonalizedPageRank(Recommender):
         self.alpha = alpha
         self.tolerance = tol
         self.personalization = None
-        self.set_personalization(0.3, 0.7)
+        self.set_personalization(0.7, 0.3)
 
     def _build_model(self):
-        self.nx_graph = rdflib_to_networkx_multidigraph(self.dao.graph).to_undirected()
-        self.model = nx.convert_matrix.to_scipy_sparse_matrix(self.nx_graph)
+        if self.graph is not None:
+            self.nx_graph = rdflib_to_networkx_multidigraph(self.graph).to_undirected()
+            self.model = nx.convert_matrix.to_scipy_sparse_array(self.nx_graph)
+        else:
+            self.nx_graph = rdflib_to_networkx_multidigraph(self.dao.graph).to_undirected()
+            self.model = nx.convert_matrix.to_scipy_sparse_array(self.nx_graph)
 
     def set_personalization(self, weight_uid: float = 0, weight_cid: float = 0):
         weight_others = 1 - weight_uid - weight_cid
@@ -76,12 +80,20 @@ class FastPersonalizedPageRank(Recommender):
 
 if __name__ == '__main__':
     graph_ = Graph()
-    graph_.parse('../../dao/protego/protego_ddashboard.ttl')
-    graph_.parse('../../dao/protego/protego_zplus.ttl')
-    graph_.parse('../../dao/protego/visualizations.ttl')
+    graph_.parse('../../data/protego-2/protego_ddashboard.ttl')
+    graph_.parse('../../data/protego-2/protego_zplus.ttl')
+    graph_.parse('../../data/protego-2/visualizations.ttl')
 
-    dao_ = ContentRecommenderDAO(graph_)
+    # dao_ = ContentRecommenderDAO(graph_)
+    #
+    # recommender = FastPersonalizedPageRank(dao_)
+    # recommender.set_personalization(0.3, 0.7)
+    # recommendations = recommender.predict('https://dynamicdashboard.ilabt.imec.be/users/10', 'http://example.com/tx/patients/zplus_6')
+    # print(recommendations)
+
+    dao_ = VisualizationRecommenderDAO(graph_)
 
     recommender = FastPersonalizedPageRank(dao_)
-    recommendations = recommender.predict('https://dynamicdashboard.ilabt.imec.be/users/10', 'http://example.com/tx/patients/zplus_235')
+    recommender.set_personalization(0.3, 0.7)
+    recommendations = recommender.predict('https://dynamicdashboard.ilabt.imec.be/users/10', 'https://webthing.protego.dynamicdashboard.ilabt.imec.be/things/zplus_118.60%3A77%3A71%3A7D%3A93%3AD7%2Fservice0009/properties/org.dyamand.types.health.GlucoseLevel')
     print(recommendations)
