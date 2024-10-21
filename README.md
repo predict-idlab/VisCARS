@@ -74,3 +74,15 @@ Example output
 
 
 ## Citation
+
+[VisCARS: Knowledge Graph-based Context-Aware Recommender System for Time-Series Data Visualization and Monitoring Dashboards](https://doi.org/10.1109/TVCG.2024.3414191)
+
+```
+@article{moens2024viscars,
+  title={VisCARS: Knowledge Graph-based Context-Aware Recommender System for Time-Series Data Visualization and Monitoring Dashboards},
+  author={Moens, Pieter and Volckaert, Bruno and Van Hoecke, Sofie},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2024},
+  publisher={IEEE}
+}
+```
